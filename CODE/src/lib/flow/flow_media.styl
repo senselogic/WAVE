@@ -1,0 +1,159 @@
+// -- CONSTANTS
+
+MediaQueryMap = {
+    max-height-20: "(max-height: 19.9999em)",
+    max-height-25: "(max-height: 24.9999em)",
+    max-height-30: "(max-height: 29.9999em)",
+    max-height-35: "(max-height: 34.9999em)",
+    max-height-40: "(max-height: 39.9999em)",
+    max-height-45: "(max-height: 44.9999em)",
+    max-height-50: "(max-height: 49.9999em)",
+    max-height-55: "(max-height: 54.9999em)",
+    max-height-60: "(max-height: 59.9999em)",
+    max-height-65: "(max-height: 64.9999em)",
+    max-height-70: "(max-height: 69.9999em)",
+    max-height-75: "(max-height: 74.9999em)",
+    max-height-80: "(max-height: 79.9999em)",
+    max-height-85: "(max-height: 84.9999em)",
+    max-height-90: "(max-height: 89.9999em)",
+    max-height-95: "(max-height: 94.9999em)",
+    max-height-100: "(max-height: 99.9999em)",
+    max-height-105: "(max-height: 104.9999em)",
+    max-height-110: "(max-height: 109.9999em)",
+    max-height-115: "(max-height: 114.9999em)",
+    max-height-120: "(max-height: 119.9999em)",
+    max-height-125: "(max-height: 124.9999em)",
+    min-height-20: "(min-height: 20em)",
+    min-height-25: "(min-height: 25em)",
+    min-height-30: "(min-height: 30em)",
+    min-height-35: "(min-height: 35em)",
+    min-height-40: "(min-height: 40em)",
+    min-height-45: "(min-height: 45em)",
+    min-height-50: "(min-height: 50em)",
+    min-height-55: "(min-height: 55em)",
+    min-height-60: "(min-height: 60em)",
+    min-height-65: "(min-height: 65em)",
+    min-height-70: "(min-height: 70em)",
+    min-height-75: "(min-height: 75em)",
+    min-height-80: "(min-height: 80em)",
+    min-height-85: "(min-height: 85em)",
+    min-height-90: "(min-height: 90em)",
+    min-height-95: "(min-height: 95em)",
+    min-height-100: "(min-height: 100em)",
+    min-height-105: "(min-height: 105em)",
+    min-height-110: "(min-height: 110em)",
+    min-height-115: "(min-height: 115em)",
+    min-height-120: "(min-height: 120em)",
+    min-height-125: "(min-height: 125em)",
+    max-width-20: "(max-width: 19.9999em)",
+    max-width-25: "(max-width: 24.9999em)",
+    max-width-30: "(max-width: 29.9999em)",
+    max-width-35: "(max-width: 34.9999em)",
+    max-width-40: "(max-width: 39.9999em)",
+    max-width-45: "(max-width: 44.9999em)",
+    max-width-50: "(max-width: 49.9999em)",
+    max-width-55: "(max-width: 54.9999em)",
+    max-width-60: "(max-width: 59.9999em)",
+    max-width-65: "(max-width: 64.9999em)",
+    max-width-70: "(max-width: 69.9999em)",
+    max-width-75: "(max-width: 74.9999em)",
+    max-width-80: "(max-width: 79.9999em)",
+    max-width-85: "(max-width: 84.9999em)",
+    max-width-90: "(max-width: 89.9999em)",
+    max-width-95: "(max-width: 94.9999em)",
+    max-width-100: "(max-width: 99.9999em)",
+    max-width-105: "(max-width: 104.9999em)",
+    max-width-110: "(max-width: 109.9999em)",
+    max-width-115: "(max-width: 114.9999em)",
+    max-width-120: "(max-width: 119.9999em)",
+    max-width-125: "(max-width: 124.9999em)",
+    min-width-20: "(min-width: 20em)",
+    min-width-25: "(min-width: 25em)",
+    min-width-30: "(min-width: 30em)",
+    min-width-35: "(min-width: 35em)",
+    min-width-40: "(min-width: 40em)",
+    min-width-45: "(min-width: 45em)",
+    min-width-50: "(min-width: 50em)",
+    min-width-55: "(min-width: 55em)",
+    min-width-60: "(min-width: 60em)",
+    min-width-65: "(min-width: 65em)",
+    min-width-70: "(min-width: 70em)",
+    min-width-75: "(min-width: 75em)",
+    min-width-80: "(min-width: 80em)",
+    min-width-85: "(min-width: 85em)",
+    min-width-90: "(min-width: 90em)",
+    min-width-95: "(min-width: 95em)",
+    min-width-100: "(min-width: 100em)",
+    min-width-105: "(min-width: 105em)",
+    min-width-110: "(min-width: 110em)",
+    min-width-115: "(min-width: 115em)",
+    min-width-120: "(min-width: 120em)",
+    min-width-125: "(min-width: 125em)"
+};
+
+// -- FUNCTIONS
+
+Media()
+
+    media_query_expression_array = arguments
+    media_query_text_array = ();
+
+    for media_query_expression in media_query_expression_array
+    {
+        media_query_part_array = ();
+        media_query_name_array = split( " ", media_query_expression );
+
+        for media_query_name in media_query_name_array
+        {
+            if ( media_query_name in MediaQueryMap )
+            {
+                push( media_query_part_array, MediaQueryMap[ media_query_name ] );
+            }
+            else
+            {
+                push( media_query_part_array, media_query_name );
+            }
+        }
+
+        media_query_text = join( " ", media_query_part_array );
+        push( media_query_text_array, media_query_text );
+    }
+
+    media_query_text = join( ", ", media_query_text_array );
+
+    @media media_query_text
+        {block}
+
+// ~~
+
+MakeClass( class_name, class_block, media_query_name_array = {} )
+
+    .{class_name}
+
+        {class_block}
+
+    for media_query_name in media_query_name_array
+    {
+        @media MediaQueryMap[ media_query_name ]
+        {
+            .{class_name}-{media_query_name}
+            {
+                {class_block}
+            }
+        }
+    }
+
+// ~~
+
+MakeMediaClass( class_name, class_block, media_query_name_array = {} )
+
+    for media_query_name in media_query_name_array
+    {
+        @media MediaQueryMap[ media_query_name ]
+        {
+            .{class_name}-{media_query_name}
+            {
+                {class_block}
+            }
+        }
+    }

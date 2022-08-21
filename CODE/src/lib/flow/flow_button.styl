@@ -1,0 +1,48 @@
+// -- BLOCKS
+
+$flow-button = @block
+{
+    width: auto;
+    border-radius: var( --button-border-radius );
+    padding: var( --button-padding );
+
+    display: inline-block;
+
+    font-size: var( --button-font-size );
+}
+
+$flow-info-button = @block
+{
+    {$flow-button}
+
+    background-color: var( --info-color );
+
+    color: var( --info-contrast-color );
+}
+
+$flow-success-button = @block
+{
+    {$flow-button}
+
+    background-color: var( --success-color );
+
+    color: var( --success-contrast-color );
+}
+
+$flow-warning-button = @block
+{
+    {$flow-button}
+
+    background-color: var( --warning-color );
+
+    color: var( --warning-contrast-color );
+}
+
+$flow-error-button = @block
+{
+    {$flow-button}
+
+    background-color: var( --error-color );
+
+    color: var( --error-contrast-color );
+}

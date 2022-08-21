@@ -1,0 +1,36 @@
+wave
+
+    LANGUAGE
+
+        Id : TUID | key, unique
+        Code : STRING
+        Text : MAP[ LANGUAGE.Code, STRING ]
+        Number : INT32
+
+    TEXT
+
+        Id : TUID | key, unique
+        Code : STRING
+        Text : MAP[ LANGUAGE.Code, STRING ]
+
+    TASK_STATUS
+
+        Id : TUID | key, unique
+        Code : STRING
+        Text : MAP[ LANGUAGE.Code, STRING ]
+
+    TASK | count 10
+
+        Id : TUID | key, unique
+        UserId : USER.Id
+        StatusCode : TASK_STATUS.Code
+        Title : STRING = "{{latin 1 1 5 10}}"
+        CreationDateTime : DATETIME
+        ModificationDateTime : DATETIME
+
+    USER | count 5
+
+        Id : TUID | key, unique
+        Email : STRING
+        Password : STRING
+        TaskIdArray : LIST[ TASK.Id ] | exhaustive TASK.UserId USER.Id

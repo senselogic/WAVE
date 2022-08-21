@@ -1,0 +1,106 @@
+LANGUAGE
+
+    Id Code Text Number
+
+        %English
+            ~ en
+            ~ { { en ~ English }
+                ~ { fr ~ Anglais } }
+            ~ 1
+
+        %French
+            ~ fr
+            ~ { { en ~ French }
+                ~ { fr ~ Français } }
+            ~ 2
+
+TEXT
+
+    Id Code Text
+
+        %SignInName
+            ~ SignInName
+            ~ { { en ~ Sign ²²In²² }
+                ~ { fr ~ Se ²²connecter²² } }
+
+        %SignInButton
+            ~ SignInButton
+            ~ { { en ~ Sign In }
+                ~ { fr ~ Se Connecter } }
+
+        %NotAMemberSignUpButton
+            ~ NotAMemberSignUpButton
+            ~ { { en ~ Not a member? ²²Sign Up²² }
+                ~ { fr ~ Pas encore membre ? ²²S'inscrire²² } }
+
+        %SignUpName
+            ~ SignUpName
+            ~ { { en ~ Sign ²²Up²² }
+                ~ { fr ~ S'²²inscrire²² } }
+
+        %SignUpButton
+            ~ SignUpButton
+            ~ { { en ~ Sign Up }
+                ~ { fr ~ S'inscrire } }
+
+        %AlreadyAMemberSignUpButton
+            ~ AlreadyAMemberSignUpButton
+            ~ { { en ~ Already a member? ²²Sign In²² }
+                ~ { fr ~ Déjà membre? ²²Se connecter²² } }
+
+        %FirstNamePlaceholder
+            ~ FirstNamePlaceholder
+            ~ { { en ~ First Name }
+                ~ { fr ~ Prénom } }
+
+        %LastNamePlaceholder
+            ~ LastNamePlaceholder
+            ~ { { en ~ Last Name }
+                ~ { fr ~ Nom de famille } }
+
+        %PasswordPlaceholder
+            ~ PasswordPlaceholder
+            ~ { { en ~ First Name }
+                ~ { fr ~ Prénom } }
+
+        %EmailPlaceholder
+            ~ EmailPlaceholder
+            ~ { { en ~ E-mail }
+                ~ { fr ~ E-mail } }
+
+        %SearchPlaceholder
+            ~ SearchPlaceholder
+            ~ { { en ~ Search }
+                ~ { fr ~ Rechercher } }
+
+TASK_STATUS
+
+    Id Code Text
+
+        %Planned
+            ~ Planned
+            ~ { { en ~ Planned }
+                ~ { fr ~ Prévu } }
+
+        %InProgress
+            ~ InProgress
+            ~ { { en ~ In progress }
+                ~ { fr ~ En cours } }
+
+        %Completed
+            ~ Completed
+            ~ { { en ~ Completed }
+                ~ { fr ~ Terminé } }
+
+USER
+
+    Id Email Password
+
+        %PeterParker
+            ~ peter.parker@comics.com
+            ~ xyz
+
+        %BruceBanner
+            ~ bruce.banner@comics.com
+            ~ xyz
+
