@@ -1,4 +1,4 @@
-import { DATABASE } from '$lib/eureka';
+import { DATABASE } from 'senselogic-eureka';
 
 export const Database = new DATABASE( "wave" );
 

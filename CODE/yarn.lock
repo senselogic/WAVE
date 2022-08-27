@@ -1458,6 +1458,19 @@ semver@^7.3.5:
   dependencies:
     lru-cache "^6.0.0"
 
+senselogic-eureka@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/senselogic-eureka/-/senselogic-eureka-0.1.9.tgz#736f4bc532c5813c6c231f64f4088c4dd8d6c5b9"
+  integrity sha512-2mNGjnA0OaXQdnvuePZQzZJzNo11nNyowO6xiyG4V1iWKHUhbqQDl0XY50BX3Ajjwb/8r1xDO7hvh9MtnVBfUg==
+  dependencies:
+    mysql2 "^2.3.3"
+    senselogic-gist "^0.1.0"
+
+senselogic-gist@^0.1.0, senselogic-gist@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/senselogic-gist/-/senselogic-gist-0.1.9.tgz#a0844aa2dd45d02510d138d74356c4bb9ca6999f"
+  integrity sha512-1O2gnTBKf6TOjxPJb0w6G2SqNYwKbvxZFOcXNXbOYQfyhU1dNoYZQFN1mGhe2P+3R+wWX6Ytv8rcZnV/rnX5ug==
+
 seq-queue@^0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/seq-queue/-/seq-queue-0.0.5.tgz#d56812e1c017a6e4e7c3e3a37a1da6d78dd3c93e"
