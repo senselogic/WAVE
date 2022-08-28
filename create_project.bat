@@ -7,8 +7,10 @@ if exist CODE goto end
 call npm init svelte@next wave
 rename wave CODE
 cd CODE
+call npm install --global yarn
 call yarn install
-call yarn add -D mysql2 svelte-preprocess stylus senselogic-gist senselogic-eureka
+call yarn add -D svelte-preprocess stylus
+call yarn add -D mysql2 senselogic-gist senselogic-eureka
 pause
 call yarn run dev --open
 :end
