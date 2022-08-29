@@ -1,6 +1,6 @@
 if exist CODE goto end
 @echo Which template : Skeleton project
-@echo TypeScript : No
+@echo TypeScript : Yes
 @echo ESLint : Yes
 @echo Prettier : No
 @echo Playwright : No
@@ -9,8 +9,9 @@ rename wave CODE
 cd CODE
 call npm install --global yarn
 call yarn install
-call yarn add -D svelte-preprocess stylus
-call yarn add -D mysql2 senselogic-gist senselogic-eureka
+call yarn add -D stylus svelte-preprocess
+call yarn add mysql2 senselogic-gist senselogic-eureka
+call yarn audit
 pause
 call yarn run dev --open
 :end
