@@ -11,7 +11,7 @@ export async function load(
     let textArray = await textTable.selectRows();
     let task = await taskTable.selectRow(
         {
-            where : [ [ [ "userId" ], "=", params.userId ], "and", [ [ "id" ], "=", params.taskId ] ]
+            where : [ [ [ 'userId' ], '=', params.userId ], 'and', [ [ 'id' ], '=', params.taskId ] ]
         }
         );
 

@@ -5,7 +5,7 @@ export async function GET(
     { params }
     )
 {
-    let taskArray = await taskTable.selectRows( "*", [ "userId", "=", params.userId ] );
+    let taskArray = await taskTable.selectRows( '*', [ 'userId', '=', params.userId ] );
 
     return json( taskArray );
 }

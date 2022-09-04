@@ -1810,17 +1810,17 @@ semver@^7.3.5, semver@^7.3.7:
     lru-cache "^6.0.0"
 
 senselogic-eureka@^0.1.12:
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/senselogic-eureka/-/senselogic-eureka-0.1.13.tgz#b928fba63f472d7105fced58a391b90b3cad1ba7"
-  integrity sha512-q1c6bvcpaJtmuF5Fd4C5xcr+UREQTJzXbCKyJeFTnOfLSJEDzcdDen9ogRF4Mf4G3IjN1F6I+vsvcVzQPe0bWA==
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/senselogic-eureka/-/senselogic-eureka-0.1.15.tgz#0213c62ddcfaf2034dbcb82d08f27e885048b1e9"
+  integrity sha512-m6lK6jWTRASSvt2kalYJ56Fqw6I9UfmxBYx2arra9pDeopQkXga9wQYWKgzT0EcCMSZyY7Xdmdq9x+1DpYn1uA==
   dependencies:
     mysql2 "^2.3.3"
     senselogic-gist "^0.1.0"
 
 senselogic-gist@^0.1.0, senselogic-gist@^0.1.11:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/senselogic-gist/-/senselogic-gist-0.1.12.tgz#a0ce4cfc4d6615e54097449c6bdf12f03beae127"
-  integrity sha512-YncnA1cGRxG+qA+0/NNHyv0Gm0/PyDPeukDtmEptZZeWpsN+eMDuESrIJjm5/bwzW2eknbykh64XuXGcF76lAw==
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/senselogic-gist/-/senselogic-gist-0.1.13.tgz#f28c231c9de3a6ad8c782fb3ee261ebc5fb8cde8"
+  integrity sha512-biqJ3lqREZsUwWehas1mIqOyCkcyoX1TIitia22qeQssImQP+oIOOp9xd7rLcoks+/0IgX0y5UmQukOqL07RyA==
 
 seq-queue@^0.0.5:
   version "0.0.5"

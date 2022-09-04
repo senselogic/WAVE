@@ -1,61 +1,61 @@
 import { Database } from 'senselogic-eureka';
 
-export const database = new Database( "wave" );
+export const database = new Database( 'wave' );
 
 export const languageTable
     = database.addTable(
-          "LANGUAGE",
+          'LANGUAGE',
           [
-              [ "id", "TUID", [ "key" ] ],
-              [ "code", "STRING" ],
-              [ "text", "MAP" ],
-              [ "number", "INT32" ]
+              [ 'id', 'TUID', [ 'key' ] ],
+              [ 'code', 'STRING' ],
+              [ 'text', 'MAP' ],
+              [ 'number', 'INT32' ]
           ]
           );
 
 export const textTable
     = database.addTable(
-          "TEXT",
+          'TEXT',
           [
-              [ "id", "TUID", [ "key" ] ],
-              [ "code", "STRING" ],
-              [ "text", "MAP" ]
+              [ 'id', 'TUID', [ 'key' ] ],
+              [ 'code', 'STRING' ],
+              [ 'text', 'MAP' ]
           ]
           );
 
 export const taskStatusTable
     = database.addTable(
-          "TASK_STATUS",
+          'TASK_STATUS',
           [
-              [ "id", "TUID", [ "key" ] ],
-              [ "code", "STRING" ],
-              [ "text", "MAP" ]
+              [ 'id', 'TUID', [ 'key' ] ],
+              [ 'code', 'STRING' ],
+              [ 'text', 'MAP' ]
           ]
           );
 
 export const taskTable
     = database.addTable(
-          "TASK",
+          'TASK',
           [
-              [ "id", "TUID", [ "key" ] ],
-              [ "userId", "TUID" ],
-              [ "statusCode", "STRING" ],
-              [ "title", "STRING" ],
-              [ "creationDateTime", "DATETIME" ],
-              [ "modificationDateTime", "DATETIME" ]
+              [ 'id', 'TUID', [ 'key' ] ],
+              [ 'userId', 'TUID' ],
+              [ 'statusCode', 'STRING' ],
+              [ 'title', 'STRING' ],
+              [ 'creationDateTime', 'DATETIME' ],
+              [ 'modificationDateTime', 'DATETIME' ]
           ]
           );
 
 export const userTable
     = database.addTable(
-          "USER",
+          'USER',
           [
-              [ "id", "TUID", [ "key" ] ],
-              [ "email", "STRING" ],
-              [ "password", "STRING" ],
-              [ "taskIdArray", "LIST" ]
+              [ 'id', 'TUID', [ 'key' ] ],
+              [ 'email', 'STRING' ],
+              [ 'password', 'STRING' ],
+              [ 'taskIdArray', 'LIST' ]
           ]
           );
 
-await database.connect( "localhost", "root", "", "mysql" );
+await database.connect( 'localhost', 'root', '', 'mysql' );
 

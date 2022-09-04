@@ -7,7 +7,7 @@ export async function GET(
     { params }
     )
 {
-    let task = await taskTable.selectRow( "*", [ "userId", "=", params.userId ] );
+    let task = await taskTable.selectRow( '*', [ 'userId', '=', params.userId ] );
 
     return json( task );
 }
@@ -20,7 +20,7 @@ export async function PUT(
 {
     let task
         = {
-              id : "xxx",
+              id : 'xxx',
               userId : params.userId
           }
 
