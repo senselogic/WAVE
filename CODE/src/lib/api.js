@@ -1,4 +1,4 @@
-async function GetDatabaseTextArray()
+async function getDatabaseTextArray()
 {
     const response = await fetch( '/api/text' );
 
@@ -12,4 +12,4 @@ async function GetDatabaseTextArray()
     }
 }
 
-export { GetDatabaseTextArray };
+export { getDatabaseTextArray };

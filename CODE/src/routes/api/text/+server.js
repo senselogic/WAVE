@@ -1,10 +1,10 @@
 import { json } from '@sveltejs/kit';
-import { TextTable } from '$lib/database';
+import { textTable } from '$lib/database';
 
 export async function GET(
     )
 {
-    let text_array = await TextTable.SelectRows();
+    let textArray = await textTable.selectRows();
 
-    return json( text_array );
+    return json( textArray );
 }

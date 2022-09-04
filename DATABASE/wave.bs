@@ -2,35 +2,35 @@ wave
 
     LANGUAGE
 
-        Id : TUID | key, unique
-        Code : STRING
-        Text : MAP[ LANGUAGE.Code, STRING ]
-        Number : INT32
+        id : TUID | key, unique
+        code : STRING
+        text : MAP[ LANGUAGE.code, STRING ]
+        number : INT32
 
     TEXT
 
-        Id : TUID | key, unique
-        Code : STRING
-        Text : MAP[ LANGUAGE.Code, STRING ]
+        id : TUID | key, unique
+        code : STRING
+        text : MAP[ LANGUAGE.code, STRING ]
 
     TASK_STATUS
 
-        Id : TUID | key, unique
-        Code : STRING
-        Text : MAP[ LANGUAGE.Code, STRING ]
+        id : TUID | key, unique
+        code : STRING
+        text : MAP[ LANGUAGE.code, STRING ]
 
     TASK | count 10
 
-        Id : TUID | key, unique
-        UserId : USER.Id
-        StatusCode : TASK_STATUS.Code
-        Title : STRING = "{{latin 1 1 5 10}}"
-        CreationDateTime : DATETIME
-        ModificationDateTime : DATETIME
+        id : TUID | key, unique
+        userId : USER.id
+        statusCode : TASK_STATUS.code
+        title : STRING = "{{latin 1 1 5 10}}"
+        creationDateTime : DATETIME
+        modificationDateTime : DATETIME
 
     USER | count 5
 
-        Id : TUID | key, unique
-        Email : STRING
-        Password : STRING
-        TaskIdArray : LIST[ TASK.Id ] | exhaustive TASK.UserId USER.Id
+        id : TUID | key, unique
+        email : STRING
+        password : STRING
+        taskIdArray : LIST[ TASK.id ] | exhaustive TASK.userId USER.id

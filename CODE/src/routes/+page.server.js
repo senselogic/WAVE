@@ -1,21 +1,21 @@
 // -- IMPORTS
 
-import { TextTable, UserTable } from '$lib/database';
+import { textTable, userTable } from '$lib/database';
 
 // -- FUNCTIONS
 
 export async function load(
     )
 {
-    let text_array = await TextTable.SelectRows();
-    let user_array = await UserTable.SelectRows(
+    let textArray = await textTable.selectRows();
+    let userArray = await userTable.selectRows(
         {
-            Columns : [ "Id", "Email" ]
+            columns : [ "id", "email" ]
         }
         );
 
     return {
-        TextArray : text_array,
-        UserArray : user_array
+        textArray : textArray,
+        userArray : userArray
         };
 }

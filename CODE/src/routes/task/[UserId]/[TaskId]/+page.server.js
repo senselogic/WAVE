@@ -1,6 +1,6 @@
 // -- IMPORTS
 
-import { TextTable, TaskTable } from '$lib/database';
+import { textTable, taskTable } from '$lib/database';
 
 // -- FUNCTIONS
 
@@ -8,17 +8,17 @@ export async function load(
     { params }
     )
 {
-    let text_array = await TextTable.SelectRows();
-    let task = await TaskTable.SelectRow(
+    let textArray = await textTable.selectRows();
+    let task = await taskTable.selectRow(
         {
-            Where : [ [ [ "UserId" ], "=", params.UserId ], "and", [ [ "Id" ], "=", params.TaskId ] ]
+            where : [ [ [ "userId" ], "=", params.userId ], "and", [ [ "id" ], "=", params.taskId ] ]
         }
         );
 
     return {
-        UserId : params.UserId,
-        TaskId : params.TaskId,
-        TextArray : text_array,
-        Task : task
+        userId : params.userId,
+        taskId : params.taskId,
+        textArray : textArray,
+        task : task
         };
 }

@@ -1,6 +1,6 @@
 LANGUAGE
 
-    Id Code Text Number
+    id code text number
 
         %English
             ~ en
@@ -16,7 +16,7 @@ LANGUAGE
 
 TEXT
 
-    Id Code Text
+    id code text
 
         %SignInName
             ~ SignInName
@@ -50,17 +50,17 @@ TEXT
 
         %FirstNamePlaceholder
             ~ FirstNamePlaceholder
-            ~ { { en ~ First Name }
+            ~ { { en ~ First name }
                 ~ { fr ~ Prénom } }
 
         %LastNamePlaceholder
             ~ LastNamePlaceholder
-            ~ { { en ~ Last Name }
+            ~ { { en ~ Last name }
                 ~ { fr ~ Nom de famille } }
 
         %PasswordPlaceholder
             ~ PasswordPlaceholder
-            ~ { { en ~ First Name }
+            ~ { { en ~ First name }
                 ~ { fr ~ Prénom } }
 
         %EmailPlaceholder
@@ -75,7 +75,7 @@ TEXT
 
 TASK_STATUS
 
-    Id Code Text
+    id code text
 
         %Planned
             ~ Planned
@@ -94,7 +94,7 @@ TASK_STATUS
 
 USER
 
-    Id Email Password
+    id email password
 
         %PeterParker
             ~ peter.parker@comics.com

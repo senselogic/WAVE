@@ -2,18 +2,18 @@
     export let data;
 </script>
 
-{#each data.TextArray as text}
+{#each data.textArray as text}
     <div>
-        <span style="color: var( --base-contrast-color )">{text.Code}</span>
+        <span style="color: var( --base-contrast-color )">{text.code}</span>
         :
-        <span style="color: var( --info-color )">{text.Text[ 'en' ]}</span>
+        <span style="color: var( --info-color )">{text.text[ 'en' ]}</span>
     </div>
 {/each}
 
-{#each data.UserArray as user}
+{#each data.userArray as user}
     <div>
-        <a href="/user/{user.Id}">
-            <span style="color: var( --base-contrast-color )">{user.Email}</span>
+        <a href="/user/{user.id}">
+            <span style="color: var( --base-contrast-color )">{user.email}</span>
         </a>
     </div>
 {/each}

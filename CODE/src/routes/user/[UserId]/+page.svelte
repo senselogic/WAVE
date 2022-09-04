@@ -2,13 +2,13 @@
     export let data;
 </script>
 
-{#each data.TaskArray as task}
+{#each data.taskArray as task}
     <div>
-        <a href="/task/{data.UserId}/{task.Id}">
-            <span style="color: var( --base-contrast-color )">{task.Title}</span>
+        <a href="/task/{data.userId}/{task.id}">
+            <span style="color: var( --base-contrast-color )">{task.title}</span>
         </a>
         :
-        <span style="color: var( --info-color )">{task.StatusCode}</span>
+        <span style="color: var( --info-color )">{task.statusCode}</span>
     </div>
 {/each}
 

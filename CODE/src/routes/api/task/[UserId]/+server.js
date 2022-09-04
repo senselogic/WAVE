@@ -1,11 +1,11 @@
 import { json } from '@sveltejs/kit';
-import { TaskTable } from '$lib/database';
+import { taskTable } from '$lib/database';
 
 export async function GET(
     { params }
     )
 {
-    let task_array = await TaskTable.SelectRows( "*", [ "UserId", "=", params.UserId ] );
+    let taskArray = await taskTable.selectRows( "*", [ "userId", "=", params.userId ] );
 
-    return json( task_array );
+    return json( taskArray );
 }

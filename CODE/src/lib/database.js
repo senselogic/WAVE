@@ -1,61 +1,61 @@
-import { DATABASE } from 'senselogic-eureka';
+import { Database } from 'senselogic-eureka';
 
-export const Database = new DATABASE( "wave" );
+export const database = new Database( "wave" );
 
-export const LanguageTable
-    = Database.AddTable(
+export const languageTable
+    = database.addTable(
           "LANGUAGE",
           [
-              [ "Id", "TUID", [ "key" ] ],
-              [ "Code", "STRING" ],
-              [ "Text", "MAP" ],
-              [ "Number", "INT32" ]
+              [ "id", "TUID", [ "key" ] ],
+              [ "code", "STRING" ],
+              [ "text", "MAP" ],
+              [ "number", "INT32" ]
           ]
           );
 
-export const TextTable
-    = Database.AddTable(
+export const textTable
+    = database.addTable(
           "TEXT",
           [
-              [ "Id", "TUID", [ "key" ] ],
-              [ "Code", "STRING" ],
-              [ "Text", "MAP" ]
+              [ "id", "TUID", [ "key" ] ],
+              [ "code", "STRING" ],
+              [ "text", "MAP" ]
           ]
           );
 
-export const TaskStatusTable
-    = Database.AddTable(
+export const taskStatusTable
+    = database.addTable(
           "TASK_STATUS",
           [
-              [ "Id", "TUID", [ "key" ] ],
-              [ "Code", "STRING" ],
-              [ "Text", "MAP" ]
+              [ "id", "TUID", [ "key" ] ],
+              [ "code", "STRING" ],
+              [ "text", "MAP" ]
           ]
           );
 
-export const TaskTable
-    = Database.AddTable(
+export const taskTable
+    = database.addTable(
           "TASK",
           [
-              [ "Id", "TUID", [ "key" ] ],
-              [ "UserId", "TUID" ],
-              [ "StatusCode", "STRING" ],
-              [ "Title", "STRING" ],
-              [ "CreationDateTime", "DATETIME" ],
-              [ "ModificationDateTime", "DATETIME" ]
+              [ "id", "TUID", [ "key" ] ],
+              [ "userId", "TUID" ],
+              [ "statusCode", "STRING" ],
+              [ "title", "STRING" ],
+              [ "creationDateTime", "DATETIME" ],
+              [ "modificationDateTime", "DATETIME" ]
           ]
           );
 
-export const UserTable
-    = Database.AddTable(
+export const userTable
+    = database.addTable(
           "USER",
           [
-              [ "Id", "TUID", [ "key" ] ],
-              [ "Email", "STRING" ],
-              [ "Password", "STRING" ],
-              [ "TaskIdArray", "LIST" ]
+              [ "id", "TUID", [ "key" ] ],
+              [ "email", "STRING" ],
+              [ "password", "STRING" ],
+              [ "taskIdArray", "LIST" ]
           ]
           );
 
-await Database.Connect( "localhost", "root", "", "mysql" );
+await database.connect( "localhost", "root", "", "mysql" );
 

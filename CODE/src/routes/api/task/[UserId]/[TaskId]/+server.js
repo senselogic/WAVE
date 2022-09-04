@@ -1,5 +1,5 @@
 import { json } from '@sveltejs/kit';
-import { TaskTable } from '$lib/database';
+import { taskTable } from '$lib/database';
 
 // -- FUNCTIONS
 
@@ -7,7 +7,7 @@ export async function GET(
     { params }
     )
 {
-    let task = await TaskTable.SelectRow( "*", [ "UserId", "=", params.UserId ] );
+    let task = await taskTable.selectRow( "*", [ "userId", "=", params.userId ] );
 
     return json( task );
 }
@@ -20,11 +20,11 @@ export async function PUT(
 {
     let task
         = {
-              Id : "xxx",
-              UserId : params.UserId
+              id : "xxx",
+              userId : params.userId
           }
 
-    await TaskTable.InsertRow( task );
+    await taskTable.insertRow( task );
 
     return json( task );
 }
