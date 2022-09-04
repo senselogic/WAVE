@@ -11,51 +11,51 @@ use `wave`;
 drop table if exists `wave`.`LANGUAGE`;
 
 create table if not exists `wave`.`LANGUAGE`(
-    `Id` VARCHAR(22) NOT NULL,
-    `Code` TEXT NULL,
-    `Text` TEXT NULL,
-    `Number` INT NULL,
-    primary key( `Id` )
+    `id` VARCHAR(22) NOT NULL,
+    `code` TEXT NULL,
+    `text` TEXT NULL,
+    `number` INT NULL,
+    primary key( `id` )
     ) engine = InnoDB;
 
 drop table if exists `wave`.`TEXT`;
 
 create table if not exists `wave`.`TEXT`(
-    `Id` VARCHAR(22) NOT NULL,
-    `Code` TEXT NULL,
-    `Text` TEXT NULL,
-    primary key( `Id` )
+    `id` VARCHAR(22) NOT NULL,
+    `code` TEXT NULL,
+    `text` TEXT NULL,
+    primary key( `id` )
     ) engine = InnoDB;
 
 drop table if exists `wave`.`TASK_STATUS`;
 
 create table if not exists `wave`.`TASK_STATUS`(
-    `Id` VARCHAR(22) NOT NULL,
-    `Code` TEXT NULL,
-    `Text` TEXT NULL,
-    primary key( `Id` )
+    `id` VARCHAR(22) NOT NULL,
+    `code` TEXT NULL,
+    `text` TEXT NULL,
+    primary key( `id` )
     ) engine = InnoDB;
 
 drop table if exists `wave`.`TASK`;
 
 create table if not exists `wave`.`TASK`(
-    `Id` VARCHAR(22) NOT NULL,
-    `UserId` VARCHAR(22) NULL,
-    `StatusCode` TEXT NULL,
-    `Title` TEXT NULL,
-    `CreationDateTime` DATETIME NULL,
-    `ModificationDateTime` DATETIME NULL,
-    primary key( `Id` )
+    `id` VARCHAR(22) NOT NULL,
+    `userId` VARCHAR(22) NULL,
+    `statusCode` TEXT NULL,
+    `title` TEXT NULL,
+    `creationDateTime` DATETIME NULL,
+    `modificationDateTime` DATETIME NULL,
+    primary key( `id` )
     ) engine = InnoDB;
 
 drop table if exists `wave`.`USER`;
 
 create table if not exists `wave`.`USER`(
-    `Id` VARCHAR(22) NOT NULL,
-    `Email` TEXT NULL,
-    `Password` TEXT NULL,
-    `TaskIdArray` TEXT NULL,
-    primary key( `Id` )
+    `id` VARCHAR(22) NOT NULL,
+    `email` TEXT NULL,
+    `password` TEXT NULL,
+    `taskIdArray` TEXT NULL,
+    primary key( `id` )
     ) engine = InnoDB;
 
 set SQL_MODE=@OLD_SQL_MODE;

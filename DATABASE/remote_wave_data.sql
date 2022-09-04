@@ -1,6 +1,6 @@
 replace into `wave`.`LANGUAGE`
     (
-        `Id`, `Code`, `Text`, `Number`
+        `id`, `code`, `text`, `number`
     )
     values
     (
@@ -12,7 +12,7 @@ replace into `wave`.`LANGUAGE`
 
 replace into `wave`.`LANGUAGE`
     (
-        `Id`, `Code`, `Text`, `Number`
+        `id`, `code`, `text`, `number`
     )
     values
     (
@@ -24,7 +24,7 @@ replace into `wave`.`LANGUAGE`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -35,7 +35,7 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -46,7 +46,7 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -57,7 +57,7 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -68,7 +68,7 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -79,7 +79,7 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -90,40 +90,40 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
         "19S6meQxG_1SvDqiRCAx6w",
         "FirstNamePlaceholder",
-        "{\"en\":\"First Name\",\"fr\":\"Prénom\"}"
+        "{\"en\":\"First name\",\"fr\":\"Prénom\"}"
     );
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
         "yONyPa18QdzN6J-Pm92MHg",
         "LastNamePlaceholder",
-        "{\"en\":\"Last Name\",\"fr\":\"Nom de famille\"}"
+        "{\"en\":\"Last name\",\"fr\":\"Nom de famille\"}"
     );
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
         "rHt9Tp9pv58osWbDw8OdAw",
         "PasswordPlaceholder",
-        "{\"en\":\"First Name\",\"fr\":\"Prénom\"}"
+        "{\"en\":\"First name\",\"fr\":\"Prénom\"}"
     );
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -134,7 +134,7 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -145,7 +145,7 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TASK_STATUS`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -156,7 +156,7 @@ replace into `wave`.`TASK_STATUS`
 
 replace into `wave`.`TASK_STATUS`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -167,7 +167,7 @@ replace into `wave`.`TASK_STATUS`
 
 replace into `wave`.`TASK_STATUS`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -178,200 +178,200 @@ replace into `wave`.`TASK_STATUS`
 
 replace into `wave`.`TASK`
     (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
     )
     values
     (
-        "tAgJ-nDqhsg7Ug6GoYm0YQ",
-        "IXIqkXAhC_Dl4PWCtbhinQ",
+        "vzSvHcyqpWXbw6_ygHQY_w",
+        "oLwxHA74T1Pduisj0OnQ5w",
+        "Completed",
+        "Bellum se tencteros drappes una aut fuerint magistratum cohortibus.",
+        "2005-09-23 04:37:31",
+        "2013-09-21 13:13:10"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "xeOvaW1bcsWUiPxNwYVi7A",
+        "c3d_1Kj_y8L2DTgsdIP9gA",
+        "Completed",
+        "Per legatum minoribus milia bene.",
+        "2000-09-13 12:23:24",
+        "2011-06-13 03:04:20"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "9q52Zl2nodl3Nevo2zY6QA",
+        "oLwxHA74T1Pduisj0OnQ5w",
         "InProgress",
-        "Legatum comparabat his quam exercitum.",
-        "2010-01-01 15:08:23",
-        "2006-07-24 16:26:15"
+        "Oblata profugiunt inter civitatis caede communi superioribus iis extortis.",
+        "2002-11-09 21:48:07",
+        "2002-05-20 13:27:04"
     );
 
 replace into `wave`.`TASK`
     (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
     )
     values
     (
-        "Qrzr8Yb05mbF3yl0D22kaA",
-        "Q0KCGeONwNDAPsTPjXZKHg",
+        "yGyqUZZxE8faovJrWJyV6w",
+        "oLwxHA74T1Pduisj0OnQ5w",
         "Completed",
-        "Fastigium inter et et in cum quod homines quos conantur.",
-        "2011-02-19 00:31:16",
-        "2015-03-20 02:13:43"
+        "Cum occulto adfixaeque membris sed persuadet magnis perterriti.",
+        "2000-09-04 17:39:48",
+        "2005-08-27 22:11:49"
     );
 
 replace into `wave`.`TASK`
     (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
     )
     values
     (
-        "b-GYDxf8AhUPJ_vfMtwStQ",
-        "FhTGAAXV_i5lB6q18SNJJw",
-        "Completed",
-        "Murumque quisque eo latere quo commisissent quingenta quam.",
-        "2014-01-28 02:33:49",
-        "2011-03-21 18:43:52"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
-    )
-    values
-    (
-        "jqvuH2zlZVkMvMSonv8Ulw",
-        "FhTGAAXV_i5lB6q18SNJJw",
-        "Planned",
-        "Pilum procubuissent collibus oppugnare conspiciuntur ad diutius.",
-        "2009-02-11 00:07:33",
-        "2013-05-06 01:59:13"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
-    )
-    values
-    (
-        "Iv3GmGULlJ9Bq-JStQb_bA",
+        "O684voqy2fICEUq_MB32bw",
         "WDK3IgMbWJ8jTiYm0UQp1w",
-        "Planned",
-        "Quoscumque legionibus insequendum cohortibus quos galliae armatos intercluso.",
-        "2014-03-08 07:23:14",
-        "2011-12-07 07:51:46"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
-    )
-    values
-    (
-        "Gp3bBpcX0z9L10YXGZZinw",
-        "FhTGAAXV_i5lB6q18SNJJw",
-        "Planned",
-        "Cum missa re eius posse silvis sanctum gallus.",
-        "2009-10-18 05:45:38",
-        "2007-08-12 06:33:42"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
-    )
-    values
-    (
-        "d1PFZDAbmB21oBrDIfUlXA",
-        "IXIqkXAhC_Dl4PWCtbhinQ",
         "InProgress",
-        "Studio magnitudine perterriti gratia quare ulla ullo omnes transgressi.",
-        "2013-11-16 04:56:22",
-        "2006-07-27 20:47:01"
+        "Principem pristini legiones atque hostem trans possit.",
+        "2002-08-15 20:07:00",
+        "2007-10-08 22:01:42"
     );
 
 replace into `wave`.`TASK`
     (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
     )
     values
     (
-        "_pkRdBrhL6lOT9ulQsmBOw",
-        "IXIqkXAhC_Dl4PWCtbhinQ",
+        "dWoDNMmDYq2o8TjfYmZXpQ",
+        "gnKajwqtLODDhjYYropyRQ",
         "InProgress",
-        "Valetiacus proelio celeriter intrare principatu se dispersos similitudine ad.",
-        "2006-04-06 01:46:19",
-        "2013-04-26 02:15:41"
+        "Cognita correus praesidia sequuntur arvernus uxoribus est quam.",
+        "2007-05-01 23:10:04",
+        "2015-12-08 03:21:06"
     );
 
 replace into `wave`.`TASK`
     (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
     )
     values
     (
-        "gu8pDwpL4nSQFaYqy_oRgg",
-        "FhTGAAXV_i5lB6q18SNJJw",
-        "Completed",
-        "Praesidio deceptum fugerunt opus lexoviosque quod cum mandat flammam ac.",
-        "2008-10-05 21:57:32",
-        "2002-08-21 20:53:23"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
-    )
-    values
-    (
-        "4FlWRAivMUq08lI0rjR-QA",
+        "bK5gzJ5U48ZKGCbEo3Hgpw",
         "sHQRMWr5xSIH6LJkYp5g8A",
-        "Planned",
-        "Haec iis circiter venire petere.",
-        "2011-03-18 19:12:09",
-        "2000-08-15 13:42:55"
+        "InProgress",
+        "Suum quod multitudini sed suae percucurrisset.",
+        "2008-10-25 01:04:22",
+        "2007-02-14 17:23:57"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "jTzsWmXRfnBw9_OA8OCWJg",
+        "WDK3IgMbWJ8jTiYm0UQp1w",
+        "InProgress",
+        "Eius belli legionibus suo consequitur aquitania esset provinciam cum equitibus.",
+        "2011-10-27 15:52:23",
+        "2011-01-23 05:33:50"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "D2v26NGieg0aGSRsFY-L9w",
+        "WDK3IgMbWJ8jTiYm0UQp1w",
+        "InProgress",
+        "Vix nobiscum velint impulsi et excitarent celeritate parcat defensorum.",
+        "2012-11-05 00:43:19",
+        "2012-03-12 03:16:26"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "MdlvWHaVb6G0T-hXEAZyDA",
+        "oLwxHA74T1Pduisj0OnQ5w",
+        "InProgress",
+        "Prohibebantur vicosque commode non se.",
+        "2008-06-05 07:18:28",
+        "2000-07-01 12:47:38"
     );
 
 replace into `wave`.`USER`
     (
-        `Id`, `Email`, `Password`, `TaskIdArray`
+        `id`, `email`, `password`, `taskIdArray`
     )
     values
     (
         "sHQRMWr5xSIH6LJkYp5g8A",
         "peter.parker@comics.com",
         "xyz",
-        "[\"4FlWRAivMUq08lI0rjR-QA\"]"
+        "[\"bK5gzJ5U48ZKGCbEo3Hgpw\"]"
     );
 
 replace into `wave`.`USER`
     (
-        `Id`, `Email`, `Password`, `TaskIdArray`
+        `id`, `email`, `password`, `taskIdArray`
     )
     values
     (
         "WDK3IgMbWJ8jTiYm0UQp1w",
         "bruce.banner@comics.com",
         "xyz",
-        "[\"Iv3GmGULlJ9Bq-JStQb_bA\"]"
+        "[\"O684voqy2fICEUq_MB32bw\",\"jTzsWmXRfnBw9_OA8OCWJg\",\"D2v26NGieg0aGSRsFY-L9w\"]"
     );
 
 replace into `wave`.`USER`
     (
-        `Id`, `Email`, `Password`, `TaskIdArray`
+        `id`, `email`, `password`, `taskIdArray`
     )
     values
     (
-        "FhTGAAXV_i5lB6q18SNJJw",
-        "zsazsa.wadasinghe@outlook.com",
-        "geRo1rerf@i",
-        "[\"b-GYDxf8AhUPJ_vfMtwStQ\",\"jqvuH2zlZVkMvMSonv8Ulw\",\"Gp3bBpcX0z9L10YXGZZinw\",\"gu8pDwpL4nSQFaYqy_oRgg\"]"
+        "oLwxHA74T1Pduisj0OnQ5w",
+        "marietta.stjohn@outlook.com",
+        "ornbu3/tJ",
+        "[\"vzSvHcyqpWXbw6_ygHQY_w\",\"9q52Zl2nodl3Nevo2zY6QA\",\"yGyqUZZxE8faovJrWJyV6w\",\"MdlvWHaVb6G0T-hXEAZyDA\"]"
     );
 
 replace into `wave`.`USER`
     (
-        `Id`, `Email`, `Password`, `TaskIdArray`
+        `id`, `email`, `password`, `taskIdArray`
     )
     values
     (
-        "Q0KCGeONwNDAPsTPjXZKHg",
-        "brandi.videa@live.com",
-        "uOd5dyp!ar",
-        "[\"Qrzr8Yb05mbF3yl0D22kaA\"]"
+        "gnKajwqtLODDhjYYropyRQ",
+        "charlotta.madhavan@mail.com",
+        "bays5eppIo^",
+        "[\"dWoDNMmDYq2o8TjfYmZXpQ\"]"
     );
 
 replace into `wave`.`USER`
     (
-        `Id`, `Email`, `Password`, `TaskIdArray`
+        `id`, `email`, `password`, `taskIdArray`
     )
     values
     (
-        "IXIqkXAhC_Dl4PWCtbhinQ",
-        "lexis.dore@gmail.com",
-        "abad0en.U",
-        "[\"tAgJ-nDqhsg7Ug6GoYm0YQ\",\"d1PFZDAbmB21oBrDIfUlXA\",\"_pkRdBrhL6lOT9ulQsmBOw\"]"
+        "c3d_1Kj_y8L2DTgsdIP9gA",
+        "art.bobar@hotmail.com",
+        "thad*Wal1",
+        "[\"xeOvaW1bcsWUiPxNwYVi7A\"]"
     );

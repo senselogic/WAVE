@@ -1,6 +1,6 @@
 replace into `wave`.`LANGUAGE`
     (
-        `Id`, `Code`, `Text`, `Number`
+        `id`, `code`, `text`, `number`
     )
     values
     (
@@ -12,7 +12,7 @@ replace into `wave`.`LANGUAGE`
 
 replace into `wave`.`LANGUAGE`
     (
-        `Id`, `Code`, `Text`, `Number`
+        `id`, `code`, `text`, `number`
     )
     values
     (
@@ -24,7 +24,7 @@ replace into `wave`.`LANGUAGE`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -35,7 +35,7 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -46,7 +46,7 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -57,7 +57,7 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -68,7 +68,7 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -79,7 +79,7 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -90,40 +90,40 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
         "19S6meQxG_1SvDqiRCAx6w",
         "FirstNamePlaceholder",
-        "{\"en\":\"First Name\",\"fr\":\"Prénom\"}"
+        "{\"en\":\"First name\",\"fr\":\"Prénom\"}"
     );
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
         "yONyPa18QdzN6J-Pm92MHg",
         "LastNamePlaceholder",
-        "{\"en\":\"Last Name\",\"fr\":\"Nom de famille\"}"
+        "{\"en\":\"Last name\",\"fr\":\"Nom de famille\"}"
     );
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
         "rHt9Tp9pv58osWbDw8OdAw",
         "PasswordPlaceholder",
-        "{\"en\":\"First Name\",\"fr\":\"Prénom\"}"
+        "{\"en\":\"First name\",\"fr\":\"Prénom\"}"
     );
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -134,7 +134,7 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TEXT`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -145,7 +145,7 @@ replace into `wave`.`TEXT`
 
 replace into `wave`.`TASK_STATUS`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -156,7 +156,7 @@ replace into `wave`.`TASK_STATUS`
 
 replace into `wave`.`TASK_STATUS`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -167,7 +167,7 @@ replace into `wave`.`TASK_STATUS`
 
 replace into `wave`.`TASK_STATUS`
     (
-        `Id`, `Code`, `Text`
+        `id`, `code`, `text`
     )
     values
     (
@@ -178,200 +178,200 @@ replace into `wave`.`TASK_STATUS`
 
 replace into `wave`.`TASK`
     (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
     )
     values
     (
-        "aexNmhY3Qe1-kPBmTkFl-Q",
-        "WaZXPG4W5iVWCPAwHZG31g",
-        "InProgress",
-        "Impeditos in loco persuasum cum conquisita.",
-        "2001-08-18 01:20:24",
-        "2010-03-21 18:41:34"
+        "X2dxiCesC9uYbgaXKfL2Tg",
+        "TdA9GeXdxV-AnrbZxYcT1w",
+        "Planned",
+        "Bellum providebatur portari renuntiant castellum exercitum reducerent eundemque e muniri.",
+        "2014-12-05 03:07:21",
+        "2000-04-14 17:03:04"
     );
 
 replace into `wave`.`TASK`
     (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
     )
     values
     (
-        "Sf6smejZgvPuLjhqhJFDFQ",
+        "ymbwv3GYEhIrAKPAzTvo3Q",
+        "TdA9GeXdxV-AnrbZxYcT1w",
+        "Planned",
+        "Hiemabant fortissimo patere qui temerarios quae.",
+        "2009-09-12 01:23:28",
+        "2015-03-01 14:39:06"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "e6MTQvmajrbiUXm7Wi2NEg",
+        "TdHqseQqazhjynJhnyJm-A",
+        "InProgress",
+        "Bellum acciderent non in omnibus maioris cum animadvertebantur postero.",
+        "2013-01-22 18:35:19",
+        "2009-09-06 08:34:12"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "bQ0jq-3J9IsHAbh1OZ64vg",
+        "TdA9GeXdxV-AnrbZxYcT1w",
+        "Completed",
+        "Claudi ex in eadem appropinquarunt posset idem vici locum traductos.",
+        "2007-09-28 04:26:20",
+        "2003-05-23 23:57:28"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "hyGJqJ7vIWyj0qYgILrXKg",
+        "Yql1k3HPEDO1DvqJOtfQOg",
+        "InProgress",
+        "Et omnium quaerendo ulla barbaris ad ut.",
+        "2010-02-26 04:45:36",
+        "2009-12-16 19:05:16"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "iu8gk34eBxorHn0xgAR7jg",
+        "TdHqseQqazhjynJhnyJm-A",
+        "InProgress",
+        "Equitatu annos volusenum possit dederunt.",
+        "2011-06-08 19:15:28",
+        "2011-02-27 19:55:48"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "okebxPPO0jcRJoqZhVD8Mw",
         "sHQRMWr5xSIH6LJkYp5g8A",
-        "InProgress",
-        "In terga habeat profectae ad gallus tradere iusta.",
-        "2004-11-22 04:41:40",
-        "2013-06-14 21:21:48"
+        "Completed",
+        "In quisquam erat ad confirmabant copias ductum nostrae.",
+        "2009-10-27 12:54:59",
+        "2006-02-22 17:06:31"
     );
 
 replace into `wave`.`TASK`
     (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
     )
     values
     (
-        "0eGOr7dTyhwp9Ca2Q_KGRA",
-        "WDK3IgMbWJ8jTiYm0UQp1w",
+        "AARbccfr56AX62QwRSFBbA",
+        "TdA9GeXdxV-AnrbZxYcT1w",
         "Planned",
-        "Haec plerique ex diximus non.",
-        "2011-10-24 13:39:16",
-        "2010-01-16 20:32:17"
+        "Ac germanos vendidit cogere sua turres.",
+        "2012-01-16 17:49:56",
+        "2009-05-05 04:26:00"
     );
 
 replace into `wave`.`TASK`
     (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
     )
     values
     (
-        "xV78fNrETlxi2TbfdtRRMg",
-        "AQXkfAJM9uOlP64sNOen5A",
+        "1A3_TBlgAVveJlRU_Se6GQ",
+        "TdHqseQqazhjynJhnyJm-A",
         "Planned",
-        "Naves cum eos omnibus permansisse cupiditas dum circumventi hostes.",
-        "2011-01-12 10:25:49",
-        "2015-12-11 07:29:11"
+        "His belli sub graecis ramique.",
+        "2014-08-02 07:39:51",
+        "2012-01-21 06:52:45"
     );
 
 replace into `wave`.`TASK`
     (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
     )
     values
     (
-        "wh5NWXlKC0QK6dKSaEXv8w",
-        "WaZXPG4W5iVWCPAwHZG31g",
-        "Completed",
-        "Quam perculsique in pristinae nocturnis gratiam confectus erant supra dicione.",
-        "2000-08-10 00:46:10",
-        "2012-08-03 16:54:26"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
-    )
-    values
-    (
-        "yzKOn0bb7CHjQ_E2VPy1Jw",
-        "QazD2Y9uPoQAfmL0gdq6Sg",
-        "Completed",
-        "Ambarros parte recipiuntur numero exercitum erant remigrare abesset.",
-        "2009-03-28 22:49:05",
-        "2000-12-15 14:44:09"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
-    )
-    values
-    (
-        "K7Tz1JJk-1ThVR1jNQcD6w",
-        "WaZXPG4W5iVWCPAwHZG31g",
-        "InProgress",
-        "Ita duas constituunt evocatos arbitrabatur.",
-        "2004-04-09 11:18:06",
-        "2007-03-20 22:42:33"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
-    )
-    values
-    (
-        "mxcwhliO_-cNARraHDk_Sw",
-        "AQXkfAJM9uOlP64sNOen5A",
-        "Completed",
-        "Praefecto tertia depopulati progredi prima intercepta praestare.",
-        "2011-09-05 17:48:20",
-        "2002-09-20 20:14:00"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
-    )
-    values
-    (
-        "4ZUQtVeDHZiHJcpXFXjQzQ",
-        "QazD2Y9uPoQAfmL0gdq6Sg",
-        "Completed",
-        "Quos ab extremum copiis vitro.",
-        "2006-01-26 21:54:52",
-        "2005-12-27 10:05:52"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `Id`, `UserId`, `StatusCode`, `Title`, `CreationDateTime`, `ModificationDateTime`
-    )
-    values
-    (
-        "Bit6VocVwaf8DCkSDVSlCw",
-        "QazD2Y9uPoQAfmL0gdq6Sg",
-        "InProgress",
-        "Et factu tertium modo obsidesque.",
-        "2014-07-02 13:27:42",
-        "2014-06-21 05:52:17"
+        "VyEgDOM8sZILrlCsRLSs6A",
+        "Yql1k3HPEDO1DvqJOtfQOg",
+        "Planned",
+        "Vultum temerarium solum laboris ex.",
+        "2010-01-04 20:38:03",
+        "2004-04-16 05:11:59"
     );
 
 replace into `wave`.`USER`
     (
-        `Id`, `Email`, `Password`, `TaskIdArray`
+        `id`, `email`, `password`, `taskIdArray`
     )
     values
     (
         "sHQRMWr5xSIH6LJkYp5g8A",
         "peter.parker@comics.com",
         "xyz",
-        "[\"Sf6smejZgvPuLjhqhJFDFQ\"]"
+        "[\"okebxPPO0jcRJoqZhVD8Mw\"]"
     );
 
 replace into `wave`.`USER`
     (
-        `Id`, `Email`, `Password`, `TaskIdArray`
+        `id`, `email`, `password`, `taskIdArray`
     )
     values
     (
         "WDK3IgMbWJ8jTiYm0UQp1w",
         "bruce.banner@comics.com",
         "xyz",
-        "[\"0eGOr7dTyhwp9Ca2Q_KGRA\"]"
+        "[]"
     );
 
 replace into `wave`.`USER`
     (
-        `Id`, `Email`, `Password`, `TaskIdArray`
+        `id`, `email`, `password`, `taskIdArray`
     )
     values
     (
-        "AQXkfAJM9uOlP64sNOen5A",
-        "saleh.nagle@gmail.com",
-        "ku4r,elAsos",
-        "[\"xV78fNrETlxi2TbfdtRRMg\",\"mxcwhliO_-cNARraHDk_Sw\"]"
+        "Yql1k3HPEDO1DvqJOtfQOg",
+        "stacey.kee@live.com",
+        "faetim;W7",
+        "[\"hyGJqJ7vIWyj0qYgILrXKg\",\"VyEgDOM8sZILrlCsRLSs6A\"]"
     );
 
 replace into `wave`.`USER`
     (
-        `Id`, `Email`, `Password`, `TaskIdArray`
+        `id`, `email`, `password`, `taskIdArray`
     )
     values
     (
-        "QazD2Y9uPoQAfmL0gdq6Sg",
-        "mehetabel.kneese@outlook.com",
-        "a6ndl!Uo",
-        "[\"yzKOn0bb7CHjQ_E2VPy1Jw\",\"4ZUQtVeDHZiHJcpXFXjQzQ\",\"Bit6VocVwaf8DCkSDVSlCw\"]"
+        "TdA9GeXdxV-AnrbZxYcT1w",
+        "willis.lyliston@mail.com",
+        "3edrZ/i",
+        "[\"X2dxiCesC9uYbgaXKfL2Tg\",\"ymbwv3GYEhIrAKPAzTvo3Q\",\"bQ0jq-3J9IsHAbh1OZ64vg\",\"AARbccfr56AX62QwRSFBbA\"]"
     );
 
 replace into `wave`.`USER`
     (
-        `Id`, `Email`, `Password`, `TaskIdArray`
+        `id`, `email`, `password`, `taskIdArray`
     )
     values
     (
-        "WaZXPG4W5iVWCPAwHZG31g",
-        "mathew.markland@live.com",
-        "a4tRtava^",
-        "[\"aexNmhY3Qe1-kPBmTkFl-Q\",\"wh5NWXlKC0QK6dKSaEXv8w\",\"K7Tz1JJk-1ThVR1jNQcD6w\"]"
+        "TdHqseQqazhjynJhnyJm-A",
+        "ozlem.ficco@mail.com",
+        "#b5oikiB",
+        "[\"e6MTQvmajrbiUXm7Wi2NEg\",\"iu8gk34eBxorHn0xgAR7jg\",\"1A3_TBlgAVveJlRU_Se6GQ\"]"
     );
