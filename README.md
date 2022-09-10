@@ -2,7 +2,7 @@
 
 # Wave
 
-SvelteKit base project.
+SvelteKit starter project.
 
 ## Version
 
