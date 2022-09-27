@@ -1,4 +1,5 @@
 <script>
+    import { getTranslatedText } from '$lib/text';
     export let data;
 </script>
 
@@ -6,7 +7,7 @@
     <div>
         <span style="color: var( --base-contrast-color )">{text.code}</span>
         :
-        <span style="color: var( --info-color )">{text.text[ 'en' ]}</span>
+        <span style="color: var( --info-color )">{getTranslatedText( text.text )}</span>
     </div>
 {/each}
 

@@ -9,9 +9,8 @@ rename wave CODE
 cd CODE
 call npm install --global yarn
 call yarn install
-call yarn add -D baretest stylus svelte-preprocess
-call yarn add -D tailwindcss autoprefixer postcss
-call yarn add daisyui mysql2 senselogic-gist senselogic-eureka
+call yarn add -D stylus svelte-preprocess
+call yarn add mysql2 senselogic-gist senselogic-eureka
 call yarn audit
 pause
 call yarn run dev --open
