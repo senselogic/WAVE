@@ -58,4 +58,3 @@ export const userTable
           );
 
 await database.connect( 'localhost', 'root', '', 'mysql' );
-
