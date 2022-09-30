@@ -1,6 +1,11 @@
 <script>
-    import { getTranslatedText, getTranslatedTextByCode } from '$lib/text';
-    import { setLanguageCode, setDefaultLanguageCode, setTextByLanguageCodeMapByCode } from '$lib/text';
+    import {
+        setLanguageCode,
+        setDefaultLanguageCode,
+        setTextByLanguageCodeMapByCode,
+        getTranslatedText,
+        getTranslatedTextByCode
+        } from 'senselogic-gist';
 
     export let data;
 
