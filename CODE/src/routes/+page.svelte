@@ -1,6 +1,17 @@
 <script>
-    import { getTranslatedText } from '$lib/text';
+    import { getTranslatedText, getTranslatedTextByCode } from '$lib/text';
+    import { setLanguageCode, setDefaultLanguageCode, setTextByLanguageCodeMapByCode } from '$lib/text';
+
     export let data;
+
+    setLanguageCode( 'en' );
+    setDefaultLanguageCode( 'en' );
+
+    for ( let text of data.textArray )
+    {
+        setTextByLanguageCodeMapByCode( text.text, text.code );
+        console.log( text.code );
+    }
 </script>
 
 {#each data.textArray as text}
@@ -19,3 +30,6 @@
     </div>
 {/each}
 
+<div>
+    {getTranslatedTextByCode( 'SignInName' )}
+</div>
