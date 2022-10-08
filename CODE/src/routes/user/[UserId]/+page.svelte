@@ -1,4 +1,6 @@
 <script>
+    import { Button } from 'attractions';
+
     export let data;
 </script>
 
@@ -12,10 +14,10 @@
     </div>
 {/each}
 
-<div>
+<Button outline>
     <a href="/">
         <span class="flow-info-button">
             Back
         </span>
     </a>
-</div>
+</Button>

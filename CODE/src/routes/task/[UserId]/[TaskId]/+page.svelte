@@ -1,4 +1,6 @@
 <script>
+    import { Button } from 'attractions';
+
     export let data;
 </script>
 
@@ -8,10 +10,10 @@
     <span style="color: var( --info-color )">{data.task.statusCode}</span>
 </div>
 
-<div>
+<Button outline>
     <a href="/user/{data.userId}">
         <span class="flow-info-button">
             Back
         </span>
     </a>
-</div>
+</Button>

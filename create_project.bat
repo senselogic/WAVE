@@ -9,7 +9,7 @@ rename wave CODE
 cd CODE
 call npm install --global yarn
 call yarn install
-call yarn add -D sass svelte-preprocess
+call yarn add -D attractions postcss sass svelte-preprocess
 call yarn add mysql2 senselogic-gist senselogic-eureka
 call yarn audit
 pause
