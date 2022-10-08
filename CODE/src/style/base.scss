@@ -1,0 +1,686 @@
+// -- CONSTANTS
+
+$PrimaryFontFamily: sans-serif;
+$SecondaryFontFamily: sans-serif;
+$TertiaryFontFamily: sans-serif;
+$MonospaceFontFamily: monospace;
+
+$BlackColor: #000000;
+$WhiteColor: #FFFFFF;
+
+$GrayColor: #808080;
+$GrayDimColor: mix( $GrayColor, #000000, 60% );
+$GrayDarkColor: mix( $GrayColor, #000000, 40% );
+$GrayShadeColor: mix( $GrayColor, #000000, 20% );
+$GrayTintColor: mix( $GrayColor, #FFFFFF, 20% );
+$GrayLightColor: mix( $GrayColor, #FFFFFF, 40% );
+$GrayPaleColor: mix( $GrayColor, #FFFFFF, 60% );
+
+$GrayContrastColor: $BlackColor;
+$GrayDimContrastColor: $WhiteColor;
+$GrayDarkContrastColor: $WhiteColor;
+$GrayShadeContrastColor: $WhiteColor;
+$GrayTintContrastColor: $BlackColor;
+$GrayLightContrastColor: $BlackColor;
+$GrayPaleContrastColor: $BlackColor;
+
+$RedColor: #FF0000;
+$RedDimColor: mix( $RedColor, #000000, 60% );
+$RedDarkColor: mix( $RedColor, #000000, 40% );
+$RedShadeColor: mix( $RedColor, #000000, 20% );
+$RedTintColor: mix( $RedColor, #FFFFFF, 20% );
+$RedLightColor: mix( $RedColor, #FFFFFF, 40% );
+$RedPaleColor: mix( $RedColor, #FFFFFF, 60% );
+
+$RedContrastColor: $BlackColor;
+$RedDimContrastColor: $WhiteColor;
+$RedDarkContrastColor: $WhiteColor;
+$RedShadeContrastColor: $WhiteColor;
+$RedTintContrastColor: $BlackColor;
+$RedLightContrastColor: $BlackColor;
+$RedPaleContrastColor: $BlackColor;
+
+$GreenColor: #00FF00;
+$GreenDimColor: mix( $GreenColor, #000000, 60% );
+$GreenDarkColor: mix( $GreenColor, #000000, 40% );
+$GreenShadeColor: mix( $GreenColor, #000000, 20% );
+$GreenTintColor: mix( $GreenColor, #FFFFFF, 20% );
+$GreenLightColor: mix( $GreenColor, #FFFFFF, 40% );
+$GreenPaleColor: mix( $GreenColor, #FFFFFF, 60% );
+
+$GreenContrastColor: $BlackColor;
+$GreenDimContrastColor: $WhiteColor;
+$GreenDarkContrastColor: $WhiteColor;
+$GreenShadeContrastColor: $WhiteColor;
+$GreenTintContrastColor: $BlackColor;
+$GreenLightContrastColor: $BlackColor;
+$GreenPaleContrastColor: $BlackColor;
+
+$BlueColor: #0000FF;
+$BlueDimColor: mix( $BlueColor, #000000, 60% );
+$BlueDarkColor: mix( $BlueColor, #000000, 40% );
+$BlueShadeColor: mix( $BlueColor, #000000, 20% );
+$BlueTintColor: mix( $BlueColor, #FFFFFF, 20% );
+$BlueLightColor: mix( $BlueColor, #FFFFFF, 40% );
+$BluePaleColor: mix( $BlueColor, #FFFFFF, 60% );
+
+$BlueContrastColor: $BlackColor;
+$BlueDimContrastColor: $WhiteColor;
+$BlueDarkContrastColor: $WhiteColor;
+$BlueShadeContrastColor: $WhiteColor;
+$BlueTintContrastColor: $BlackColor;
+$BlueLightContrastColor: $BlackColor;
+$BluePaleContrastColor: $BlackColor;
+
+$BaseColor: #FFFFFF;
+$BaseDimColor: mix( $BaseColor, #000000, 60% );
+$BaseDarkColor: mix( $BaseColor, #000000, 40% );
+$BaseShadeColor: mix( $BaseColor, #000000, 20% );
+$BaseTintColor: mix( $BaseColor, #FFFFFF, 20% );
+$BaseLightColor: mix( $BaseColor, #FFFFFF, 40% );
+$BasePaleColor: mix( $BaseColor, #FFFFFF, 60% );
+
+$BaseContrastColor: $BlackColor;
+$BaseDimContrastColor: $WhiteColor;
+$BaseDarkContrastColor: $WhiteColor;
+$BaseShadeContrastColor: $WhiteColor;
+$BaseTintContrastColor: $BlackColor;
+$BaseLightContrastColor: $BlackColor;
+$BasePaleContrastColor: $BlackColor;
+
+$NeutralColor: #808080;
+$NeutralDimColor: mix( $NeutralColor, #000000, 60% );
+$NeutralShadeColor: mix( $NeutralColor, #000000, 40% );
+$NeutralDarkColor: mix( $NeutralColor, #000000, 20% );
+$NeutralLightColor: mix( $NeutralColor, #FFFFFF, 20% );
+$NeutralTintColor: mix( $NeutralColor, #FFFFFF, 40% );
+$NeutralPaleColor: mix( $NeutralColor, #FFFFFF, 60% );
+
+$NeutralContrastColor: $BlackColor;
+$NeutralDimContrastColor: $WhiteColor;
+$NeutralDarkContrastColor: $WhiteColor;
+$NeutralShadeContrastColor: $WhiteColor;
+$NeutralTintContrastColor: $BlackColor;
+$NeutralLightContrastColor: $BlackColor;
+$NeutralPaleContrastColor: $BlackColor;
+
+$PrimaryColor: #2AB4E7;
+$PrimaryDimColor: mix( $PrimaryColor, #000000, 60% );
+$PrimaryDarkColor: mix( $PrimaryColor, #000000, 40% );
+$PrimaryShadeColor: mix( $PrimaryColor, #000000, 20% );
+$PrimaryTintColor: mix( $PrimaryColor, #FFFFFF, 20% );
+$PrimaryLightColor: mix( $PrimaryColor, #FFFFFF, 40% );
+$PrimaryPaleColor: mix( $PrimaryColor, #FFFFFF, 60% );
+
+$PrimaryContrastColor: $BlackColor;
+$PrimaryDimContrastColor: $WhiteColor;
+$PrimaryDarkContrastColor: $WhiteColor;
+$PrimaryShadeContrastColor: $WhiteColor;
+$PrimaryTintContrastColor: $BlackColor;
+$PrimaryLightContrastColor: $BlackColor;
+$PrimaryPaleContrastColor: $BlackColor;
+
+$SecondaryColor: #2AB4E7;
+$SecondayDimColor: mix( $SecondaryColor, #000000, 60% );
+$SecondayDarkColor: mix( $SecondaryColor, #000000, 40% );
+$SecondayShadeColor: mix( $SecondaryColor, #000000, 20% );
+$SecondayTintColor: mix( $SecondaryColor, #FFFFFF, 20% );
+$SecondayLightColor: mix( $SecondaryColor, #FFFFFF, 40% );
+$SecondayPaleColor: mix( $SecondaryColor, #FFFFFF, 60% );
+
+$SecondayContrastColor: $BlackColor;
+$SecondayDimContrastColor: $WhiteColor;
+$SecondayDarkContrastColor: $WhiteColor;
+$SecondayShadeContrastColor: $WhiteColor;
+$SecondayTintContrastColor: $BlackColor;
+$SecondayLightContrastColor: $BlackColor;
+$SecondayPaleContrastColor: $BlackColor;
+
+$TertiaryColor: #2AB4E7;
+$TertiaryDimColor: mix( $TertiaryColor, #000000, 60% );
+$TertiaryDarkColor: mix( $TertiaryColor, #000000, 40% );
+$TertiaryShadeColor: mix( $TertiaryColor, #000000, 20% );
+$TertiaryTintColor: mix( $TertiaryColor, #FFFFFF, 20% );
+$TertiaryLightColor: mix( $TertiaryColor, #FFFFFF, 40% );
+$TertiaryPaleColor: mix( $TertiaryColor, #FFFFFF, 60% );
+
+$TertiaryContrastColor: $BlackColor;
+$TertiaryDimContrastColor: $WhiteColor;
+$TertiaryDarkContrastColor: $WhiteColor;
+$TertiaryShadeContrastColor: $WhiteColor;
+$TertiaryTintContrastColor: $BlackColor;
+$TertiaryLightContrastColor: $BlackColor;
+$TertiaryPaleContrastColor: $BlackColor;
+
+$AccentColor: #2AB4E7;
+$AccentDimColor: mix( $AccentColor, #000000, 60% );
+$AccentDarkColor: mix( $AccentColor, #000000, 40% );
+$AccentShadeColor: mix( $AccentColor, #000000, 20% );
+$AccentTintColor: mix( $AccentColor, #FFFFFF, 20% );
+$AccentLightColor: mix( $AccentColor, #FFFFFF, 40% );
+$AccentPaleColor: mix( $AccentColor, #FFFFFF, 60% );
+
+$AccentContrastColor: $BlackColor;
+$AccentDimContrastColor: $WhiteColor;
+$AccentDarkContrastColor: $WhiteColor;
+$AccentShadeContrastColor: $WhiteColor;
+$AccentTintContrastColor: $BlackColor;
+$AccentLightContrastColor: $BlackColor;
+$AccentPaleContrastColor: $BlackColor;
+
+$InfoColor: #3ABFF8;
+$InfoDimColor: mix( $InfoColor, #000000, 60% );
+$InfoDarkColor: mix( $InfoColor, #000000, 40% );
+$InfoShadeColor: mix( $InfoColor, #000000, 20% );
+$InfoTintColor: mix( $InfoColor, #FFFFFF, 20% );
+$InfoLightColor: mix( $InfoColor, #FFFFFF, 40% );
+$InfoPaleColor: mix( $InfoColor, #FFFFFF, 60% );
+
+$InfoContrastColor: $BlackColor;
+$InfoDimContrastColor: $WhiteColor;
+$InfoDarkContrastColor: $WhiteColor;
+$InfoShadeContrastColor: $WhiteColor;
+$InfoTintContrastColor: $BlackColor;
+$InfoLightContrastColor: $BlackColor;
+$InfoPaleContrastColor: $BlackColor;
+
+$SuccessColor: #36D399;
+$SuccessDimColor: mix( $SuccessColor, #000000, 60% );
+$SuccessDarkColor: mix( $SuccessColor, #000000, 40% );
+$SuccessShadeColor: mix( $SuccessColor, #000000, 20% );
+$SuccessTintColor: mix( $SuccessColor, #FFFFFF, 20% );
+$SuccessLightColor: mix( $SuccessColor, #FFFFFF, 40% );
+$SuccessPaleColor: mix( $SuccessColor, #FFFFFF, 60% );
+
+$SuccessContrastColor: $BlackColor;
+$SuccessDimContrastColor: $WhiteColor;
+$SuccessDarkContrastColor: $WhiteColor;
+$SuccessShadeContrastColor: $WhiteColor;
+$SuccessTintContrastColor: $BlackColor;
+$SuccessLightContrastColor: $BlackColor;
+$SuccessPaleContrastColor: $BlackColor;
+
+$WarningColor: #FBBD23;
+$WarningDimColor: mix( $WarningColor, #000000, 60% );
+$WarningDarkColor: mix( $WarningColor, #000000, 40% );
+$WarningShadeColor: mix( $WarningColor, #000000, 20% );
+$WarningTintColor: mix( $WarningColor, #FFFFFF, 20% );
+$WarningLightColor: mix( $WarningColor, #FFFFFF, 40% );
+$WarningPaleColor: mix( $WarningColor, #FFFFFF, 60% );
+
+$WarningContrastColor: $BlackColor;
+$WarningDimContrastColor: $WhiteColor;
+$WarningDarkContrastColor: $WhiteColor;
+$WarningShadeContrastColor: $WhiteColor;
+$WarningTintContrastColor: $BlackColor;
+$WarningLightContrastColor: $BlackColor;
+$WarningPaleContrastColor: $BlackColor;
+
+$ErrorColor: #F87272;
+$ErrorDimColor: mix( $ErrorColor, #000000, 60% );
+$ErrorDarkColor: mix( $ErrorColor, #000000, 40% );
+$ErrorShadeColor: mix( $ErrorColor, #000000, 20% );
+$ErrorTintColor: mix( $ErrorColor, #FFFFFF, 20% );
+$ErrorLightColor: mix( $ErrorColor, #FFFFFF, 40% );
+$ErrorPaleColor: mix( $ErrorColor, #FFFFFF, 60% );
+
+$ErrorContrastColor: $BlackColor;
+$ErrorDimContrastColor: $WhiteColor;
+$ErrorDarkContrastColor: $WhiteColor;
+$ErrorShadeContrastColor: $WhiteColor;
+$ErrorTintContrastColor: $BlackColor;
+$ErrorLightContrastColor: $BlackColor;
+$ErrorPaleContrastColor: $BlackColor;
+
+$LinkColor: #86B4F0;
+$LinkHoverColor: #A2C2EC;
+$TableBorderColor: #888888;
+
+$ScrollbarWidth: 0.4rem;
+$ScrollbarColor: rgba( 255, 255, 255, 0.3 );
+$ScrollbarHoverColor: rgba( 255, 255, 255, 0.2 );
+$ScrollbarBackgroundColor: rgba( 0, 0, 0, 0.1 );
+
+$TinyButtonFontSize: 1rem;
+$SmallButtonFontSize: 1rem;
+$ButtonFontSize: 1rem;
+$LargeButtonFontSize: 1rem;
+$BigButtonFontSize: 1rem;
+$HugeButtonFontSize: 1rem;
+
+$TinyButtonBorderRadius: 0.5rem;
+$SmallButtonBorderRadius: 0.5rem;
+$ButtonBorderRadius: 0.5rem;
+$LargeButtonBorderRadius: 0.5rem;
+$BigButtonBorderRadius: 0.5rem;
+$HugeButtonBorderRadius: 0.5rem;
+$PillButtonBorderRadius: 100vmax;
+
+$TinyButtonPadding: 0.125rem 0.25rem;
+$SmallButtonPadding: 0.25rem 0.5rem;
+$ButtonPadding: 0.5rem 1rem;
+$LargeButtonPadding: 1rem 2rem;
+$BigButtonPadding: 1.5rem 3rem;
+$HugeButtonPadding: 2rem 4rem;
+
+// -- $ELEMENTS
+
+:root
+{
+    --primary-font-family: $PrimaryFontFamily;
+    --secondary-font-family: $SecondaryFontFamily;
+    --tertiary-font-family: $TertiaryFontFamily;
+    --mono-font-family: $MonoFontFamily;
+
+    --base-color: $BaseColor;
+    --base-dim-color: $BaseDimColor;
+    --base-dark-color: $BaseDarkColor;
+    --base-shade-color: $BaseShadeColor;
+    --base-tint-color: $BaseTintColor;
+    --base-light-color: $BaseLightColor;
+    --base-pale-color: $BasePaleColor;
+
+    --base-contrast-color: $BaseContrastColor;
+    --base-dim-contrast-color: $BaseDimContrastColor;
+    --base-dark-contrast-color: $BaseDarkContrastColor;
+    --base-shade-contrast-color: $BaseShadeContrastColor;
+    --base-tint-contrast-color: $BaseTintContrastColor;
+    --base-light-contrast-color: $BaseLightContrastColor;
+    --base-pale-contrast-color: $BasePaleContrastColor;
+
+    --neutral-color: $NeutralColor;
+    --neutral-dim-color: $NeutralDimColor;
+    --neutral-shade-color: $NeutralDarkColor;
+    --neutral-dark-color: $NeutralShadeColor;
+    --neutral-light-color: $NeutralTintColor;
+    --neutral-tint-color: $NeutralLightColor;
+    --neutral-pale-color: $NeutralPaleColor;
+
+    --neutral-contrast-color: $NeutralContrastColor;
+    --neutral-dim-contrast-color: $NeutralDimContrastColor;
+    --neutral-dark-contrast-color: $NeutralDarkContrastColor;
+    --neutral-shade-contrast-color: $NeutralShadeContrastColor;
+    --neutral-tint-contrast-color: $NeutralTintContrastColor;
+    --neutral-light-contrast-color: $NeutralLightContrastColor;
+    --neutral-pale-contrast-color: $NeutralPaleContrastColor;
+
+    --primary-color: $PrimaryColor;
+    --primary-dim-color: $PrimaryDimColor;
+    --primary-dark-color: $PrimaryDarkColor;
+    --primary-shade-color: $PrimaryShadeColor;
+    --primary-tint-color: $PrimaryTintColor;
+    --primary-light-color: $PrimaryLightColor;
+    --primary-pale-color: $PrimaryPaleColor;
+
+    --primary-contrast-color: $PrimaryContrastColor;
+    --primary-dim-contrast-color: $PrimaryDimContrastColor;
+    --primary-dark-contrast-color: $PrimaryDarkContrastColor;
+    --primary-shade-contrast-color: $PrimaryShadeContrastColor;
+    --primary-tint-contrast-color: $PrimaryTintContrastColor;
+    --primary-light-contrast-color: $PrimaryLightContrastColor;
+    --primary-pale-contrast-color: $PrimaryPaleContrastColor;
+
+    --secondary-color: $SecondaryColor;
+    --secondary-dim-color: $SecondaryDimColor;
+    --secondary-dark-color: $SecondaryDarkColor;
+    --secondary-shade-color: $SecondaryShadeColor;
+    --secondary-tint-color: $SecondaryTintColor;
+    --secondary-light-color: $SecondaryLightColor;
+    --secondary-pale-color: $SecondaryPaleColor;
+
+    --secondary-contrast-color: $SecondaryContrastColor;
+    --secondary-dim-contrast-color: $SecondaryDimContrastColor;
+    --secondary-dark-contrast-color: $SecondaryDarkContrastColor;
+    --secondary-shade-contrast-color: $SecondaryShadeContrastColor;
+    --secondary-tint-contrast-color: $SecondaryTintContrastColor;
+    --secondary-light-contrast-color: $SecondaryLightContrastColor;
+    --secondary-pale-contrast-color: $SecondaryPaleContrastColor;
+
+    --tertiary-color: $TertiaryColor;
+    --tertiary-dim-color: $TertiaryDimColor;
+    --tertiary-dark-color: $TertiaryDarkColor;
+    --tertiary-shade-color: $TertiaryShadeColor;
+    --tertiary-tint-color: $TertiaryTintColor;
+    --tertiary-light-color: $TertiaryLightColor;
+    --tertiary-pale-color: $TertiaryPaleColor;
+
+    --tertiary-contrast-color: $TertiaryContrastColor;
+    --tertiary-dim-contrast-color: $TertiaryDimContrastColor;
+    --tertiary-dark-contrast-color: $TertiaryDarkContrastColor;
+    --tertiary-shade-contrast-color: $TertiaryShadeContrastColor;
+    --tertiary-tint-contrast-color: $TertiaryTintContrastColor;
+    --tertiary-light-contrast-color: $TertiaryLightContrastColor;
+    --tertiary-pale-contrast-color: $TertiaryPaleContrastColor;
+
+    --accent-color: $AccentColor;
+    --accent-dim-color: $AccentDimColor;
+    --accent-dark-color: $AccentDarkColor;
+    --accent-shade-color: $AccentShadeColor;
+    --accent-tint-color: $AccentTintColor;
+    --accent-light-color: $AccentLightColor;
+    --accent-pale-color: $AccentPaleColor;
+
+    --accent-contrast-color: $AccentContrastColor;
+    --accent-dim-contrast-color: $AccentDimContrastColor;
+    --accent-dark-contrast-color: $AccentDarkContrastColor;
+    --accent-shade-contrast-color: $AccentShadeContrastColor;
+    --accent-tint-contrast-color: $AccentTintContrastColor;
+    --accent-light-contrast-color: $AccentLightContrastColor;
+    --accent-pale-contrast-color: $AccentPaleContrastColor;
+
+    --info-color: $InfoColor;
+    --info-dim-color: $InfoDimColor;
+    --info-dark-color: $InfoDarkColor;
+    --info-shade-color: $InfoShadeColor;
+    --info-tint-color: $InfoTintColor;
+    --info-light-color: $InfoLightColor;
+    --info-pale-color: $InfoPaleColor;
+
+    --info-contrast-color: $InfoContrastColor;
+    --info-dim-contrast-color: $InfoDimContrastColor;
+    --info-dark-contrast-color: $InfoDarkContrastColor;
+    --info-shade-contrast-color: $InfoShadeContrastColor;
+    --info-tint-contrast-color: $InfoTintContrastColor;
+    --info-light-contrast-color: $InfoLightContrastColor;
+    --info-pale-contrast-color: $InfoPaleContrastColor;
+
+    --success-color : $SuccessColor;
+    --success-dim-color : $SuccessDimColor;
+    --success-dark-color : $SuccessDarkColor;
+    --success-shade-color : $SuccessShadeColor;
+    --success-tint-color : $SuccessTintColor;
+    --success-light-color : $SuccessLightColor;
+    --success-pale-color : $SuccessPaleColor;
+
+    --success-contrast-color: $SuccessContrastColor;
+    --success-dim-contrast-color: $SuccessDimContrastColor;
+    --success-dark-contrast-color: $SuccessDarkContrastColor;
+    --success-shade-contrast-color: $SuccessShadeContrastColor;
+    --success-tint-contrast-color: $SuccessTintContrastColor;
+    --success-light-contrast-color: $SuccessLightContrastColor;
+    --success-pale-contrast-color: $SuccessPaleContrastColor;
+
+    --warning-color: $WarningColor;
+    --warning-dim-color: $WarningDimColor;
+    --warning-dark-color: $WarningDarkColor;
+    --warning-shade-color: $WarningShadeColor;
+    --warning-tint-color: $WarningTintColor;
+    --warning-light-color: $WarningLightColor;
+    --warning-pale-color: $WarningPaleColor;
+
+    --warning-contrast-color: $WarningContrastColor;
+    --warning-dim-contrast-color: $WarningDimContrastColor;
+    --warning-dark-contrast-color: $WarningDarkContrastColor;
+    --warning-shade-contrast-color: $WarningShadeContrastColor;
+    --warning-tint-contrast-color: $WarningTintContrastColor;
+    --warning-light-contrast-color: $WarningLightContrastColor;
+    --warning-pale-contrast-color: $WarningPaleContrastColor;
+
+    --error-color: $ErrorColor;
+    --error-dim-color: $ErrorDimColor;
+    --error-dark-color: $ErrorDarkColor;
+    --error-shade-color: $ErrorShadeColor;
+    --error-tint-color: $ErrorTintColor;
+    --error-light-color: $ErrorLightColor;
+    --error-pale-color: $ErrorPaleColor;
+
+    --error-contrast-color: $ErrorContrastColor;
+    --error-dim-contrast-color: $ErrorDimContrastColor;
+    --error-dark-contrast-color: $ErrorDarkContrastColor;
+    --error-shade-contrast-color: $ErrorShadeContrastColor;
+    --error-tint-contrast-color: $ErrorTintContrastColor;
+    --error-light-contrast-color: $ErrorLightContrastColor;
+    --error-pale-contrast-color: $ErrorPaleContrastColor;
+
+    --tiny-button-border-radius: $TinyButtonBorderRadius;
+    --small-button-border-radius: $SmallButtonBorderRadius;
+    --button-border-radius: $ButtonBorderRadius;
+    --large-button-border-radius: $LargeButtonBorderRadius;
+    --big-button-border-radius: $BigButtonBorderRadius;
+    --huge-button-border-radius: $HugeButtonBorderRadius;
+    --pill-button-border-radius: $PillButtonBorderRadius;
+
+    --tiny-button-padding: $TinyButtonPadding;
+    --small-button-padding: $SmallButtonPadding;
+    --button-padding: $ButtonPadding;
+    --large-button-padding: $LargeButtonPadding;
+    --big-button-padding: $BigButtonPadding;
+    --huge-button-padding: $HugeButtonPadding;
+}
+
+html
+{
+    height: 100%;
+    min-height: 100%;
+    font-size: 1rem;
+
+    @media ( min-width: 90em )
+    {
+        font-size: 1.1rem;
+    }
+
+    @media ( min-width: 100em )
+    {
+        font-size: 1.2rem;
+    }
+
+    @media ( min-width: 110em )
+    {
+        font-size: 1.3rem;
+    }
+
+    @media ( min-width: 120em )
+    {
+        font-size: 1.4rem;
+    }
+}
+
+body
+{
+    height: 100%;
+    min-height: 100%;
+
+    background-color: $WhiteColor;
+}
+
+body,
+button,
+input,
+textarea
+{
+    font-family: "Ubuntu", sans-serif;
+}
+
+sup
+{
+    position: relative;
+    top: -0.7em;
+
+    font-size: 0.5em;
+    vertical-align: baseline;
+}
+
+table
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+}
+
+table tr:first-child
+{
+    font-weight: 700;
+    text-align: center;
+}
+
+td
+{
+    border: 1px solid $TableBorderColor;
+    padding: 0.5rem;
+}
+
+a,
+a:link,
+a:visited
+{
+    color: $LinkColor;
+}
+
+a:active,
+a:hover
+{
+    color: $LinkHoverColor;
+}
+
+html,
+body,
+body *,
+button,
+input,
+textarea
+{
+    scrollbar-width: thin;
+    scrollbar-color: $ScrollbarColor $ScrollbarBackgroundColor;
+}
+
+::-webkit-scrollbar
+{
+    height: $ScrollbarWidth;
+    width: $ScrollbarWidth;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: $ScrollbarColor;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+    background: $ScrollbarHoverColor;
+}
+
+::-webkit-scrollbar-track
+{
+    background: $ScrollbarBackgroundColor;
+}
+
+// -- CLASSES
+
+.is-hidden
+{
+    display: none !important;
+}
+
+.button
+{
+    cursor: pointer;
+}
+
+.link-button
+{
+    color: $LinkColor;
+
+    cursor: pointer;
+}
+
+.link-button:hover
+{
+    color: $LinkHoverColor;
+}
+
+.paragraph
+{
+    min-height: 1em;
+}
+
+.paragraph + .paragraph
+{
+    margin-top: 0.8em;
+}
+
+.linebreak
+{
+    margin-bottom: 0.8em;
+}
+
+.title-1
+{
+    font-size: 2rem;
+}
+
+.title-2
+{
+    font-size: 1.75rem;
+}
+
+.title-3
+{
+    font-size: 1.5rem;
+}
+
+.title-4
+{
+    font-size: 1.25rem;
+}
+
+.dash-1
+{
+    margin-left: 1em;
+}
+
+.dash-2
+{
+    margin-left: 2em;
+}
+
+.dash-3
+{
+    margin-left: 3em;
+}
+
+.dash-4
+{
+    margin-left: 4em;
+}
+
+.dash-1::before,
+.dash-2::before,
+.dash-3::before,
+.dash-4::before
+{
+    position: absolute;
+    transform: translateX( -0.9em );
+
+    content: "-";
+}
+
+.bullet-1
+{
+    margin-left: 1em;
+}
+
+.bullet-2
+{
+    margin-left: 2em;
+}
+
+.bullet-3
+{
+    margin-left: 3em;
+}
+
+.bullet-4
+{
+    margin-left: 4em;
+}
+
+.bullet-1::before,
+.bullet-2::before,
+.bullet-3::before,
+.bullet-4::before
+{
+    position: absolute;
+    transform: translateX( -0.9em );
+
+    content: "\2022";
+}
