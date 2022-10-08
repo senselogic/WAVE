@@ -3,9 +3,9 @@
 
     .translated-text
     {
-        padding: $padding;
         border: solid 1px #CCCCCC;
         border-radius: 0.5rem;
+        padding: $padding;
     }
 </style>
 
@@ -13,6 +13,7 @@
     import {
         Button,
         DatePicker,
+        Dialog,
         TimePicker
         } from 'attractions';
     import {
@@ -31,7 +32,6 @@
     for ( let text of data.textArray )
     {
         setTextByLanguageCodeMapByCode( text.text, text.code );
-        console.log( text.code );
     }
 </script>
 
@@ -51,13 +51,14 @@
     </Button>
 {/each}
 
-<div>
-    {getTranslatedTextByCode( 'SignInName' )}
-</div>
-
-<div>
-    <DatePicker/> at <TimePicker/>
-</div>
-<div>
-    <DatePicker range top />
-</div>
+<Dialog>
+    <div>
+        {getTranslatedTextByCode( 'SignInName' )}
+    </div>
+    <div>
+        <DatePicker /> at <TimePicker />
+    </div>
+    <div>
+        <DatePicker range top />
+    </div>
+</Dialog>

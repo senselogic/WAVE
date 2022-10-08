@@ -5,13 +5,14 @@
 </script>
 
 {#each data.taskArray as task}
-    <div>
+    <Button outline>
         <a href="/task/{data.userId}/{task.id}">
             <span style="color: var( --base-contrast-color )">{task.title}</span>
         </a>
-        :
+        &nbsp;(
         <span style="color: var( --info-color )">{task.statusCode}</span>
-    </div>
+        )
+    </Button>
 {/each}
 
 <Button outline>
