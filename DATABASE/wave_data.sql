@@ -182,40 +182,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "X2dxiCesC9uYbgaXKfL2Tg",
-        "TdA9GeXdxV-AnrbZxYcT1w",
-        "Planned",
-        "Bellum providebatur portari renuntiant castellum exercitum reducerent eundemque e muniri.",
-        "2014-12-05 03:07:21",
-        "2000-04-14 17:03:04"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
-    )
-    values
-    (
-        "ymbwv3GYEhIrAKPAzTvo3Q",
-        "TdA9GeXdxV-AnrbZxYcT1w",
-        "Planned",
-        "Hiemabant fortissimo patere qui temerarios quae.",
-        "2009-09-12 01:23:28",
-        "2015-03-01 14:39:06"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
-    )
-    values
-    (
-        "e6MTQvmajrbiUXm7Wi2NEg",
-        "TdHqseQqazhjynJhnyJm-A",
+        "Kqx1FVoSVP8XKR9fX8R6vA",
+        "5-fwupgchN2PxQ_EUkgmjw",
         "InProgress",
-        "Bellum acciderent non in omnibus maioris cum animadvertebantur postero.",
-        "2013-01-22 18:35:19",
-        "2009-09-06 08:34:12"
+        "His bibracte in pervenerunt litteras hac allato iure.",
+        "2002-05-08 10:40:41",
+        "2011-11-02 18:07:24"
     );
 
 replace into `wave`.`TASK`
@@ -224,12 +196,54 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "bQ0jq-3J9IsHAbh1OZ64vg",
-        "TdA9GeXdxV-AnrbZxYcT1w",
+        "1ZLvUS-oyanX2KPmfkAwJw",
+        "5-fwupgchN2PxQ_EUkgmjw",
+        "InProgress",
+        "Erat flumen causam sua regnum.",
+        "2010-09-14 20:44:48",
+        "2011-05-01 07:01:31"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "zbTyKKv6icsdAO6LHxNKIQ",
+        "WDK3IgMbWJ8jTiYm0UQp1w",
+        "Planned",
+        "Ab hibernis reducit non solo celata.",
+        "2010-04-04 17:55:09",
+        "2000-12-12 22:09:11"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "ERnn_6LBjkt7CPjaxwM1ow",
+        "WDK3IgMbWJ8jTiYm0UQp1w",
+        "InProgress",
+        "Caesarem tantum copiis nihil vagentur.",
+        "2001-10-17 16:52:59",
+        "2001-11-23 09:37:53"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "JVYDaAlMtF9v9RkBk4zjSw",
+        "ddifKoKPKlD35cYwQLNSog",
         "Completed",
-        "Claudi ex in eadem appropinquarunt posset idem vici locum traductos.",
-        "2007-09-28 04:26:20",
-        "2003-05-23 23:57:28"
+        "Secundissimorum postularent genere in remanerent ad eodem ex et partem.",
+        "2003-03-04 02:01:51",
+        "2001-08-16 12:41:11"
     );
 
 replace into `wave`.`TASK`
@@ -238,40 +252,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "hyGJqJ7vIWyj0qYgILrXKg",
-        "Yql1k3HPEDO1DvqJOtfQOg",
-        "InProgress",
-        "Et omnium quaerendo ulla barbaris ad ut.",
-        "2010-02-26 04:45:36",
-        "2009-12-16 19:05:16"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
-    )
-    values
-    (
-        "iu8gk34eBxorHn0xgAR7jg",
-        "TdHqseQqazhjynJhnyJm-A",
-        "InProgress",
-        "Equitatu annos volusenum possit dederunt.",
-        "2011-06-08 19:15:28",
-        "2011-02-27 19:55:48"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
-    )
-    values
-    (
-        "okebxPPO0jcRJoqZhVD8Mw",
+        "Lzc42nyB0N7N4HZjOgiAgg",
         "sHQRMWr5xSIH6LJkYp5g8A",
         "Completed",
-        "In quisquam erat ad confirmabant copias ductum nostrae.",
-        "2009-10-27 12:54:59",
-        "2006-02-22 17:06:31"
+        "Iter sperant ac quibus subacti eo praestare praescribere videbat in.",
+        "2004-11-14 07:41:20",
+        "2013-12-08 20:45:27"
     );
 
 replace into `wave`.`TASK`
@@ -280,12 +266,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "AARbccfr56AX62QwRSFBbA",
-        "TdA9GeXdxV-AnrbZxYcT1w",
-        "Planned",
-        "Ac germanos vendidit cogere sua turres.",
-        "2012-01-16 17:49:56",
-        "2009-05-05 04:26:00"
+        "eh4JHlXU6_R9glYTszf1zA",
+        "sHQRMWr5xSIH6LJkYp5g8A",
+        "InProgress",
+        "Ut agminis labieno numero movit me est.",
+        "2014-12-18 18:31:35",
+        "2006-08-25 21:59:48"
     );
 
 replace into `wave`.`TASK`
@@ -294,12 +280,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "1A3_TBlgAVveJlRU_Se6GQ",
-        "TdHqseQqazhjynJhnyJm-A",
+        "clUPrqn0xb1TrEXx5xXaxA",
+        "sHQRMWr5xSIH6LJkYp5g8A",
         "Planned",
-        "His belli sub graecis ramique.",
-        "2014-08-02 07:39:51",
-        "2012-01-21 06:52:45"
+        "Delituerant inita per sed et esse locis legiones.",
+        "2013-06-16 20:30:32",
+        "2015-08-15 06:08:47"
     );
 
 replace into `wave`.`TASK`
@@ -308,12 +294,26 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "VyEgDOM8sZILrlCsRLSs6A",
-        "Yql1k3HPEDO1DvqJOtfQOg",
-        "Planned",
-        "Vultum temerarium solum laboris ex.",
-        "2010-01-04 20:38:03",
-        "2004-04-16 05:11:59"
+        "V2X6UyfjA5p-13707rG0Xg",
+        "sHQRMWr5xSIH6LJkYp5g8A",
+        "Completed",
+        "Lingua exercitus factionum re inter erant.",
+        "2014-12-19 17:43:31",
+        "2015-05-16 21:59:16"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "ZeOMI2Q3YoyAZW-piEir0Q",
+        "sHQRMWr5xSIH6LJkYp5g8A",
+        "InProgress",
+        "Fusili multis oppidum ad luce ad eos quo.",
+        "2013-12-08 02:39:48",
+        "2007-08-26 05:36:08"
     );
 
 replace into `wave`.`USER`
@@ -325,7 +325,7 @@ replace into `wave`.`USER`
         "sHQRMWr5xSIH6LJkYp5g8A",
         "peter.parker@comics.com",
         "xyz",
-        "[\"okebxPPO0jcRJoqZhVD8Mw\"]"
+        "[\"Lzc42nyB0N7N4HZjOgiAgg\",\"eh4JHlXU6_R9glYTszf1zA\",\"clUPrqn0xb1TrEXx5xXaxA\",\"V2X6UyfjA5p-13707rG0Xg\",\"ZeOMI2Q3YoyAZW-piEir0Q\"]"
     );
 
 replace into `wave`.`USER`
@@ -337,6 +337,30 @@ replace into `wave`.`USER`
         "WDK3IgMbWJ8jTiYm0UQp1w",
         "bruce.banner@comics.com",
         "xyz",
+        "[\"zbTyKKv6icsdAO6LHxNKIQ\",\"ERnn_6LBjkt7CPjaxwM1ow\"]"
+    );
+
+replace into `wave`.`USER`
+    (
+        `id`, `email`, `password`, `taskIdArray`
+    )
+    values
+    (
+        "5-fwupgchN2PxQ_EUkgmjw",
+        "atsushi.rama@yahoo.com",
+        "g8illWiane+",
+        "[\"Kqx1FVoSVP8XKR9fX8R6vA\",\"1ZLvUS-oyanX2KPmfkAwJw\"]"
+    );
+
+replace into `wave`.`USER`
+    (
+        `id`, `email`, `password`, `taskIdArray`
+    )
+    values
+    (
+        "oV4jD2BqVA7ii6etnhu0XQ",
+        "juozas.lecuyer@gmail.com",
+        "Aher7en:ne",
         "[]"
     );
 
@@ -346,32 +370,8 @@ replace into `wave`.`USER`
     )
     values
     (
-        "Yql1k3HPEDO1DvqJOtfQOg",
-        "stacey.kee@live.com",
-        "faetim;W7",
-        "[\"hyGJqJ7vIWyj0qYgILrXKg\",\"VyEgDOM8sZILrlCsRLSs6A\"]"
-    );
-
-replace into `wave`.`USER`
-    (
-        `id`, `email`, `password`, `taskIdArray`
-    )
-    values
-    (
-        "TdA9GeXdxV-AnrbZxYcT1w",
-        "willis.lyliston@mail.com",
-        "3edrZ/i",
-        "[\"X2dxiCesC9uYbgaXKfL2Tg\",\"ymbwv3GYEhIrAKPAzTvo3Q\",\"bQ0jq-3J9IsHAbh1OZ64vg\",\"AARbccfr56AX62QwRSFBbA\"]"
-    );
-
-replace into `wave`.`USER`
-    (
-        `id`, `email`, `password`, `taskIdArray`
-    )
-    values
-    (
-        "TdHqseQqazhjynJhnyJm-A",
-        "ozlem.ficco@mail.com",
-        "#b5oikiB",
-        "[\"e6MTQvmajrbiUXm7Wi2NEg\",\"iu8gk34eBxorHn0xgAR7jg\",\"1A3_TBlgAVveJlRU_Se6GQ\"]"
+        "ddifKoKPKlD35cYwQLNSog",
+        "adelice.travers@live.com",
+        "ayl8eC%s",
+        "[\"JVYDaAlMtF9v9RkBk4zjSw\"]"
     );

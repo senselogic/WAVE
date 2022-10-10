@@ -1,0 +1,264 @@
+// -- CONSTANTS
+
+$primary-font-family: Ubuntu, sans-serif;
+$secondary-font-family: sans-serif;
+$tertiary-font-family: sans-serif;
+$mono-font-family: monospace;
+
+$black-color: #000000;
+$white-color: #FFFFFF;
+
+$gray-color: #808080;
+$gray-dim-color: mix( $gray-color, #000000, 60% );
+$gray-dark-color: mix( $gray-color, #000000, 40% );
+$gray-shade-color: mix( $gray-color, #000000, 20% );
+$gray-tint-color: mix( $gray-color, #FFFFFF, 20% );
+$gray-light-color: mix( $gray-color, #FFFFFF, 40% );
+$gray-pale-color: mix( $gray-color, #FFFFFF, 60% );
+
+$gray-contrast-color: $black-color;
+$gray-dim-contrast-color: $white-color;
+$gray-dark-contrast-color: $white-color;
+$gray-shade-contrast-color: $white-color;
+$gray-tint-contrast-color: $black-color;
+$gray-light-contrast-color: $black-color;
+$gray-pale-contrast-color: $black-color;
+
+$red-color: #FF0000;
+$red-dim-color: mix( $red-color, #000000, 60% );
+$red-dark-color: mix( $red-color, #000000, 40% );
+$red-shade-color: mix( $red-color, #000000, 20% );
+$red-tint-color: mix( $red-color, #FFFFFF, 20% );
+$red-light-color: mix( $red-color, #FFFFFF, 40% );
+$red-pale-color: mix( $red-color, #FFFFFF, 60% );
+
+$red-contrast-color: $black-color;
+$red-dim-contrast-color: $white-color;
+$red-dark-contrast-color: $white-color;
+$red-shade-contrast-color: $white-color;
+$red-tint-contrast-color: $black-color;
+$red-light-contrast-color: $black-color;
+$red-pale-contrast-color: $black-color;
+
+$green-color: #00FF00;
+$green-dim-color: mix( $green-color, #000000, 60% );
+$green-dark-color: mix( $green-color, #000000, 40% );
+$green-shade-color: mix( $green-color, #000000, 20% );
+$green-tint-color: mix( $green-color, #FFFFFF, 20% );
+$green-light-color: mix( $green-color, #FFFFFF, 40% );
+$green-pale-color: mix( $green-color, #FFFFFF, 60% );
+
+$green-contrast-color: $black-color;
+$green-dim-contrast-color: $white-color;
+$green-dark-contrast-color: $white-color;
+$green-shade-contrast-color: $white-color;
+$green-tint-contrast-color: $black-color;
+$green-light-contrast-color: $black-color;
+$green-pale-contrast-color: $black-color;
+
+$blue-color: #0000FF;
+$blue-dim-color: mix( $blue-color, #000000, 60% );
+$blue-dark-color: mix( $blue-color, #000000, 40% );
+$blue-shade-color: mix( $blue-color, #000000, 20% );
+$blue-tint-color: mix( $blue-color, #FFFFFF, 20% );
+$blue-light-color: mix( $blue-color, #FFFFFF, 40% );
+$blue-pale-color: mix( $blue-color, #FFFFFF, 60% );
+
+$blue-contrast-color: $black-color;
+$blue-dim-contrast-color: $white-color;
+$blue-dark-contrast-color: $white-color;
+$blue-shade-contrast-color: $white-color;
+$blue-tint-contrast-color: $black-color;
+$blue-light-contrast-color: $black-color;
+$blue-pale-contrast-color: $black-color;
+
+$base-color: #FFFFFF;
+$base-dim-color: mix( $base-color, #000000, 60% );
+$base-dark-color: mix( $base-color, #000000, 40% );
+$base-shade-color: mix( $base-color, #000000, 20% );
+$base-tint-color: mix( $base-color, #FFFFFF, 20% );
+$base-light-color: mix( $base-color, #FFFFFF, 40% );
+$base-pale-color: mix( $base-color, #FFFFFF, 60% );
+
+$base-contrast-color: $black-color;
+$base-dim-contrast-color: $white-color;
+$base-dark-contrast-color: $white-color;
+$base-shade-contrast-color: $white-color;
+$base-tint-contrast-color: $black-color;
+$base-light-contrast-color: $black-color;
+$base-pale-contrast-color: $black-color;
+
+$neutral-color: #808080;
+$neutral-dim-color: mix( $neutral-color, #000000, 60% );
+$neutral-shade-color: mix( $neutral-color, #000000, 40% );
+$neutral-dark-color: mix( $neutral-color, #000000, 20% );
+$neutral-light-color: mix( $neutral-color, #FFFFFF, 20% );
+$neutral-tint-color: mix( $neutral-color, #FFFFFF, 40% );
+$neutral-pale-color: mix( $neutral-color, #FFFFFF, 60% );
+
+$neutral-contrast-color: $black-color;
+$neutral-dim-contrast-color: $white-color;
+$neutral-dark-contrast-color: $white-color;
+$neutral-shade-contrast-color: $white-color;
+$neutral-tint-contrast-color: $black-color;
+$neutral-light-contrast-color: $black-color;
+$neutral-pale-contrast-color: $black-color;
+
+$primary-color: #2AB4E7;
+$primary-dim-color: mix( $primary-color, #000000, 60% );
+$primary-dark-color: mix( $primary-color, #000000, 40% );
+$primary-shade-color: mix( $primary-color, #000000, 20% );
+$primary-tint-color: mix( $primary-color, #FFFFFF, 20% );
+$primary-light-color: mix( $primary-color, #FFFFFF, 40% );
+$primary-pale-color: mix( $primary-color, #FFFFFF, 60% );
+
+$primary-contrast-color: $black-color;
+$primary-dim-contrast-color: $white-color;
+$primary-dark-contrast-color: $white-color;
+$primary-shade-contrast-color: $white-color;
+$primary-tint-contrast-color: $black-color;
+$primary-light-contrast-color: $black-color;
+$primary-pale-contrast-color: $black-color;
+
+$secondary-color: #2AB4E7;
+$secondary-dim-color: mix( $secondary-color, #000000, 60% );
+$secondary-dark-color: mix( $secondary-color, #000000, 40% );
+$secondary-shade-color: mix( $secondary-color, #000000, 20% );
+$secondary-tint-color: mix( $secondary-color, #FFFFFF, 20% );
+$secondary-light-color: mix( $secondary-color, #FFFFFF, 40% );
+$secondary-pale-color: mix( $secondary-color, #FFFFFF, 60% );
+
+$secondary-contrast-color: $black-color;
+$secondary-dim-contrast-color: $white-color;
+$secondary-dark-contrast-color: $white-color;
+$secondary-shade-contrast-color: $white-color;
+$secondary-tint-contrast-color: $black-color;
+$secondary-light-contrast-color: $black-color;
+$secondary-pale-contrast-color: $black-color;
+
+$tertiary-color: #2AB4E7;
+$tertiary-dim-color: mix( $tertiary-color, #000000, 60% );
+$tertiary-dark-color: mix( $tertiary-color, #000000, 40% );
+$tertiary-shade-color: mix( $tertiary-color, #000000, 20% );
+$tertiary-tint-color: mix( $tertiary-color, #FFFFFF, 20% );
+$tertiary-light-color: mix( $tertiary-color, #FFFFFF, 40% );
+$tertiary-pale-color: mix( $tertiary-color, #FFFFFF, 60% );
+
+$tertiary-contrast-color: $black-color;
+$tertiary-dim-contrast-color: $white-color;
+$tertiary-dark-contrast-color: $white-color;
+$tertiary-shade-contrast-color: $white-color;
+$tertiary-tint-contrast-color: $black-color;
+$tertiary-light-contrast-color: $black-color;
+$tertiary-pale-contrast-color: $black-color;
+
+$accent-color: #2AB4E7;
+$accent-dim-color: mix( $accent-color, #000000, 60% );
+$accent-dark-color: mix( $accent-color, #000000, 40% );
+$accent-shade-color: mix( $accent-color, #000000, 20% );
+$accent-tint-color: mix( $accent-color, #FFFFFF, 20% );
+$accent-light-color: mix( $accent-color, #FFFFFF, 40% );
+$accent-pale-color: mix( $accent-color, #FFFFFF, 60% );
+
+$accent-contrast-color: $black-color;
+$accent-dim-contrast-color: $white-color;
+$accent-dark-contrast-color: $white-color;
+$accent-shade-contrast-color: $white-color;
+$accent-tint-contrast-color: $black-color;
+$accent-light-contrast-color: $black-color;
+$accent-pale-contrast-color: $black-color;
+
+$info-color: #3ABFF8;
+$info-dim-color: mix( $info-color, #000000, 60% );
+$info-dark-color: mix( $info-color, #000000, 40% );
+$info-shade-color: mix( $info-color, #000000, 20% );
+$info-tint-color: mix( $info-color, #FFFFFF, 20% );
+$info-light-color: mix( $info-color, #FFFFFF, 40% );
+$info-pale-color: mix( $info-color, #FFFFFF, 60% );
+
+$info-contrast-color: $black-color;
+$info-dim-contrast-color: $white-color;
+$info-dark-contrast-color: $white-color;
+$info-shade-contrast-color: $white-color;
+$info-tint-contrast-color: $black-color;
+$info-light-contrast-color: $black-color;
+$info-pale-contrast-color: $black-color;
+
+$success-color: #36D399;
+$success-dim-color: mix( $success-color, #000000, 60% );
+$success-dark-color: mix( $success-color, #000000, 40% );
+$success-shade-color: mix( $success-color, #000000, 20% );
+$success-tint-color: mix( $success-color, #FFFFFF, 20% );
+$success-light-color: mix( $success-color, #FFFFFF, 40% );
+$success-pale-color: mix( $success-color, #FFFFFF, 60% );
+
+$success-contrast-color: $black-color;
+$success-dim-contrast-color: $white-color;
+$success-dark-contrast-color: $white-color;
+$success-shade-contrast-color: $white-color;
+$success-tint-contrast-color: $black-color;
+$success-light-contrast-color: $black-color;
+$success-pale-contrast-color: $black-color;
+
+$warning-color: #FBBD23;
+$warning-dim-color: mix( $warning-color, #000000, 60% );
+$warning-dark-color: mix( $warning-color, #000000, 40% );
+$warning-shade-color: mix( $warning-color, #000000, 20% );
+$warning-tint-color: mix( $warning-color, #FFFFFF, 20% );
+$warning-light-color: mix( $warning-color, #FFFFFF, 40% );
+$warning-pale-color: mix( $warning-color, #FFFFFF, 60% );
+
+$warning-contrast-color: $black-color;
+$warning-dim-contrast-color: $white-color;
+$warning-dark-contrast-color: $white-color;
+$warning-shade-contrast-color: $white-color;
+$warning-tint-contrast-color: $black-color;
+$warning-light-contrast-color: $black-color;
+$warning-pale-contrast-color: $black-color;
+
+$error-color: #F87272;
+$error-dim-color: mix( $error-color, #000000, 60% );
+$error-dark-color: mix( $error-color, #000000, 40% );
+$error-shade-color: mix( $error-color, #000000, 20% );
+$error-tint-color: mix( $error-color, #FFFFFF, 20% );
+$error-light-color: mix( $error-color, #FFFFFF, 40% );
+$error-pale-color: mix( $error-color, #FFFFFF, 60% );
+
+$error-contrast-color: $black-color;
+$error-dim-contrast-color: $white-color;
+$error-dark-contrast-color: $white-color;
+$error-shade-contrast-color: $white-color;
+$error-tint-contrast-color: $black-color;
+$error-light-contrast-color: $black-color;
+$error-pale-contrast-color: $black-color;
+
+$link-color: #86B4F0;
+$link-hover-color: #A2C2EC;
+$table-border-color: #888888;
+
+$scrollbar-width: 0.4rem;
+$scrollbar-color: rgba( 255, 255, 255, 0.3 );
+$scrollbar-hover-color: rgba( 255, 255, 255, 0.2 );
+$scrollbar-background-color: rgba( 0, 0, 0, 0.1 );
+
+$tiny-button-font-size: 1rem;
+$small-button-font-size: 1rem;
+$button-font-size: 1rem;
+$large-button-font-size: 1rem;
+$big-button-font-size: 1rem;
+$huge-button-font-size: 1rem;
+
+$tiny-button-border-radius: 0.5rem;
+$small-button-border-radius: 0.5rem;
+$button-border-radius: 0.5rem;
+$large-button-border-radius: 0.5rem;
+$big-button-border-radius: 0.5rem;
+$huge-button-border-radius: 0.5rem;
+$pill-button-border-radius: 100vmax;
+
+$tiny-button-padding: 0.125rem 0.25rem;
+$small-button-padding: 0.25rem 0.5rem;
+$button-padding: 0.5rem 1rem;
+$large-button-padding: 1rem 2rem;
+$big-button-padding: 1.5rem 3rem;
+$huge-button-padding: 2rem 4rem;

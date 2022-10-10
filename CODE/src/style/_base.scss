@@ -1,0 +1,454 @@
+// -- ELEMENTS
+
+:root
+{
+    --primary-font-family: #{$primary-font-family};
+    --secondary-font-family: #{$secondary-font-family};
+    --tertiary-font-family: #{$tertiary-font-family};
+    --mono-font-family: #{$mono-font-family};
+
+    --gray-color: #{$gray-color};
+    --gray-dim-color: #{$gray-dim-color};
+    --gray-dark-color: #{$gray-dark-color};
+    --gray-shade-color: #{$gray-shade-color};
+    --gray-tint-color: #{$gray-tint-color};
+    --gray-light-color: #{$gray-light-color};
+    --gray-pale-color: #{$gray-pale-color};
+
+    --red-color: #{$red-color};
+    --red-dim-color: #{$red-dim-color};
+    --red-dark-color: #{$red-dark-color};
+    --red-shade-color: #{$red-shade-color};
+    --red-tint-color: #{$red-tint-color};
+    --red-light-color: #{$red-light-color};
+    --red-pale-color: #{$red-pale-color};
+
+    --green-color: #{$green-color};
+    --green-dim-color: #{$green-dim-color};
+    --green-dark-color: #{$green-dark-color};
+    --green-shade-color: #{$green-shade-color};
+    --green-tint-color: #{$green-tint-color};
+    --green-light-color: #{$green-light-color};
+    --green-pale-color: #{$green-pale-color};
+
+    --blue-color: #{$blue-color};
+    --blue-dim-color: #{$blue-dim-color};
+    --blue-dark-color: #{$blue-dark-color};
+    --blue-shade-color: #{$blue-shade-color};
+    --blue-tint-color: #{$blue-tint-color};
+    --blue-light-color: #{$blue-light-color};
+    --blue-pale-color: #{$blue-pale-color};
+
+    --base-color: #{$base-color};
+    --base-dim-color: #{$base-dim-color};
+    --base-dark-color: #{$base-dark-color};
+    --base-shade-color: #{$base-shade-color};
+    --base-tint-color: #{$base-tint-color};
+    --base-light-color: #{$base-light-color};
+    --base-pale-color: #{$base-pale-color};
+
+    --base-contrast-color: #{$base-contrast-color};
+    --base-dim-contrast-color: #{$base-dim-contrast-color};
+    --base-dark-contrast-color: #{$base-dark-contrast-color};
+    --base-shade-contrast-color: #{$base-shade-contrast-color};
+    --base-tint-contrast-color: #{$base-tint-contrast-color};
+    --base-light-contrast-color: #{$base-light-contrast-color};
+    --base-pale-contrast-color: #{$base-pale-contrast-color};
+
+    --neutral-color: #{$neutral-color};
+    --neutral-dim-color: #{$neutral-dim-color};
+    --neutral-shade-color: #{$neutral-dark-color};
+    --neutral-dark-color: #{$neutral-shade-color};
+    --neutral-light-color: #{$neutral-tint-color};
+    --neutral-tint-color: #{$neutral-light-color};
+    --neutral-pale-color: #{$neutral-pale-color};
+
+    --neutral-contrast-color: #{$neutral-contrast-color};
+    --neutral-dim-contrast-color: #{$neutral-dim-contrast-color};
+    --neutral-dark-contrast-color: #{$neutral-dark-contrast-color};
+    --neutral-shade-contrast-color: #{$neutral-shade-contrast-color};
+    --neutral-tint-contrast-color: #{$neutral-tint-contrast-color};
+    --neutral-light-contrast-color: #{$neutral-light-contrast-color};
+    --neutral-pale-contrast-color: #{$neutral-pale-contrast-color};
+
+    --primary-color: #{$primary-color};
+    --primary-dim-color: #{$primary-dim-color};
+    --primary-dark-color: #{$primary-dark-color};
+    --primary-shade-color: #{$primary-shade-color};
+    --primary-tint-color: #{$primary-tint-color};
+    --primary-light-color: #{$primary-light-color};
+    --primary-pale-color: #{$primary-pale-color};
+
+    --primary-contrast-color: #{$primary-contrast-color};
+    --primary-dim-contrast-color: #{$primary-dim-contrast-color};
+    --primary-dark-contrast-color: #{$primary-dark-contrast-color};
+    --primary-shade-contrast-color: #{$primary-shade-contrast-color};
+    --primary-tint-contrast-color: #{$primary-tint-contrast-color};
+    --primary-light-contrast-color: #{$primary-light-contrast-color};
+    --primary-pale-contrast-color: #{$primary-pale-contrast-color};
+
+    --secondary-color: #{$secondary-color};
+    --secondary-dim-color: #{$secondary-dim-color};
+    --secondary-dark-color: #{$secondary-dark-color};
+    --secondary-shade-color: #{$secondary-shade-color};
+    --secondary-tint-color: #{$secondary-tint-color};
+    --secondary-light-color: #{$secondary-light-color};
+    --secondary-pale-color: #{$secondary-pale-color};
+
+    --secondary-contrast-color: #{$secondary-contrast-color};
+    --secondary-dim-contrast-color: #{$secondary-dim-contrast-color};
+    --secondary-dark-contrast-color: #{$secondary-dark-contrast-color};
+    --secondary-shade-contrast-color: #{$secondary-shade-contrast-color};
+    --secondary-tint-contrast-color: #{$secondary-tint-contrast-color};
+    --secondary-light-contrast-color: #{$secondary-light-contrast-color};
+    --secondary-pale-contrast-color: #{$secondary-pale-contrast-color};
+
+    --tertiary-color: #{$tertiary-color};
+    --tertiary-dim-color: #{$tertiary-dim-color};
+    --tertiary-dark-color: #{$tertiary-dark-color};
+    --tertiary-shade-color: #{$tertiary-shade-color};
+    --tertiary-tint-color: #{$tertiary-tint-color};
+    --tertiary-light-color: #{$tertiary-light-color};
+    --tertiary-pale-color: #{$tertiary-pale-color};
+
+    --tertiary-contrast-color: #{$tertiary-contrast-color};
+    --tertiary-dim-contrast-color: #{$tertiary-dim-contrast-color};
+    --tertiary-dark-contrast-color: #{$tertiary-dark-contrast-color};
+    --tertiary-shade-contrast-color: #{$tertiary-shade-contrast-color};
+    --tertiary-tint-contrast-color: #{$tertiary-tint-contrast-color};
+    --tertiary-light-contrast-color: #{$tertiary-light-contrast-color};
+    --tertiary-pale-contrast-color: #{$tertiary-pale-contrast-color};
+
+    --accent-color: #{$accent-color};
+    --accent-dim-color: #{$accent-dim-color};
+    --accent-dark-color: #{$accent-dark-color};
+    --accent-shade-color: #{$accent-shade-color};
+    --accent-tint-color: #{$accent-tint-color};
+    --accent-light-color: #{$accent-light-color};
+    --accent-pale-color: #{$accent-pale-color};
+
+    --accent-contrast-color: #{$accent-contrast-color};
+    --accent-dim-contrast-color: #{$accent-dim-contrast-color};
+    --accent-dark-contrast-color: #{$accent-dark-contrast-color};
+    --accent-shade-contrast-color: #{$accent-shade-contrast-color};
+    --accent-tint-contrast-color: #{$accent-tint-contrast-color};
+    --accent-light-contrast-color: #{$accent-light-contrast-color};
+    --accent-pale-contrast-color: #{$accent-pale-contrast-color};
+
+    --info-color: #{$info-color};
+    --info-dim-color: #{$info-dim-color};
+    --info-dark-color: #{$info-dark-color};
+    --info-shade-color: #{$info-shade-color};
+    --info-tint-color: #{$info-tint-color};
+    --info-light-color: #{$info-light-color};
+    --info-pale-color: #{$info-pale-color};
+
+    --info-contrast-color: #{$info-contrast-color};
+    --info-dim-contrast-color: #{$info-dim-contrast-color};
+    --info-dark-contrast-color: #{$info-dark-contrast-color};
+    --info-shade-contrast-color: #{$info-shade-contrast-color};
+    --info-tint-contrast-color: #{$info-tint-contrast-color};
+    --info-light-contrast-color: #{$info-light-contrast-color};
+    --info-pale-contrast-color: #{$info-pale-contrast-color};
+
+    --success-color : #{$success-color};
+    --success-dim-color : #{$success-dim-color};
+    --success-dark-color : #{$success-dark-color};
+    --success-shade-color : #{$success-shade-color};
+    --success-tint-color : #{$success-tint-color};
+    --success-light-color : #{$success-light-color};
+    --success-pale-color : #{$success-pale-color};
+
+    --success-contrast-color: #{$success-contrast-color};
+    --success-dim-contrast-color: #{$success-dim-contrast-color};
+    --success-dark-contrast-color: #{$success-dark-contrast-color};
+    --success-shade-contrast-color: #{$success-shade-contrast-color};
+    --success-tint-contrast-color: #{$success-tint-contrast-color};
+    --success-light-contrast-color: #{$success-light-contrast-color};
+    --success-pale-contrast-color: #{$success-pale-contrast-color};
+
+    --warning-color: #{$warning-color};
+    --warning-dim-color: #{$warning-dim-color};
+    --warning-dark-color: #{$warning-dark-color};
+    --warning-shade-color: #{$warning-shade-color};
+    --warning-tint-color: #{$warning-tint-color};
+    --warning-light-color: #{$warning-light-color};
+    --warning-pale-color: #{$warning-pale-color};
+
+    --warning-contrast-color: #{$warning-contrast-color};
+    --warning-dim-contrast-color: #{$warning-dim-contrast-color};
+    --warning-dark-contrast-color: #{$warning-dark-contrast-color};
+    --warning-shade-contrast-color: #{$warning-shade-contrast-color};
+    --warning-tint-contrast-color: #{$warning-tint-contrast-color};
+    --warning-light-contrast-color: #{$warning-light-contrast-color};
+    --warning-pale-contrast-color: #{$warning-pale-contrast-color};
+
+    --error-color: #{$error-color};
+    --error-dim-color: #{$error-dim-color};
+    --error-dark-color: #{$error-dark-color};
+    --error-shade-color: #{$error-shade-color};
+    --error-tint-color: #{$error-tint-color};
+    --error-light-color: #{$error-light-color};
+    --error-pale-color: #{$error-pale-color};
+
+    --error-contrast-color: #{$error-contrast-color};
+    --error-dim-contrast-color: #{$error-dim-contrast-color};
+    --error-dark-contrast-color: #{$error-dark-contrast-color};
+    --error-shade-contrast-color: #{$error-shade-contrast-color};
+    --error-tint-contrast-color: #{$error-tint-contrast-color};
+    --error-light-contrast-color: #{$error-light-contrast-color};
+    --error-pale-contrast-color: #{$error-pale-contrast-color};
+
+    --tiny-button-border-radius: #{$tiny-button-border-radius};
+    --small-button-border-radius: #{$small-button-border-radius};
+    --button-border-radius: #{$button-border-radius};
+    --large-button-border-radius: #{$large-button-border-radius};
+    --big-button-border-radius: #{$big-button-border-radius};
+    --huge-button-border-radius: #{$huge-button-border-radius};
+    --pill-button-border-radius: #{$pill-button-border-radius};
+
+    --tiny-button-padding: #{$tiny-button-padding};
+    --small-button-padding: #{$small-button-padding};
+    --button-padding: #{$button-padding};
+    --large-button-padding: #{$large-button-padding};
+    --big-button-padding: #{$big-button-padding};
+    --huge-button-padding: #{$huge-button-padding};
+}
+
+html
+{
+    height: 100%;
+    min-height: 100%;
+
+    font-size: 1rem;
+
+    @media ( min-width: 90em )
+    {
+        font-size: 1.1rem;
+    }
+
+    @media ( min-width: 100em )
+    {
+        font-size: 1.2rem;
+    }
+
+    @media ( min-width: 110em )
+    {
+        font-size: 1.3rem;
+    }
+
+    @media ( min-width: 120em )
+    {
+        font-size: 1.4rem;
+    }
+}
+
+body
+{
+    height: 100%;
+    min-height: 100%;
+
+    background-color: $white-color;
+}
+
+body,
+button,
+input,
+textarea
+{
+    font-family: $primary-font-family;
+}
+
+sup
+{
+    position: relative;
+    top: -0.7em;
+
+    font-size: 0.5em;
+    vertical-align: baseline;
+}
+
+table
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+}
+
+table tr:first-child
+{
+    font-weight: 700;
+    text-align: center;
+}
+
+td
+{
+    border: 1px solid $table-border-color;
+    padding: 0.5rem;
+}
+
+a,
+a:link,
+a:visited
+{
+    color: $link-color;
+}
+
+a:active,
+a:hover
+{
+    color: $link-hover-color;
+}
+
+html,
+body,
+body *,
+button,
+input,
+textarea
+{
+    scrollbar-width: thin;
+    scrollbar-color: $scrollbar-color $scrollbar-background-color;
+}
+
+::-webkit-scrollbar
+{
+    height: $scrollbar-width;
+    width: $scrollbar-width;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: $scrollbar-color;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+    background: $scrollbar-hover-color;
+}
+
+::-webkit-scrollbar-track
+{
+    background: $scrollbar-background-color;
+}
+
+// -- CLASSES
+
+.is-hidden
+{
+    display: none !important;
+}
+
+.button
+{
+    cursor: pointer;
+}
+
+.link-button
+{
+    color: $link-color;
+
+    cursor: pointer;
+}
+
+.link-button:hover
+{
+    color: $link-hover-color;
+}
+
+.paragraph
+{
+    min-height: 1em;
+}
+
+.paragraph + .paragraph
+{
+    margin-top: 0.8em;
+}
+
+.linebreak
+{
+    margin-bottom: 0.8em;
+}
+
+.title-1
+{
+    font-size: 2rem;
+}
+
+.title-2
+{
+    font-size: 1.75rem;
+}
+
+.title-3
+{
+    font-size: 1.5rem;
+}
+
+.title-4
+{
+    font-size: 1.25rem;
+}
+
+.dash-1
+{
+    margin-left: 1em;
+}
+
+.dash-2
+{
+    margin-left: 2em;
+}
+
+.dash-3
+{
+    margin-left: 3em;
+}
+
+.dash-4
+{
+    margin-left: 4em;
+}
+
+.dash-1::before,
+.dash-2::before,
+.dash-3::before,
+.dash-4::before
+{
+    position: absolute;
+    transform: translateX( -0.9em );
+
+    content: "-";
+}
+
+.bullet-1
+{
+    margin-left: 1em;
+}
+
+.bullet-2
+{
+    margin-left: 2em;
+}
+
+.bullet-3
+{
+    margin-left: 3em;
+}
+
+.bullet-4
+{
+    margin-left: 4em;
+}
+
+.bullet-1::before,
+.bullet-2::before,
+.bullet-3::before,
+.bullet-4::before
+{
+    position: absolute;
+    transform: translateX( -0.9em );
+
+    content: "\2022";
+}

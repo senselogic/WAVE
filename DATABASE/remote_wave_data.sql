@@ -182,40 +182,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "vzSvHcyqpWXbw6_ygHQY_w",
-        "oLwxHA74T1Pduisj0OnQ5w",
-        "Completed",
-        "Bellum se tencteros drappes una aut fuerint magistratum cohortibus.",
-        "2005-09-23 04:37:31",
-        "2013-09-21 13:13:10"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
-    )
-    values
-    (
-        "xeOvaW1bcsWUiPxNwYVi7A",
-        "c3d_1Kj_y8L2DTgsdIP9gA",
-        "Completed",
-        "Per legatum minoribus milia bene.",
-        "2000-09-13 12:23:24",
-        "2011-06-13 03:04:20"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
-    )
-    values
-    (
-        "9q52Zl2nodl3Nevo2zY6QA",
-        "oLwxHA74T1Pduisj0OnQ5w",
+        "3_v2t9krZvYPIs7-d7aVRw",
+        "rqpKp7g858MBziiM5yPNLQ",
         "InProgress",
-        "Oblata profugiunt inter civitatis caede communi superioribus iis extortis.",
-        "2002-11-09 21:48:07",
-        "2002-05-20 13:27:04"
+        "Ibi legionibus ignorari iubet factis pars sese provinciam.",
+        "2011-04-13 22:13:15",
+        "2004-01-13 03:54:34"
     );
 
 replace into `wave`.`TASK`
@@ -224,12 +196,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "yGyqUZZxE8faovJrWJyV6w",
-        "oLwxHA74T1Pduisj0OnQ5w",
+        "JI-kquJlvwE1lnEbTxzXnQ",
+        "ZfrGQBptSpZSGPxuVZ2oXg",
         "Completed",
-        "Cum occulto adfixaeque membris sed persuadet magnis perterriti.",
-        "2000-09-04 17:39:48",
-        "2005-08-27 22:11:49"
+        "In qui invento quibus navi species etiam.",
+        "2004-02-20 15:08:02",
+        "2009-10-14 07:42:11"
     );
 
 replace into `wave`.`TASK`
@@ -238,12 +210,54 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "O684voqy2fICEUq_MB32bw",
+        "w2Eyo5RikHELZT5Q01QKEA",
+        "OenHmlptVGolj9PJ9aXpvg",
+        "InProgress",
+        "Agere exercitum proelio communicat mittit castra.",
+        "2015-03-05 14:51:18",
+        "2013-11-27 23:06:53"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "JLljSSCRflLIYYGwPocqnQ",
+        "OenHmlptVGolj9PJ9aXpvg",
+        "InProgress",
+        "In pellium illud seu caesaris.",
+        "2000-08-08 04:12:30",
+        "2002-01-18 16:44:51"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "AyWmnxcTNkJewztIyDSZjw",
+        "OenHmlptVGolj9PJ9aXpvg",
+        "Planned",
+        "Flumen praestare cognosceret admodum civitatis discessu.",
+        "2007-08-24 05:34:43",
+        "2013-02-09 03:20:40"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "PXqqTOuLt7wa42S1-K3KOQ",
         "WDK3IgMbWJ8jTiYm0UQp1w",
         "InProgress",
-        "Principem pristini legiones atque hostem trans possit.",
-        "2002-08-15 20:07:00",
-        "2007-10-08 22:01:42"
+        "Facultas in se ad de passuum et dubitantes temere demigrare.",
+        "2005-12-22 05:22:07",
+        "2012-06-25 22:18:57"
     );
 
 replace into `wave`.`TASK`
@@ -252,12 +266,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "dWoDNMmDYq2o8TjfYmZXpQ",
-        "gnKajwqtLODDhjYYropyRQ",
+        "lEW-qd5oE9iHuZlJAnes5A",
+        "OenHmlptVGolj9PJ9aXpvg",
         "InProgress",
-        "Cognita correus praesidia sequuntur arvernus uxoribus est quam.",
-        "2007-05-01 23:10:04",
-        "2015-12-08 03:21:06"
+        "Existimarent neque romanis amiserat quem.",
+        "2005-02-14 16:16:43",
+        "2005-07-23 05:02:48"
     );
 
 replace into `wave`.`TASK`
@@ -266,12 +280,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "bK5gzJ5U48ZKGCbEo3Hgpw",
+        "D138aXWK8loNq3duCP2VzA",
         "sHQRMWr5xSIH6LJkYp5g8A",
-        "InProgress",
-        "Suum quod multitudini sed suae percucurrisset.",
-        "2008-10-25 01:04:22",
-        "2007-02-14 17:23:57"
+        "Completed",
+        "Occasionem qui equestri gratias in multitudine militaribus et quo.",
+        "2005-08-16 00:10:08",
+        "2008-03-07 06:31:59"
     );
 
 replace into `wave`.`TASK`
@@ -280,40 +294,26 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "jTzsWmXRfnBw9_OA8OCWJg",
+        "d8a8xmbXbQeI66wwYjCgOw",
+        "sHQRMWr5xSIH6LJkYp5g8A",
+        "Planned",
+        "Quo reverterentur res quod rem fines et ad posset periculo.",
+        "2015-06-27 14:18:46",
+        "2007-02-09 04:19:17"
+    );
+
+replace into `wave`.`TASK`
+    (
+        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
+    )
+    values
+    (
+        "76483rTy-3UUscp4w8Nfdg",
         "WDK3IgMbWJ8jTiYm0UQp1w",
-        "InProgress",
-        "Eius belli legionibus suo consequitur aquitania esset provinciam cum equitibus.",
-        "2011-10-27 15:52:23",
-        "2011-01-23 05:33:50"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
-    )
-    values
-    (
-        "D2v26NGieg0aGSRsFY-L9w",
-        "WDK3IgMbWJ8jTiYm0UQp1w",
-        "InProgress",
-        "Vix nobiscum velint impulsi et excitarent celeritate parcat defensorum.",
-        "2012-11-05 00:43:19",
-        "2012-03-12 03:16:26"
-    );
-
-replace into `wave`.`TASK`
-    (
-        `id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`
-    )
-    values
-    (
-        "MdlvWHaVb6G0T-hXEAZyDA",
-        "oLwxHA74T1Pduisj0OnQ5w",
-        "InProgress",
-        "Prohibebantur vicosque commode non se.",
-        "2008-06-05 07:18:28",
-        "2000-07-01 12:47:38"
+        "Planned",
+        "Latos ad admodum munitionum casu discesserant.",
+        "2005-11-28 01:04:27",
+        "2006-06-22 17:01:02"
     );
 
 replace into `wave`.`USER`
@@ -325,7 +325,7 @@ replace into `wave`.`USER`
         "sHQRMWr5xSIH6LJkYp5g8A",
         "peter.parker@comics.com",
         "xyz",
-        "[\"bK5gzJ5U48ZKGCbEo3Hgpw\"]"
+        "[\"D138aXWK8loNq3duCP2VzA\",\"d8a8xmbXbQeI66wwYjCgOw\"]"
     );
 
 replace into `wave`.`USER`
@@ -337,7 +337,7 @@ replace into `wave`.`USER`
         "WDK3IgMbWJ8jTiYm0UQp1w",
         "bruce.banner@comics.com",
         "xyz",
-        "[\"O684voqy2fICEUq_MB32bw\",\"jTzsWmXRfnBw9_OA8OCWJg\",\"D2v26NGieg0aGSRsFY-L9w\"]"
+        "[\"PXqqTOuLt7wa42S1-K3KOQ\",\"76483rTy-3UUscp4w8Nfdg\"]"
     );
 
 replace into `wave`.`USER`
@@ -346,10 +346,10 @@ replace into `wave`.`USER`
     )
     values
     (
-        "oLwxHA74T1Pduisj0OnQ5w",
-        "marietta.stjohn@outlook.com",
-        "ornbu3/tJ",
-        "[\"vzSvHcyqpWXbw6_ygHQY_w\",\"9q52Zl2nodl3Nevo2zY6QA\",\"yGyqUZZxE8faovJrWJyV6w\",\"MdlvWHaVb6G0T-hXEAZyDA\"]"
+        "ZfrGQBptSpZSGPxuVZ2oXg",
+        "jimson.hulme@mail.com",
+        "anab^3Fad",
+        "[\"JI-kquJlvwE1lnEbTxzXnQ\"]"
     );
 
 replace into `wave`.`USER`
@@ -358,10 +358,10 @@ replace into `wave`.`USER`
     )
     values
     (
-        "gnKajwqtLODDhjYYropyRQ",
-        "charlotta.madhavan@mail.com",
-        "bays5eppIo^",
-        "[\"dWoDNMmDYq2o8TjfYmZXpQ\"]"
+        "OenHmlptVGolj9PJ9aXpvg",
+        "cass.larocque@yahoo.com",
+        ".wicPu9",
+        "[\"w2Eyo5RikHELZT5Q01QKEA\",\"JLljSSCRflLIYYGwPocqnQ\",\"AyWmnxcTNkJewztIyDSZjw\",\"lEW-qd5oE9iHuZlJAnes5A\"]"
     );
 
 replace into `wave`.`USER`
@@ -370,8 +370,8 @@ replace into `wave`.`USER`
     )
     values
     (
-        "c3d_1Kj_y8L2DTgsdIP9gA",
-        "art.bobar@hotmail.com",
-        "thad*Wal1",
-        "[\"xeOvaW1bcsWUiPxNwYVi7A\"]"
+        "rqpKp7g858MBziiM5yPNLQ",
+        "barby.isip@live.com",
+        "Sg*u4raru",
+        "[\"3_v2t9krZvYPIs7-d7aVRw\"]"
     );
