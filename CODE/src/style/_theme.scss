@@ -1,0 +1,20 @@
+.date-picker
+{
+    text-transform: uppercase;
+}
+
+.calendar
+{
+    background: #E2E2FF !important;
+    box-shadow: none !important;
+}
+
+.calendar .day.selected > .btn
+{
+    background-color: #DD00A9 !important;
+}
+
+.calendar .day.today > .btn
+{
+    color: #008000 !important;
+}
