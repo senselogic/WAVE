@@ -1,10 +1,10 @@
 import { Database } from 'senselogic-eureka';
 
-let databaseHost = process.env.MYSQLHOST ?? 'localhost';
-let databasePort = process.env.MYSQLPORT ?? 3306;
-let databaseUser = process.env.MYSQLUSER ?? 'root';
-let databasePassword = process.env.MYSQLPASSWORD ?? '';
-let databaseName = process.env.MYSQLDATABASE ?? 'wave';
+const databaseHost = process.env.MYSQLHOST ?? 'localhost';
+const databasePort = process.env.MYSQLPORT ?? 3306;
+const databaseUser = process.env.MYSQLUSER ?? 'root';
+const databasePassword = process.env.MYSQLPASSWORD ?? '';
+const databaseName = process.env.MYSQLDATABASE ?? 'wave';
 
 export const database = new Database( databaseName );
 
