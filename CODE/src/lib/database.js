@@ -1,6 +1,12 @@
 import { Database } from 'senselogic-eureka';
 
-export const database = new Database( 'wave' );
+let databaseHost = process.env.MYSQLHOST ?? 'localhost';
+let databasePort = process.env.MYSQLPORT ?? 3306;
+let databaseUser = process.env.MYSQLUSER ?? 'root';
+let databasePassword = process.env.MYSQLPASSWORD ?? '';
+let databaseName = process.env.MYSQLDATABASE ?? 'wave';
+
+export const database = new Database( databaseName );
 
 export const languageTable
     = database.addTable(
@@ -57,4 +63,12 @@ export const userTable
           ]
           );
 
-await database.connect( 'localhost', 'root', '', 'mysql' );
+await database.connect(
+    {
+        host: databaseHost,
+        port: databasePort,
+        user: databaseUser,
+        password: databasePassword,
+        driver: 'mysql2'
+    }
+    );
