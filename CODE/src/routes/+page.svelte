@@ -3,10 +3,11 @@
 
     .translated-text
     {
-        display: inline-block;
         border: solid 1px #CCCCCC;
         border-radius: 0.5rem;
         padding: $padding;
+
+        display: inline-block;
     }
 </style>
 

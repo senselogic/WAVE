@@ -191,6 +191,8 @@ a,
 a:link,
 a:visited
 {
+    display: inline-block;
+
     color: $link-color;
 }
 
