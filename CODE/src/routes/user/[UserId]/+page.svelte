@@ -5,20 +5,24 @@
 </script>
 
 {#each data.taskArray as task}
-    <Button outline>
+    <div>
         <a href="/task/{data.userId}/{task.id}">
-            <span style="color: var( --base-contrast-color )">{task.title}</span>
+            <Button outline>
+                <span style="color: var( --base-contrast-color )">{task.title}</span>
+                &nbsp;(
+                <span style="color: var( --info-color )">{task.statusCode}</span>
+                )
+            </Button>
         </a>
-        &nbsp;(
-        <span style="color: var( --info-color )">{task.statusCode}</span>
-        )
-    </Button>
+    </div>
 {/each}
 
-<Button outline>
+<div>
     <a href="/">
-        <span class="flow-info-button">
-            Back
-        </span>
+        <Button outline>
+            <span class="flow-info-button">
+                Back
+            </span>
+        </Button>
     </a>
-</Button>
+</div>

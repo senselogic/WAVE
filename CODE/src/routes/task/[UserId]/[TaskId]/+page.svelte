@@ -10,10 +10,12 @@
     <span style="color: var( --info-color )">{data.task.statusCode}</span>
 </div>
 
-<Button outline>
+<div>
     <a href="/user/{data.userId}">
-        <span class="flow-info-button">
-            Back
-        </span>
+        <Button outline>
+            <span class="flow-info-button">
+                Back
+            </span>
+        </Button>
     </a>
-</Button>
+</div>

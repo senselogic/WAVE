@@ -3,6 +3,7 @@
 
     .translated-text
     {
+        display: inline-block;
         border: solid 1px #CCCCCC;
         border-radius: 0.5rem;
         padding: $padding;
@@ -36,19 +37,23 @@
 </script>
 
 {#each data.textArray as text}
-    <div class="translated-text">
-        <span style="color: var( --base-contrast-color )">{text.code}</span>
-        :
-        <span style="color: var( --info-color )">{getTranslatedText( text.text )}</span>
+    <div>
+        <span class="translated-text">
+            <span style="color: var( --base-contrast-color )">{text.code}</span>
+            :
+            <span style="color: var( --info-color )">{getTranslatedText( text.text )}</span>
+        </span>
     </div>
 {/each}
 
 {#each data.userArray as user}
-    <Button outline>
+    <div>
         <a href="/user/{user.id}">
-            <span style="color: var( --base-contrast-color )">{user.email}</span>
+            <Button outline>
+                <span style="color: var( --base-contrast-color )">{user.email}</span>
+            </Button>
         </a>
-    </Button>
+    </div>
 {/each}
 
 <Dialog>
