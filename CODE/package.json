@@ -30,7 +30,7 @@
     "type": "module",
     "dependencies": {
         "mysql2": "^2.3.3",
-        "senselogic-eureka": "^0.1.19",
+        "senselogic-eureka": "^0.1.21",
         "senselogic-gist": "^0.1.21"
     }
 }
