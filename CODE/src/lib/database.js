@@ -64,7 +64,7 @@ export const userTable
           ]
           );
 
-await database.createConnectionPool(
+await database.createConnection(
     {
         driver: databaseDriver,
         host: databaseHost,
