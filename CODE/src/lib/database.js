@@ -1,13 +1,7 @@
 import { Database } from 'senselogic-eureka';
+import { Mysql2Driver } from 'senselogic-eureka-mysql2';
 
-const databaseDriver = 'mysql2';
-const databaseName = process.env.MYSQLDATABASE ?? 'wave';
-const databaseHost = process.env.MYSQLHOST ?? 'localhost';
-const databasePort = process.env.MYSQLPORT ?? 3306;
-const databaseUser = process.env.MYSQLUSER ?? 'root';
-const databasePassword = process.env.MYSQLPASSWORD ?? '';
-
-export const database = new Database( databaseName );
+export const database = new Database( process.env.MYSQLDATABASE ?? 'wave' );
 
 export const languageTable
     = database.addTable(
@@ -64,12 +58,13 @@ export const userTable
           ]
           );
 
+database.setDriver( new Mysql2Driver() );
+
 await database.createConnection(
     {
-        driver: databaseDriver,
-        host: databaseHost,
-        port: databasePort,
-        user: databaseUser,
-        password: databasePassword
+        host: process.env.MYSQLHOST ?? 'localhost',
+        port: process.env.MYSQLPORT ?? 3306,
+        user: process.env.MYSQLUSER ?? 'root',
+        password: process.env.MYSQLPASSWORD ?? ''
     }
     );
