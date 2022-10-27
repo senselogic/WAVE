@@ -35,6 +35,6 @@
         "mysql2": "^2.3.3",
         "senselogic-eureka": "^0.1.30",
         "senselogic-eureka-mysql2": "^0.1.1",
-        "senselogic-gist": "^0.1.21"
+        "senselogic-gist": "^0.1.23"
     }
 }
