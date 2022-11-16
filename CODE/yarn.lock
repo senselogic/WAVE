@@ -1636,10 +1636,15 @@ senselogic-eureka@^0.1.30:
   dependencies:
     senselogic-gist "^0.1.0"
 
-senselogic-gist@^0.1.0, senselogic-gist@^0.1.23:
+senselogic-gist@^0.1.0:
   version "0.1.23"
   resolved "https://registry.yarnpkg.com/senselogic-gist/-/senselogic-gist-0.1.23.tgz#fe6dd37e4a0c580aff20cde76eba1baca31fbc56"
   integrity sha512-XBNAiaNmGNu9BPj3xOaN4Jv1tSQmEsehvmvaGxXKi/w6S6QQMwByMZDzcSV1v3VZxdtc485fcKc5EFclJoWg+Q==
+
+senselogic-gist@^0.1.24:
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/senselogic-gist/-/senselogic-gist-0.1.24.tgz#0e831ec044923f2dd379c088077b5dfad86ee888"
+  integrity sha512-yRSU9Kh8Ez8IPo8iAuFZGLTRs7Qzhz48W2dLsACG1RaHceRRB6B3zTrm8MRzVwMUHNWPB5SkFQ9Rs4RxETrDiQ==
 
 seq-queue@^0.0.5:
   version "0.0.5"

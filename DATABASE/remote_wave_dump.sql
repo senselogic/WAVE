@@ -6,8 +6,8 @@ CREATE TABLE `LANGUAGE` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `LANGUAGE` (`id`, `code`, `text`, `number`) VALUES
-('eEY6OEpapPrV-nPi9Qbs_A', 'en', '{\'en\':\'English\',\'fr\':\'Anglais\'}', 1),
-('rSJfcHgCuhGMIphxht046A', 'fr', '{\'en\':\'French\',\'fr\':\'Français\'}', 2);
+('ugpt3ZTHNpijZY-SrCIvig', 'en', '{\'en\':\'English\',\'fr\':\'Anglais\'}', 1),
+('ZOEqtqoNTHRzKG1DtqNfyA', 'fr', '{\'en\':\'French\',\'fr\':\'Français\'}', 2);
 
 CREATE TABLE `TASK` (
   `id` VARCHAR(22) NOT NULL, 
@@ -19,16 +19,16 @@ CREATE TABLE `TASK` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `TASK` (`id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`) VALUES
-('3_v2t9krZvYPIs7-d7aVRw', 'rqpKp7g858MBziiM5yPNLQ', 'InProgress', 'Ibi legionibus ignorari iubet factis pars sese provinciam.', '2011-04-13 22:13:15', '2004-01-13 03:54:34'),
-('JI-kquJlvwE1lnEbTxzXnQ', 'ZfrGQBptSpZSGPxuVZ2oXg', 'Completed', 'In qui invento quibus navi species etiam.', '2004-02-20 15:08:02', '2009-10-14 07:42:11'),
-('w2Eyo5RikHELZT5Q01QKEA', 'OenHmlptVGolj9PJ9aXpvg', 'InProgress', 'Agere exercitum proelio communicat mittit castra.', '2015-03-05 14:51:18', '2013-11-27 23:06:53'),
-('JLljSSCRflLIYYGwPocqnQ', 'OenHmlptVGolj9PJ9aXpvg', 'InProgress', 'In pellium illud seu caesaris.', '2000-08-08 04:12:30', '2002-01-18 16:44:51'),
-('AyWmnxcTNkJewztIyDSZjw', 'OenHmlptVGolj9PJ9aXpvg', 'Planned', 'Flumen praestare cognosceret admodum civitatis discessu.', '2007-08-24 05:34:43', '2013-02-09 03:20:40'),
-('PXqqTOuLt7wa42S1-K3KOQ', 'WDK3IgMbWJ8jTiYm0UQp1w', 'InProgress', 'Facultas in se ad de passuum et dubitantes temere demigrare.', '2005-12-22 05:22:07', '2012-06-25 22:18:57'),
-('lEW-qd5oE9iHuZlJAnes5A', 'OenHmlptVGolj9PJ9aXpvg', 'InProgress', 'Existimarent neque romanis amiserat quem.', '2005-02-14 16:16:43', '2005-07-23 05:02:48'),
-('D138aXWK8loNq3duCP2VzA', 'sHQRMWr5xSIH6LJkYp5g8A', 'Completed', 'Occasionem qui equestri gratias in multitudine militaribus et quo.', '2005-08-16 00:10:08', '2008-03-07 06:31:59'),
-('d8a8xmbXbQeI66wwYjCgOw', 'sHQRMWr5xSIH6LJkYp5g8A', 'Planned', 'Quo reverterentur res quod rem fines et ad posset periculo.', '2015-06-27 14:18:46', '2007-02-09 04:19:17'),
-('76483rTy-3UUscp4w8Nfdg', 'WDK3IgMbWJ8jTiYm0UQp1w', 'Planned', 'Latos ad admodum munitionum casu discesserant.', '2005-11-28 01:04:27', '2006-06-22 17:01:02');
+('cjyxUpVvk6deboNuBRiK9Q', 'O2z9ZAi8Jf_c6zhnEpLHDQ', 'completed', 'Ac animo afuisse ubi milia perrumpere faciendum praesidio convellere praefectos.', '2015-04-04 20:58:42', '2005-05-05 19:29:22'),
+('jAUbMpjKMLQ5D1RsprMmog', '83siNfiOKXVik-hYBZbuAg', 'in-progress', 'Onera perferendam exposuit populi legionariis messala.', '2013-06-23 16:27:41', '2015-12-09 21:56:02'),
+('LqpGn7jUUAbG5ibf2rfk0A', 'R22qomlxv_0q_AC0qHl7MQ', 'completed', 'Munierant quibus bellum et hos.', '2010-12-20 22:56:05', '2013-10-25 04:21:50'),
+('v3VjkpIyZX2ZccFDKIxUyA', 'f7v707ElVRxNsu_8_1iJpg', 'in-progress', 'Loco legio habeant decernunt parte cum munitionesque.', '2001-02-12 19:10:41', '2000-08-04 20:46:49'),
+('JrzK8TGq6aJLCSvvuAEW6Q', 'f7v707ElVRxNsu_8_1iJpg', 'planned', 'Ex legiones prope ne in ipsos.', '2006-04-22 22:23:41', '2011-12-27 22:25:42'),
+('IKcEzeCOwRH_9lSoG0poxg', 'f7v707ElVRxNsu_8_1iJpg', 'planned', 'Proxime se priusquam exercitum alia ut re vergit esse decreverat.', '2005-08-21 20:51:49', '2013-04-06 11:48:20'),
+('6fZtPwTqsGYtPaYWIgkJ2w', '83siNfiOKXVik-hYBZbuAg', 'in-progress', 'Provinciam perturbatis secundo signis sex fierent longe castra uno.', '2003-07-24 01:58:57', '2008-12-11 15:34:31'),
+('d2p_E-6LwBNPPFXHf7ZWwg', 'O2z9ZAi8Jf_c6zhnEpLHDQ', 'completed', 'Summum extremis iniuria perterriti liceret.', '2010-04-17 07:14:24', '2013-11-02 23:24:55'),
+('RtdyiRkbcEMyY2zu7NTgOg', 'O2z9ZAi8Jf_c6zhnEpLHDQ', 'completed', 'Occisis eos ut nam usus maturrime animo interfecerunt.', '2007-11-04 05:57:33', '2002-06-26 07:42:37'),
+('0DLoQpuJT9UCtjZRYc7WkA', '83siNfiOKXVik-hYBZbuAg', 'planned', 'A progredi persuasum apud haeduorum eorum.', '2006-07-16 11:24:27', '2013-04-11 05:05:40');
 
 CREATE TABLE `TASK_STATUS` (
   `id` VARCHAR(22) NOT NULL, 
@@ -37,9 +37,9 @@ CREATE TABLE `TASK_STATUS` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `TASK_STATUS` (`id`, `code`, `text`) VALUES
-('Tclunh12sqcWkg-kHBYw-g', 'Planned', '{\'en\':\'Planned\',\'fr\':\'Prévu\'}'),
-('EthowYyym_WPArUEvpAz_Q', 'InProgress', '{\'en\':\'In progress\',\'fr\':\'En cours\'}'),
-('B8pQUOaXOSye1H5kU_FFPw', 'Completed', '{\'en\':\'Completed\',\'fr\':\'Terminé\'}');
+('OP0EkYrIb-xCgkmloYGtjg', 'planned', '{\'en\':\'Planned\',\'fr\':\'Prévu\'}'),
+('fsIrTGB_sWhTve7UNzo6wg', 'in-progress', '{\'en\':\'In progress\',\'fr\':\'En cours\'}'),
+('qo-3flfRyhjVk-kJcphx_g', 'completed', '{\'en\':\'Completed\',\'fr\':\'Terminé\'}');
 
 CREATE TABLE `TEXT` (
   `id` VARCHAR(22) NOT NULL, 
@@ -48,17 +48,17 @@ CREATE TABLE `TEXT` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `TEXT` (`id`, `code`, `text`) VALUES
-('N-7buaPwssvjkQd39wv7aw', 'SignInName', '{\'en\':\'Sign ²²In²²\',\'fr\':\'Se ²²connecter²²\'}'),
-('q_qwCv2BRtudgmIVi6lAAA', 'SignInButton', '{\'en\':\'Sign In\',\'fr\':\'Se Connecter\'}'),
-('jY3Hk-3A5a93CPL3XILK_A', 'NotAMemberSignUpButton', '{\'en\':\'Not a member? ²²Sign Up²²\',\'fr\':\'Pas encore membre ? ²²S\'inscrire²²\'}'),
-('0CMkoNdl9s5UjWMay5bR_Q', 'SignUpName', '{\'en\':\'Sign ²²Up²²\',\'fr\':\'S\'²²inscrire²²\'}'),
-('jae_5vxiloVkeWi90oj3dw', 'SignUpButton', '{\'en\':\'Sign Up\',\'fr\':\'S\'inscrire\'}'),
-('ygicFhUJgF9jQ2OO7YPRKw', 'AlreadyAMemberSignUpButton', '{\'en\':\'Already a member? ²²Sign In²²\',\'fr\':\'Déjà membre? ²²Se connecter²²\'}'),
-('19S6meQxG_1SvDqiRCAx6w', 'FirstNamePlaceholder', '{\'en\':\'First name\',\'fr\':\'Prénom\'}'),
-('yONyPa18QdzN6J-Pm92MHg', 'LastNamePlaceholder', '{\'en\':\'Last name\',\'fr\':\'Nom de famille\'}'),
-('rHt9Tp9pv58osWbDw8OdAw', 'PasswordPlaceholder', '{\'en\':\'First name\',\'fr\':\'Prénom\'}'),
-('7r0Fbj5LqxUfw82nw1e_tg', 'EmailPlaceholder', '{\'en\':\'E-mail\',\'fr\':\'E-mail\'}'),
-('AmFkPROSaKt_1Nq8N8-gcA', 'SearchPlaceholder', '{\'en\':\'Search\',\'fr\':\'Rechercher\'}');
+('0KSoXmAIizcU0X-5rwxCaA', 'sign-in-name', '{\'en\':\'Sign ²²In²²\',\'fr\':\'Se ²²connecter²²\'}'),
+('IpBNqayyr2OBiGV6oTh0_g', 'sign-in-button', '{\'en\':\'Sign In\',\'fr\':\'Se Connecter\'}'),
+('nWcomYmfL4MHXnQwbGi94Q', 'not-a-member-sign-up-button', '{\'en\':\'Not a member? ²²Sign Up²²\',\'fr\':\'Pas encore membre ? ²²S\'inscrire²²\'}'),
+('ApLa-0VM7tIFuZ0S1FHefg', 'sign-up-name', '{\'en\':\'Sign ²²Up²²\',\'fr\':\'S\'²²inscrire²²\'}'),
+('wxhl2Z39u5FvUPcI8wcogA', 'sign-up-button', '{\'en\':\'Sign Up\',\'fr\':\'S\'inscrire\'}'),
+('qMRFdwUbDJ7crKU1GWSaGw', 'already-a-member-sign-up-button', '{\'en\':\'Already a member? ²²Sign In²²\',\'fr\':\'Déjà membre? ²²Se connecter²²\'}'),
+('H_zJRll4CgJ71U0nwOX8VA', 'first-name-placeholder', '{\'en\':\'First name\',\'fr\':\'Prénom\'}'),
+('6fxEdGdVssd0Dc862yiEmA', 'last-name-placeholder', '{\'en\':\'Last name\',\'fr\':\'Nom de famille\'}'),
+('WaHZON9wf1ClE1S5ZRvGPQ', 'password-placeholder', '{\'en\':\'First name\',\'fr\':\'Prénom\'}'),
+('ViePvyCk4_qVrIKzpdh6IQ', 'email-placeholder', '{\'en\':\'E-mail\',\'fr\':\'E-mail\'}'),
+('5xRHtVOrptPD4QRE10EItw', 'search-placeholder', '{\'en\':\'Search\',\'fr\':\'Rechercher\'}');
 
 CREATE TABLE `USER` (
   `id` VARCHAR(22) NOT NULL, 
@@ -68,11 +68,11 @@ CREATE TABLE `USER` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `USER` (`id`, `email`, `password`, `taskIdArray`) VALUES
-('sHQRMWr5xSIH6LJkYp5g8A', 'peter.parker@comics.com', 'xyz', '[\'D138aXWK8loNq3duCP2VzA\',\'d8a8xmbXbQeI66wwYjCgOw\']'),
-('WDK3IgMbWJ8jTiYm0UQp1w', 'bruce.banner@comics.com', 'xyz', '[\'PXqqTOuLt7wa42S1-K3KOQ\',\'76483rTy-3UUscp4w8Nfdg\']'),
-('ZfrGQBptSpZSGPxuVZ2oXg', 'jimson.hulme@mail.com', 'anab^3Fad', '[\'JI-kquJlvwE1lnEbTxzXnQ\']'),
-('OenHmlptVGolj9PJ9aXpvg', 'cass.larocque@yahoo.com', '.wicPu9', '[\'w2Eyo5RikHELZT5Q01QKEA\',\'JLljSSCRflLIYYGwPocqnQ\',\'AyWmnxcTNkJewztIyDSZjw\',\'lEW-qd5oE9iHuZlJAnes5A\']'),
-('rqpKp7g858MBziiM5yPNLQ', 'barby.isip@live.com', 'Sg*u4raru', '[\'3_v2t9krZvYPIs7-d7aVRw\']');
+('83siNfiOKXVik-hYBZbuAg', 'peter.parker@comics.com', 'xyz', '[\'jAUbMpjKMLQ5D1RsprMmog\',\'6fZtPwTqsGYtPaYWIgkJ2w\',\'0DLoQpuJT9UCtjZRYc7WkA\']'),
+('f7v707ElVRxNsu_8_1iJpg', 'bruce.banner@comics.com', 'xyz', '[\'v3VjkpIyZX2ZccFDKIxUyA\',\'JrzK8TGq6aJLCSvvuAEW6Q\',\'IKcEzeCOwRH_9lSoG0poxg\']'),
+('O2z9ZAi8Jf_c6zhnEpLHDQ', 'tawnya.leonida@yahoo.com', 'wilePl?i6', '[\'cjyxUpVvk6deboNuBRiK9Q\',\'d2p_E-6LwBNPPFXHf7ZWwg\',\'RtdyiRkbcEMyY2zu7NTgOg\']'),
+('J6NmRlbc6BjhRgZdFnYblw', 'cycelia.glancey@mail.com', '/aSn4oku', '[]'),
+('R22qomlxv_0q_AC0qHl7MQ', 'madelina.channen@mail.com', 'mar0eigh@eU', '[\'LqpGn7jUUAbG5ibf2rfk0A\']');
 
 ALTER TABLE `LANGUAGE`
   ADD PRIMARY KEY (`id`);

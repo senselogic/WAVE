@@ -2,13 +2,13 @@ LANGUAGE
 
     id code text number
 
-        %English
+        %english
             ~ en
             ~ { { en ~ English }
                 ~ { fr ~ Anglais } }
             ~ 1
 
-        %French
+        %french
             ~ fr
             ~ { { en ~ French }
                 ~ { fr ~ Français } }
@@ -18,58 +18,58 @@ TEXT
 
     id code text
 
-        %SignInName
-            ~ SignInName
+        %sign-in-name
+            ~ sign-in-name
             ~ { { en ~ Sign ²²In²² }
                 ~ { fr ~ Se ²²connecter²² } }
 
-        %SignInButton
-            ~ SignInButton
+        %sign-in-button
+            ~ sign-in-button
             ~ { { en ~ Sign In }
                 ~ { fr ~ Se Connecter } }
 
-        %NotAMemberSignUpButton
-            ~ NotAMemberSignUpButton
+        %not-a-member-sign-up-button
+            ~ not-a-member-sign-up-button
             ~ { { en ~ Not a member? ²²Sign Up²² }
                 ~ { fr ~ Pas encore membre ? ²²S'inscrire²² } }
 
-        %SignUpName
-            ~ SignUpName
+        %sign-up-name
+            ~ sign-up-name
             ~ { { en ~ Sign ²²Up²² }
                 ~ { fr ~ S'²²inscrire²² } }
 
-        %SignUpButton
-            ~ SignUpButton
+        %sign-up-button
+            ~ sign-up-button
             ~ { { en ~ Sign Up }
                 ~ { fr ~ S'inscrire } }
 
-        %AlreadyAMemberSignUpButton
-            ~ AlreadyAMemberSignUpButton
+        %already-a-member-sign-up-button
+            ~ already-a-member-sign-up-button
             ~ { { en ~ Already a member? ²²Sign In²² }
                 ~ { fr ~ Déjà membre? ²²Se connecter²² } }
 
-        %FirstNamePlaceholder
-            ~ FirstNamePlaceholder
+        %first-name-placeholder
+            ~ first-name-placeholder
             ~ { { en ~ First name }
                 ~ { fr ~ Prénom } }
 
-        %LastNamePlaceholder
-            ~ LastNamePlaceholder
+        %last-name-placeholder
+            ~ last-name-placeholder
             ~ { { en ~ Last name }
                 ~ { fr ~ Nom de famille } }
 
-        %PasswordPlaceholder
-            ~ PasswordPlaceholder
+        %password-placeholder
+            ~ password-placeholder
             ~ { { en ~ First name }
                 ~ { fr ~ Prénom } }
 
-        %EmailPlaceholder
-            ~ EmailPlaceholder
+        %email-placeholder
+            ~ email-placeholder
             ~ { { en ~ E-mail }
                 ~ { fr ~ E-mail } }
 
-        %SearchPlaceholder
-            ~ SearchPlaceholder
+        %search-placeholder
+            ~ search-placeholder
             ~ { { en ~ Search }
                 ~ { fr ~ Rechercher } }
 
@@ -77,18 +77,18 @@ TASK_STATUS
 
     id code text
 
-        %Planned
-            ~ Planned
+        %planned
+            ~ planned
             ~ { { en ~ Planned }
                 ~ { fr ~ Prévu } }
 
-        %InProgress
-            ~ InProgress
+        %in-progress
+            ~ in-progress
             ~ { { en ~ In progress }
                 ~ { fr ~ En cours } }
 
-        %Completed
-            ~ Completed
+        %completed
+            ~ completed
             ~ { { en ~ Completed }
                 ~ { fr ~ Terminé } }
 
@@ -96,11 +96,11 @@ USER
 
     id email password
 
-        %PeterParker
+        %peter-parker
             ~ peter.parker@comics.com
             ~ xyz
 
-        %BruceBanner
+        %bruce-banner
             ~ bruce.banner@comics.com
             ~ xyz
 

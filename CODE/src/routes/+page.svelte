@@ -59,7 +59,7 @@
 
 <Dialog>
     <div>
-        {getTranslatedTextByCode( 'SignInName' )}
+        {getTranslatedTextByCode( 'sign-in-name' )}
     </div>
     <div>
         <DatePicker /> at <TimePicker />

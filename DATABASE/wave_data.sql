@@ -4,7 +4,7 @@ replace into `wave`.`LANGUAGE`
     )
     values
     (
-        "eEY6OEpapPrV-nPi9Qbs_A",
+        "ugpt3ZTHNpijZY-SrCIvig",
         "en",
         "{\"en\":\"English\",\"fr\":\"Anglais\"}",
         1
@@ -16,7 +16,7 @@ replace into `wave`.`LANGUAGE`
     )
     values
     (
-        "rSJfcHgCuhGMIphxht046A",
+        "ZOEqtqoNTHRzKG1DtqNfyA",
         "fr",
         "{\"en\":\"French\",\"fr\":\"Français\"}",
         2
@@ -28,8 +28,8 @@ replace into `wave`.`TEXT`
     )
     values
     (
-        "N-7buaPwssvjkQd39wv7aw",
-        "SignInName",
+        "0KSoXmAIizcU0X-5rwxCaA",
+        "sign-in-name",
         "{\"en\":\"Sign ²²In²²\",\"fr\":\"Se ²²connecter²²\"}"
     );
 
@@ -39,8 +39,8 @@ replace into `wave`.`TEXT`
     )
     values
     (
-        "q_qwCv2BRtudgmIVi6lAAA",
-        "SignInButton",
+        "IpBNqayyr2OBiGV6oTh0_g",
+        "sign-in-button",
         "{\"en\":\"Sign In\",\"fr\":\"Se Connecter\"}"
     );
 
@@ -50,8 +50,8 @@ replace into `wave`.`TEXT`
     )
     values
     (
-        "jY3Hk-3A5a93CPL3XILK_A",
-        "NotAMemberSignUpButton",
+        "nWcomYmfL4MHXnQwbGi94Q",
+        "not-a-member-sign-up-button",
         "{\"en\":\"Not a member? ²²Sign Up²²\",\"fr\":\"Pas encore membre ? ²²S'inscrire²²\"}"
     );
 
@@ -61,8 +61,8 @@ replace into `wave`.`TEXT`
     )
     values
     (
-        "0CMkoNdl9s5UjWMay5bR_Q",
-        "SignUpName",
+        "ApLa-0VM7tIFuZ0S1FHefg",
+        "sign-up-name",
         "{\"en\":\"Sign ²²Up²²\",\"fr\":\"S'²²inscrire²²\"}"
     );
 
@@ -72,8 +72,8 @@ replace into `wave`.`TEXT`
     )
     values
     (
-        "jae_5vxiloVkeWi90oj3dw",
-        "SignUpButton",
+        "wxhl2Z39u5FvUPcI8wcogA",
+        "sign-up-button",
         "{\"en\":\"Sign Up\",\"fr\":\"S'inscrire\"}"
     );
 
@@ -83,8 +83,8 @@ replace into `wave`.`TEXT`
     )
     values
     (
-        "ygicFhUJgF9jQ2OO7YPRKw",
-        "AlreadyAMemberSignUpButton",
+        "qMRFdwUbDJ7crKU1GWSaGw",
+        "already-a-member-sign-up-button",
         "{\"en\":\"Already a member? ²²Sign In²²\",\"fr\":\"Déjà membre? ²²Se connecter²²\"}"
     );
 
@@ -94,8 +94,8 @@ replace into `wave`.`TEXT`
     )
     values
     (
-        "19S6meQxG_1SvDqiRCAx6w",
-        "FirstNamePlaceholder",
+        "H_zJRll4CgJ71U0nwOX8VA",
+        "first-name-placeholder",
         "{\"en\":\"First name\",\"fr\":\"Prénom\"}"
     );
 
@@ -105,8 +105,8 @@ replace into `wave`.`TEXT`
     )
     values
     (
-        "yONyPa18QdzN6J-Pm92MHg",
-        "LastNamePlaceholder",
+        "6fxEdGdVssd0Dc862yiEmA",
+        "last-name-placeholder",
         "{\"en\":\"Last name\",\"fr\":\"Nom de famille\"}"
     );
 
@@ -116,8 +116,8 @@ replace into `wave`.`TEXT`
     )
     values
     (
-        "rHt9Tp9pv58osWbDw8OdAw",
-        "PasswordPlaceholder",
+        "WaHZON9wf1ClE1S5ZRvGPQ",
+        "password-placeholder",
         "{\"en\":\"First name\",\"fr\":\"Prénom\"}"
     );
 
@@ -127,8 +127,8 @@ replace into `wave`.`TEXT`
     )
     values
     (
-        "7r0Fbj5LqxUfw82nw1e_tg",
-        "EmailPlaceholder",
+        "ViePvyCk4_qVrIKzpdh6IQ",
+        "email-placeholder",
         "{\"en\":\"E-mail\",\"fr\":\"E-mail\"}"
     );
 
@@ -138,8 +138,8 @@ replace into `wave`.`TEXT`
     )
     values
     (
-        "AmFkPROSaKt_1Nq8N8-gcA",
-        "SearchPlaceholder",
+        "5xRHtVOrptPD4QRE10EItw",
+        "search-placeholder",
         "{\"en\":\"Search\",\"fr\":\"Rechercher\"}"
     );
 
@@ -149,8 +149,8 @@ replace into `wave`.`TASK_STATUS`
     )
     values
     (
-        "Tclunh12sqcWkg-kHBYw-g",
-        "Planned",
+        "OP0EkYrIb-xCgkmloYGtjg",
+        "planned",
         "{\"en\":\"Planned\",\"fr\":\"Prévu\"}"
     );
 
@@ -160,8 +160,8 @@ replace into `wave`.`TASK_STATUS`
     )
     values
     (
-        "EthowYyym_WPArUEvpAz_Q",
-        "InProgress",
+        "fsIrTGB_sWhTve7UNzo6wg",
+        "in-progress",
         "{\"en\":\"In progress\",\"fr\":\"En cours\"}"
     );
 
@@ -171,8 +171,8 @@ replace into `wave`.`TASK_STATUS`
     )
     values
     (
-        "B8pQUOaXOSye1H5kU_FFPw",
-        "Completed",
+        "qo-3flfRyhjVk-kJcphx_g",
+        "completed",
         "{\"en\":\"Completed\",\"fr\":\"Terminé\"}"
     );
 
@@ -182,12 +182,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "Kqx1FVoSVP8XKR9fX8R6vA",
-        "5-fwupgchN2PxQ_EUkgmjw",
-        "InProgress",
-        "His bibracte in pervenerunt litteras hac allato iure.",
-        "2002-05-08 10:40:41",
-        "2011-11-02 18:07:24"
+        "5Xilxl1NjKJFSprV2QrZFw",
+        "6C7y2WwebcQ8dJlKhdE5Gg",
+        "planned",
+        "Et credentes posset maximam adfectus.",
+        "2009-02-03 19:52:49",
+        "2014-06-10 18:11:04"
     );
 
 replace into `wave`.`TASK`
@@ -196,12 +196,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "1ZLvUS-oyanX2KPmfkAwJw",
-        "5-fwupgchN2PxQ_EUkgmjw",
-        "InProgress",
-        "Erat flumen causam sua regnum.",
-        "2010-09-14 20:44:48",
-        "2011-05-01 07:01:31"
+        "XFBhU323q_llCB26VusKqA",
+        "f7v707ElVRxNsu_8_1iJpg",
+        "completed",
+        "Ad quadam eos rhenum et existimaret.",
+        "2005-05-08 10:27:23",
+        "2013-04-21 11:02:40"
     );
 
 replace into `wave`.`TASK`
@@ -210,12 +210,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "zbTyKKv6icsdAO6LHxNKIQ",
-        "WDK3IgMbWJ8jTiYm0UQp1w",
-        "Planned",
-        "Ab hibernis reducit non solo celata.",
-        "2010-04-04 17:55:09",
-        "2000-12-12 22:09:11"
+        "tzeecN19n2WOFfV3rqaoAA",
+        "f7v707ElVRxNsu_8_1iJpg",
+        "planned",
+        "Etiam non curreretur intellegeret eos diem operis.",
+        "2002-06-25 17:54:31",
+        "2011-04-27 06:08:32"
     );
 
 replace into `wave`.`TASK`
@@ -224,12 +224,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "ERnn_6LBjkt7CPjaxwM1ow",
-        "WDK3IgMbWJ8jTiYm0UQp1w",
-        "InProgress",
-        "Caesarem tantum copiis nihil vagentur.",
-        "2001-10-17 16:52:59",
-        "2001-11-23 09:37:53"
+        "-a_LzrXgdymcT-54FghspQ",
+        "f7v707ElVRxNsu_8_1iJpg",
+        "completed",
+        "Ab in uno instare quam fuerat propter.",
+        "2001-04-11 21:01:22",
+        "2007-10-09 22:50:43"
     );
 
 replace into `wave`.`TASK`
@@ -238,12 +238,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "JVYDaAlMtF9v9RkBk4zjSw",
-        "ddifKoKPKlD35cYwQLNSog",
-        "Completed",
-        "Secundissimorum postularent genere in remanerent ad eodem ex et partem.",
-        "2003-03-04 02:01:51",
-        "2001-08-16 12:41:11"
+        "ogWRBLtH57i21vOfRgDfCQ",
+        "83siNfiOKXVik-hYBZbuAg",
+        "in-progress",
+        "Ad manus quibus poterat et exspectari iis quam.",
+        "2003-03-23 22:23:47",
+        "2015-11-09 13:06:24"
     );
 
 replace into `wave`.`TASK`
@@ -252,12 +252,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "Lzc42nyB0N7N4HZjOgiAgg",
-        "sHQRMWr5xSIH6LJkYp5g8A",
-        "Completed",
-        "Iter sperant ac quibus subacti eo praestare praescribere videbat in.",
-        "2004-11-14 07:41:20",
-        "2013-12-08 20:45:27"
+        "5cV3aCO7JfsFt-xmxCDM7g",
+        "83siNfiOKXVik-hYBZbuAg",
+        "planned",
+        "Fluit in tulingos his coeperunt coniunxerunt.",
+        "2007-06-16 07:29:50",
+        "2012-05-04 10:19:58"
     );
 
 replace into `wave`.`TASK`
@@ -266,12 +266,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "eh4JHlXU6_R9glYTszf1zA",
-        "sHQRMWr5xSIH6LJkYp5g8A",
-        "InProgress",
-        "Ut agminis labieno numero movit me est.",
-        "2014-12-18 18:31:35",
-        "2006-08-25 21:59:48"
+        "YfbicaXjZMc-66lQHr6AZg",
+        "u75CPeqmEl-B9kVOEJf5Dg",
+        "planned",
+        "Praecipitabantur cicero rursus postea confirmavit.",
+        "2010-04-03 13:22:57",
+        "2009-02-20 05:03:20"
     );
 
 replace into `wave`.`TASK`
@@ -280,12 +280,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "clUPrqn0xb1TrEXx5xXaxA",
-        "sHQRMWr5xSIH6LJkYp5g8A",
-        "Planned",
-        "Delituerant inita per sed et esse locis legiones.",
-        "2013-06-16 20:30:32",
-        "2015-08-15 06:08:47"
+        "kWmPlsttub7lVEf3iJcKcA",
+        "u5TIa-Yu8_BwfhbitoM2Kg",
+        "in-progress",
+        "Intra dato ne iis militum legiones sibi num.",
+        "2011-11-12 20:00:00",
+        "2002-08-04 18:44:38"
     );
 
 replace into `wave`.`TASK`
@@ -294,12 +294,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "V2X6UyfjA5p-13707rG0Xg",
-        "sHQRMWr5xSIH6LJkYp5g8A",
-        "Completed",
-        "Lingua exercitus factionum re inter erant.",
-        "2014-12-19 17:43:31",
-        "2015-05-16 21:59:16"
+        "KxIoj5CTseWOfbbTR61nDg",
+        "u75CPeqmEl-B9kVOEJf5Dg",
+        "completed",
+        "In qui ex hanc ea.",
+        "2004-02-02 18:47:52",
+        "2009-08-17 03:41:05"
     );
 
 replace into `wave`.`TASK`
@@ -308,12 +308,12 @@ replace into `wave`.`TASK`
     )
     values
     (
-        "ZeOMI2Q3YoyAZW-piEir0Q",
-        "sHQRMWr5xSIH6LJkYp5g8A",
-        "InProgress",
-        "Fusili multis oppidum ad luce ad eos quo.",
-        "2013-12-08 02:39:48",
-        "2007-08-26 05:36:08"
+        "jJqWgl65nHPUT9izyksoYA",
+        "f7v707ElVRxNsu_8_1iJpg",
+        "planned",
+        "Ante itinere administrisque supportando in valerio ac atque.",
+        "2014-12-25 04:21:24",
+        "2004-10-04 21:50:58"
     );
 
 replace into `wave`.`USER`
@@ -322,10 +322,10 @@ replace into `wave`.`USER`
     )
     values
     (
-        "sHQRMWr5xSIH6LJkYp5g8A",
+        "83siNfiOKXVik-hYBZbuAg",
         "peter.parker@comics.com",
         "xyz",
-        "[\"Lzc42nyB0N7N4HZjOgiAgg\",\"eh4JHlXU6_R9glYTszf1zA\",\"clUPrqn0xb1TrEXx5xXaxA\",\"V2X6UyfjA5p-13707rG0Xg\",\"ZeOMI2Q3YoyAZW-piEir0Q\"]"
+        "[\"ogWRBLtH57i21vOfRgDfCQ\",\"5cV3aCO7JfsFt-xmxCDM7g\"]"
     );
 
 replace into `wave`.`USER`
@@ -334,10 +334,10 @@ replace into `wave`.`USER`
     )
     values
     (
-        "WDK3IgMbWJ8jTiYm0UQp1w",
+        "f7v707ElVRxNsu_8_1iJpg",
         "bruce.banner@comics.com",
         "xyz",
-        "[\"zbTyKKv6icsdAO6LHxNKIQ\",\"ERnn_6LBjkt7CPjaxwM1ow\"]"
+        "[\"XFBhU323q_llCB26VusKqA\",\"tzeecN19n2WOFfV3rqaoAA\",\"-a_LzrXgdymcT-54FghspQ\",\"jJqWgl65nHPUT9izyksoYA\"]"
     );
 
 replace into `wave`.`USER`
@@ -346,10 +346,10 @@ replace into `wave`.`USER`
     )
     values
     (
-        "5-fwupgchN2PxQ_EUkgmjw",
-        "atsushi.rama@yahoo.com",
-        "g8illWiane+",
-        "[\"Kqx1FVoSVP8XKR9fX8R6vA\",\"1ZLvUS-oyanX2KPmfkAwJw\"]"
+        "u5TIa-Yu8_BwfhbitoM2Kg",
+        "veronica.berryhill@yahoo.com",
+        "ni3M^na",
+        "[\"kWmPlsttub7lVEf3iJcKcA\"]"
     );
 
 replace into `wave`.`USER`
@@ -358,10 +358,10 @@ replace into `wave`.`USER`
     )
     values
     (
-        "oV4jD2BqVA7ii6etnhu0XQ",
-        "juozas.lecuyer@gmail.com",
-        "Aher7en:ne",
-        "[]"
+        "6C7y2WwebcQ8dJlKhdE5Gg",
+        "shay.rasmussen@mail.com",
+        "am0L=un",
+        "[\"5Xilxl1NjKJFSprV2QrZFw\"]"
     );
 
 replace into `wave`.`USER`
@@ -370,8 +370,8 @@ replace into `wave`.`USER`
     )
     values
     (
-        "ddifKoKPKlD35cYwQLNSog",
-        "adelice.travers@live.com",
-        "ayl8eC%s",
-        "[\"JVYDaAlMtF9v9RkBk4zjSw\"]"
+        "u75CPeqmEl-B9kVOEJf5Dg",
+        "marillin.leggett@outlook.com",
+        "Hdeg0i#neq",
+        "[\"YfbicaXjZMc-66lQHr6AZg\",\"KxIoj5CTseWOfbbTR61nDg\"]"
     );
