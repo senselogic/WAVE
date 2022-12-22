@@ -19,16 +19,16 @@ CREATE TABLE `TASK` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `TASK` (`id`, `userId`, `statusCode`, `title`, `creationDateTime`, `modificationDateTime`) VALUES
-('cjyxUpVvk6deboNuBRiK9Q', 'O2z9ZAi8Jf_c6zhnEpLHDQ', 'completed', 'Ac animo afuisse ubi milia perrumpere faciendum praesidio convellere praefectos.', '2015-04-04 20:58:42', '2005-05-05 19:29:22'),
-('jAUbMpjKMLQ5D1RsprMmog', '83siNfiOKXVik-hYBZbuAg', 'in-progress', 'Onera perferendam exposuit populi legionariis messala.', '2013-06-23 16:27:41', '2015-12-09 21:56:02'),
-('LqpGn7jUUAbG5ibf2rfk0A', 'R22qomlxv_0q_AC0qHl7MQ', 'completed', 'Munierant quibus bellum et hos.', '2010-12-20 22:56:05', '2013-10-25 04:21:50'),
-('v3VjkpIyZX2ZccFDKIxUyA', 'f7v707ElVRxNsu_8_1iJpg', 'in-progress', 'Loco legio habeant decernunt parte cum munitionesque.', '2001-02-12 19:10:41', '2000-08-04 20:46:49'),
-('JrzK8TGq6aJLCSvvuAEW6Q', 'f7v707ElVRxNsu_8_1iJpg', 'planned', 'Ex legiones prope ne in ipsos.', '2006-04-22 22:23:41', '2011-12-27 22:25:42'),
-('IKcEzeCOwRH_9lSoG0poxg', 'f7v707ElVRxNsu_8_1iJpg', 'planned', 'Proxime se priusquam exercitum alia ut re vergit esse decreverat.', '2005-08-21 20:51:49', '2013-04-06 11:48:20'),
-('6fZtPwTqsGYtPaYWIgkJ2w', '83siNfiOKXVik-hYBZbuAg', 'in-progress', 'Provinciam perturbatis secundo signis sex fierent longe castra uno.', '2003-07-24 01:58:57', '2008-12-11 15:34:31'),
-('d2p_E-6LwBNPPFXHf7ZWwg', 'O2z9ZAi8Jf_c6zhnEpLHDQ', 'completed', 'Summum extremis iniuria perterriti liceret.', '2010-04-17 07:14:24', '2013-11-02 23:24:55'),
-('RtdyiRkbcEMyY2zu7NTgOg', 'O2z9ZAi8Jf_c6zhnEpLHDQ', 'completed', 'Occisis eos ut nam usus maturrime animo interfecerunt.', '2007-11-04 05:57:33', '2002-06-26 07:42:37'),
-('0DLoQpuJT9UCtjZRYc7WkA', '83siNfiOKXVik-hYBZbuAg', 'planned', 'A progredi persuasum apud haeduorum eorum.', '2006-07-16 11:24:27', '2013-04-11 05:05:40');
+('D8s7-5xvxnbkjdXUSG3jGQ', 'iXNYacT5APUNjWwj3uBA1A', 'completed', 'Moribus lacesserent et et aeduis fere.', '2012-05-17 15:14:19', '2009-09-28 06:47:39'),
+('7sJlb4GKuCt6N4Cn90VNPw', 'tYbKJsAxoEKTDbMYZeyMYw', 'planned', 'Laborare propelli adventu genava succederent opere munitionesque huc exploratoribus.', '2005-12-26 05:51:41', '2014-06-06 10:06:36'),
+('THGhuckJxlPGazkUKxHcYA', 'f7v707ElVRxNsu_8_1iJpg', 'completed', 'Oppida mittit sic relinquit retentas.', '2009-06-22 17:40:04', '2014-09-19 06:04:51'),
+('-G2im57C6dj8SJVKAuVtwQ', 'CgCMr-TKw-QCQhE03NKxOg', 'planned', 'Quam tum impedimentisne et est eo cadurcosque reverti.', '2004-08-14 22:31:43', '2002-10-21 03:43:55'),
+('z4qx8csWwa_Ar_6Twk6_7Q', '83siNfiOKXVik-hYBZbuAg', 'in-progress', 'Aliquem efficit boiis consumpta apud.', '2007-01-08 10:55:01', '2006-04-17 12:20:13'),
+('iIhflHnX0zwfXQAGq0vuqw', 'iXNYacT5APUNjWwj3uBA1A', 'planned', 'Inopia eos nostrae gaio transire.', '2005-02-17 12:10:27', '2012-02-05 22:34:07'),
+('7BW_zmv8sAH_-_M923pOeA', 'tYbKJsAxoEKTDbMYZeyMYw', 'in-progress', 'Protegunt eosque suos his quod magno et seque.', '2008-09-14 11:30:14', '2015-06-03 21:58:44'),
+('6rhM7E2Sm0QpHLtjCnwtCA', '83siNfiOKXVik-hYBZbuAg', 'planned', 'Foedere tempore sua fecerunt neque videbat nammeius neque haec.', '2004-05-28 12:24:18', '2002-02-07 09:25:36'),
+('6iBNOzc3Omr9KvTFY0Ni7w', 'iXNYacT5APUNjWwj3uBA1A', 'planned', 'Itineribus facultatem potest legio gallia in paratissimam iubet romanis extremos.', '2011-03-25 00:26:25', '2002-04-15 19:50:36'),
+('Wmq7IuQL49X5gVALB6fDvQ', '83siNfiOKXVik-hYBZbuAg', 'planned', 'Conventus non dimittit de dominari quae unum anni ut.', '2011-03-09 09:12:43', '2004-02-11 01:58:39');
 
 CREATE TABLE `TASK_STATUS` (
   `id` VARCHAR(22) NOT NULL, 
@@ -68,11 +68,11 @@ CREATE TABLE `USER` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `USER` (`id`, `email`, `password`, `taskIdArray`) VALUES
-('83siNfiOKXVik-hYBZbuAg', 'peter.parker@comics.com', 'xyz', '[\'jAUbMpjKMLQ5D1RsprMmog\',\'6fZtPwTqsGYtPaYWIgkJ2w\',\'0DLoQpuJT9UCtjZRYc7WkA\']'),
-('f7v707ElVRxNsu_8_1iJpg', 'bruce.banner@comics.com', 'xyz', '[\'v3VjkpIyZX2ZccFDKIxUyA\',\'JrzK8TGq6aJLCSvvuAEW6Q\',\'IKcEzeCOwRH_9lSoG0poxg\']'),
-('O2z9ZAi8Jf_c6zhnEpLHDQ', 'tawnya.leonida@yahoo.com', 'wilePl?i6', '[\'cjyxUpVvk6deboNuBRiK9Q\',\'d2p_E-6LwBNPPFXHf7ZWwg\',\'RtdyiRkbcEMyY2zu7NTgOg\']'),
-('J6NmRlbc6BjhRgZdFnYblw', 'cycelia.glancey@mail.com', '/aSn4oku', '[]'),
-('R22qomlxv_0q_AC0qHl7MQ', 'madelina.channen@mail.com', 'mar0eigh@eU', '[\'LqpGn7jUUAbG5ibf2rfk0A\']');
+('83siNfiOKXVik-hYBZbuAg', 'peter.parker@comics.com', 'xyz', '[\'z4qx8csWwa_Ar_6Twk6_7Q\',\'6rhM7E2Sm0QpHLtjCnwtCA\',\'Wmq7IuQL49X5gVALB6fDvQ\']'),
+('f7v707ElVRxNsu_8_1iJpg', 'bruce.banner@comics.com', 'xyz', '[\'THGhuckJxlPGazkUKxHcYA\']'),
+('iXNYacT5APUNjWwj3uBA1A', 'felicia.hofstetter@outlook.com', '2o#wisIepy', '[\'D8s7-5xvxnbkjdXUSG3jGQ\',\'iIhflHnX0zwfXQAGq0vuqw\',\'6iBNOzc3Omr9KvTFY0Ni7w\']'),
+('tYbKJsAxoEKTDbMYZeyMYw', 'zainab.vancooney@outlook.com', 'uar&id8Oub', '[\'7sJlb4GKuCt6N4Cn90VNPw\',\'7BW_zmv8sAH_-_M923pOeA\']'),
+('CgCMr-TKw-QCQhE03NKxOg', 'paulie.tranter@mail.com', '4natydK=', '[\'-G2im57C6dj8SJVKAuVtwQ\']');
 
 ALTER TABLE `LANGUAGE`
   ADD PRIMARY KEY (`id`);

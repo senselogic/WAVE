@@ -1,4 +1,4 @@
-<style type="scss">
+<style lang="scss">
     $padding: 1rem;
 
     .translated-text
@@ -12,12 +12,6 @@
 </style>
 
 <script>
-    import {
-        Button,
-        DatePicker,
-        Dialog,
-        TimePicker
-        } from 'attractions';
     import {
         setLanguageCode,
         setDefaultLanguageCode,
@@ -50,21 +44,13 @@
 {#each data.userArray as user}
     <div>
         <a href="/user/{user.id}">
-            <Button outline>
+            <button>
                 <span style="color: var( --base-contrast-color )">{user.email}</span>
-            </Button>
+            </button>
         </a>
     </div>
 {/each}
 
-<Dialog>
-    <div>
-        {getTranslatedTextByCode( 'sign-in-name' )}
-    </div>
-    <div>
-        <DatePicker /> at <TimePicker />
-    </div>
-    <div>
-        <DatePicker range top />
-    </div>
-</Dialog>
+<div>
+    {getTranslatedTextByCode( 'sign-in-name' )}
+</div>

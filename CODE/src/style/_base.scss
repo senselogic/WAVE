@@ -8,93 +8,113 @@
     --mono-font-family: #{$mono-font-family};
 
     --base-color: #{$base-color};
+    --base-color-100: #{$base-color-100};
     --base-color-200: #{$base-color-200};
     --base-color-300: #{$base-color-300};
     --base-color-400: #{$base-color-400};
     --base-color-600: #{$base-color-600};
     --base-color-700: #{$base-color-700};
     --base-color-800: #{$base-color-800};
+    --base-color-900: #{$base-color-900};
     --base-contrast-color: #{$base-contrast-color};
 
     --neutral-color: #{$neutral-color};
+    --neutral-color-100: #{$neutral-color-100};
     --neutral-color-200: #{$neutral-color-200};
     --neutral-color-300: #{$neutral-color-400};
     --neutral-color-400: #{$neutral-color-300};
     --neutral-color-600: #{$neutral-color-700};
     --neutral-color-700: #{$neutral-color-600};
     --neutral-color-800: #{$neutral-color-800};
+    --neutral-color-900: #{$neutral-color-900};
     --neutral-contrast-color: #{$neutral-contrast-color};
 
     --primary-color: #{$primary-color};
+    --primary-color-100: #{$primary-color-100};
     --primary-color-200: #{$primary-color-200};
     --primary-color-300: #{$primary-color-300};
     --primary-color-400: #{$primary-color-400};
     --primary-color-600: #{$primary-color-600};
     --primary-color-700: #{$primary-color-700};
     --primary-color-800: #{$primary-color-800};
+    --primary-color-900: #{$primary-color-900};
     --primary-contrast-color: #{$primary-contrast-color};
 
     --secondary-color: #{$secondary-color};
+    --secondary-color-100: #{$secondary-color-100};
     --secondary-color-200: #{$secondary-color-200};
     --secondary-color-300: #{$secondary-color-300};
     --secondary-color-400: #{$secondary-color-400};
     --secondary-color-600: #{$secondary-color-600};
     --secondary-color-700: #{$secondary-color-700};
     --secondary-color-800: #{$secondary-color-800};
+    --secondary-color-900: #{$secondary-color-900};
     --secondary-contrast-color: #{$secondary-contrast-color};
 
     --tertiary-color: #{$tertiary-color};
+    --tertiary-color-100: #{$tertiary-color-100};
     --tertiary-color-200: #{$tertiary-color-200};
     --tertiary-color-300: #{$tertiary-color-300};
     --tertiary-color-400: #{$tertiary-color-400};
     --tertiary-color-600: #{$tertiary-color-600};
     --tertiary-color-700: #{$tertiary-color-700};
     --tertiary-color-800: #{$tertiary-color-800};
+    --tertiary-color-900: #{$tertiary-color-900};
     --tertiary-contrast-color: #{$tertiary-contrast-color};
 
     --accent-color: #{$accent-color};
+    --accent-color-100: #{$accent-color-100};
     --accent-color-200: #{$accent-color-200};
     --accent-color-300: #{$accent-color-300};
     --accent-color-400: #{$accent-color-400};
     --accent-color-600: #{$accent-color-600};
     --accent-color-700: #{$accent-color-700};
     --accent-color-800: #{$accent-color-800};
+    --accent-color-900: #{$accent-color-900};
     --accent-contrast-color: #{$accent-contrast-color};
 
     --info-color: #{$info-color};
+    --info-color-100: #{$info-color-100};
     --info-color-200: #{$info-color-200};
     --info-color-300: #{$info-color-300};
     --info-color-400: #{$info-color-400};
     --info-color-600: #{$info-color-600};
     --info-color-700: #{$info-color-700};
     --info-color-800: #{$info-color-800};
+    --info-color-900: #{$info-color-900};
     --info-contrast-color: #{$info-contrast-color};
 
     --success-color : #{$success-color};
+    --success-color-100 : #{$success-color-100};
     --success-color-200 : #{$success-color-200};
     --success-color-300 : #{$success-color-300};
     --success-color-400 : #{$success-color-400};
     --success-color-600 : #{$success-color-600};
     --success-color-700 : #{$success-color-700};
     --success-color-800 : #{$success-color-800};
+    --success-color-900 : #{$success-color-900};
     --success-contrast-color : #{$success-contrast-color};
 
     --warning-color: #{$warning-color};
+    --warning-color-100: #{$warning-color-100};
     --warning-color-200: #{$warning-color-200};
     --warning-color-300: #{$warning-color-300};
     --warning-color-400: #{$warning-color-400};
     --warning-color-600: #{$warning-color-600};
     --warning-color-700: #{$warning-color-700};
     --warning-color-800: #{$warning-color-800};
+    --warning-color-900: #{$warning-color-900};
     --warning-contrast-color: #{$warning-contrast-color};
 
     --error-color: #{$error-color};
+    --error-color-100: #{$error-color-100};
     --error-color-200: #{$error-color-200};
     --error-color-300: #{$error-color-300};
     --error-color-400: #{$error-color-400};
     --error-color-600: #{$error-color-600};
     --error-color-700: #{$error-color-700};
     --error-color-800: #{$error-color-800};
+    --error-color-900: #{$error-color-900};
     --error-contrast-color: #{$error-contrast-color};
 
     --tiny-button-border-radius: #{$tiny-button-border-radius};
@@ -157,6 +177,14 @@ input,
 textarea
 {
     font-family: $primary-font-family;
+}
+
+button
+{
+    padding: 1rem;
+    
+    border-radius: 0.5rem;
+    border: 1px solid $base-contrast-color;
 }
 
 sup

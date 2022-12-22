@@ -1,6 +1,4 @@
 <script>
-    import { Button } from 'attractions';
-
     export let data;
 </script>
 
@@ -12,10 +10,10 @@
 
 <div>
     <a href="/user/{data.userId}">
-        <Button outline>
+        <button>
             <span class="flow-info-button">
                 Back
             </span>
-        </Button>
+        </button>
     </a>
 </div>

@@ -9,138 +9,168 @@ $black-color: #000000;
 $white-color: #FFFFFF;
 
 $gray-color: #808080;
+$gray-color-100: mix( $gray-color, #000000, 80% );
 $gray-color-200: mix( $gray-color, #000000, 60% );
 $gray-color-300: mix( $gray-color, #000000, 40% );
 $gray-color-400: mix( $gray-color, #000000, 20% );
 $gray-color-600: mix( $gray-color, #FFFFFF, 20% );
 $gray-color-700: mix( $gray-color, #FFFFFF, 40% );
 $gray-color-800: mix( $gray-color, #FFFFFF, 60% );
+$gray-color-900: mix( $gray-color, #FFFFFF, 80% );
 $gray-contrast-color: $black-color;
 
 $red-color: #F87272;
+$red-color-100: mix( $red-color, #000000, 80% );
 $red-color-200: mix( $red-color, #000000, 60% );
 $red-color-300: mix( $red-color, #000000, 40% );
 $red-color-400: mix( $red-color, #000000, 20% );
 $red-color-600: mix( $red-color, #FFFFFF, 20% );
 $red-color-700: mix( $red-color, #FFFFFF, 40% );
 $red-color-800: mix( $red-color, #FFFFFF, 60% );
+$red-color-900: mix( $red-color, #FFFFFF, 80% );
 $red-contrast-color: $black-color;
 
 $green-color: #36D399;
+$green-color-100: mix( $green-color, #000000, 80% );
 $green-color-200: mix( $green-color, #000000, 60% );
 $green-color-300: mix( $green-color, #000000, 40% );
 $green-color-400: mix( $green-color, #000000, 20% );
 $green-color-600: mix( $green-color, #FFFFFF, 20% );
 $green-color-700: mix( $green-color, #FFFFFF, 40% );
 $green-color-800: mix( $green-color, #FFFFFF, 60% );
+$green-color-900: mix( $green-color, #FFFFFF, 80% );
 $green-contrast-color: $black-color;
 
 $blue-color: #3ABFF8;
+$blue-color-100: mix( $blue-color, #000000, 80% );
 $blue-color-200: mix( $blue-color, #000000, 60% );
 $blue-color-300: mix( $blue-color, #000000, 40% );
 $blue-color-400: mix( $blue-color, #000000, 20% );
 $blue-color-600: mix( $blue-color, #FFFFFF, 20% );
 $blue-color-700: mix( $blue-color, #FFFFFF, 40% );
 $blue-color-800: mix( $blue-color, #FFFFFF, 60% );
+$blue-color-900: mix( $blue-color, #FFFFFF, 80% );
 $blue-contrast-color: $black-color;
 
 $orange-color: #FBBF23;
+$orange-color-100: mix( $orange-color, #000000, 80% );
 $orange-color-200: mix( $orange-color, #000000, 60% );
 $orange-color-300: mix( $orange-color, #000000, 40% );
 $orange-color-400: mix( $orange-color, #000000, 20% );
 $orange-color-600: mix( $orange-color, #FFFFFF, 20% );
 $orange-color-700: mix( $orange-color, #FFFFFF, 40% );
 $orange-color-800: mix( $orange-color, #FFFFFF, 60% );
+$orange-color-900: mix( $orange-color, #FFFFFF, 80% );
 $orange-contrast-color: $black-color;
 
 $base-color: $white-color;
+$base-color-100: mix( $base-color, #000000, 80% );
 $base-color-200: mix( $base-color, #000000, 60% );
 $base-color-300: mix( $base-color, #000000, 40% );
 $base-color-400: mix( $base-color, #000000, 20% );
 $base-color-600: mix( $base-color, #FFFFFF, 20% );
 $base-color-700: mix( $base-color, #FFFFFF, 40% );
 $base-color-800: mix( $base-color, #FFFFFF, 60% );
+$base-color-900: mix( $base-color, #FFFFFF, 80% );
 $base-contrast-color: $black-color;
 
 $neutral-color: $gray-color;
+$neutral-color-100: mix( $neutral-color, #000000, 80% );
 $neutral-color-200: mix( $neutral-color, #000000, 60% );
 $neutral-color-300: mix( $neutral-color, #000000, 40% );
 $neutral-color-400: mix( $neutral-color, #000000, 20% );
 $neutral-color-600: mix( $neutral-color, #FFFFFF, 20% );
 $neutral-color-700: mix( $neutral-color, #FFFFFF, 40% );
 $neutral-color-800: mix( $neutral-color, #FFFFFF, 60% );
+$neutral-color-900: mix( $neutral-color, #FFFFFF, 80% );
 $neutral-contrast-color: $black-color;
 
 $primary-color: $blue-color;
+$primary-color-100: mix( $primary-color, #000000, 80% );
 $primary-color-200: mix( $primary-color, #000000, 60% );
 $primary-color-300: mix( $primary-color, #000000, 40% );
 $primary-color-400: mix( $primary-color, #000000, 20% );
 $primary-color-600: mix( $primary-color, #FFFFFF, 20% );
 $primary-color-700: mix( $primary-color, #FFFFFF, 40% );
 $primary-color-800: mix( $primary-color, #FFFFFF, 60% );
+$primary-color-900: mix( $primary-color, #FFFFFF, 80% );
 $primary-contrast-color: $black-color;
 
 $secondary-color: $blue-color;
+$secondary-color-100: mix( $secondary-color, #000000, 80% );
 $secondary-color-200: mix( $secondary-color, #000000, 60% );
 $secondary-color-300: mix( $secondary-color, #000000, 40% );
 $secondary-color-400: mix( $secondary-color, #000000, 20% );
 $secondary-color-600: mix( $secondary-color, #FFFFFF, 20% );
 $secondary-color-700: mix( $secondary-color, #FFFFFF, 40% );
 $secondary-color-800: mix( $secondary-color, #FFFFFF, 60% );
+$secondary-color-900: mix( $secondary-color, #FFFFFF, 80% );
 $secondary-contrast-color: $black-color;
 
 $tertiary-color: $blue-color;
+$tertiary-color-100: mix( $tertiary-color, #000000, 80% );
 $tertiary-color-200: mix( $tertiary-color, #000000, 60% );
 $tertiary-color-300: mix( $tertiary-color, #000000, 40% );
 $tertiary-color-400: mix( $tertiary-color, #000000, 20% );
 $tertiary-color-600: mix( $tertiary-color, #FFFFFF, 20% );
 $tertiary-color-700: mix( $tertiary-color, #FFFFFF, 40% );
 $tertiary-color-800: mix( $tertiary-color, #FFFFFF, 60% );
+$tertiary-color-900: mix( $tertiary-color, #FFFFFF, 80% );
 $tertiary-contrast-color: $black-color;
 
 $accent-color: $red-color;
+$accent-color-100: mix( $accent-color, #000000, 80% );
 $accent-color-200: mix( $accent-color, #000000, 60% );
 $accent-color-300: mix( $accent-color, #000000, 40% );
 $accent-color-400: mix( $accent-color, #000000, 20% );
 $accent-color-600: mix( $accent-color, #FFFFFF, 20% );
 $accent-color-700: mix( $accent-color, #FFFFFF, 40% );
 $accent-color-800: mix( $accent-color, #FFFFFF, 60% );
+$accent-color-900: mix( $accent-color, #FFFFFF, 80% );
 $accent-contrast-color: $black-color;
 
 $info-color: $blue-color;
+$info-color-100: mix( $info-color, #000000, 80% );
 $info-color-200: mix( $info-color, #000000, 60% );
 $info-color-300: mix( $info-color, #000000, 40% );
 $info-color-400: mix( $info-color, #000000, 20% );
 $info-color-600: mix( $info-color, #FFFFFF, 20% );
 $info-color-700: mix( $info-color, #FFFFFF, 40% );
 $info-color-800: mix( $info-color, #FFFFFF, 60% );
+$info-color-900: mix( $info-color, #FFFFFF, 80% );
 $info-contrast-color: $black-color;
 
 $success-color: $green-color;
+$success-color-100: mix( $success-color, #000000, 80% );
 $success-color-200: mix( $success-color, #000000, 60% );
 $success-color-300: mix( $success-color, #000000, 40% );
 $success-color-400: mix( $success-color, #000000, 20% );
 $success-color-600: mix( $success-color, #FFFFFF, 20% );
 $success-color-700: mix( $success-color, #FFFFFF, 40% );
 $success-color-800: mix( $success-color, #FFFFFF, 60% );
+$success-color-900: mix( $success-color, #FFFFFF, 80% );
 $success-contrast-color: $black-color;
 
 $warning-color: $orange-color;
+$warning-color-100: mix( $warning-color, #000000, 80% );
 $warning-color-200: mix( $warning-color, #000000, 60% );
 $warning-color-300: mix( $warning-color, #000000, 40% );
 $warning-color-400: mix( $warning-color, #000000, 20% );
 $warning-color-600: mix( $warning-color, #FFFFFF, 20% );
 $warning-color-700: mix( $warning-color, #FFFFFF, 40% );
 $warning-color-800: mix( $warning-color, #FFFFFF, 60% );
+$warning-color-900: mix( $warning-color, #FFFFFF, 80% );
 $warning-contrast-color: $black-color;
 
 $error-color: $red-color;
+$error-color-100: mix( $error-color, #000000, 80% );
 $error-color-200: mix( $error-color, #000000, 60% );
 $error-color-300: mix( $error-color, #000000, 40% );
 $error-color-400: mix( $error-color, #000000, 20% );
 $error-color-600: mix( $error-color, #FFFFFF, 20% );
 $error-color-700: mix( $error-color, #FFFFFF, 40% );
 $error-color-800: mix( $error-color, #FFFFFF, 60% );
+$error-color-900: mix( $error-color, #FFFFFF, 80% );
 $error-contrast-color: $black-color;
 
 $link-color: #86B4F0;

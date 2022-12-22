@@ -5,4 +5,3 @@ copy wave_dump.sql remote_wave_dump.sql
 ..\..\..\..\TOOL\BASIL\basil --sql --force-drop wave.bs wave.bd
 pause
 ..\..\..\..\TOOL\CYCLONE\cyclone mysql 127.0.0.1 3306 root "" wave.sql wave_data.sql
-pause
